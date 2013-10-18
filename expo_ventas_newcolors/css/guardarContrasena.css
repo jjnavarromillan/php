@@ -1,0 +1,22 @@
+#divRecuperacionPWGuardado {
+	position:absolute;
+	width:350px;
+	height:130px;
+	z-index:1;
+	top: 62px;
+	
+}
+
+/**clases*/
+
+.bienvCatalog{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px;
+	 color:#999;
+ }
+ .InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}

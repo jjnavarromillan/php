@@ -1,0 +1,73 @@
+#contPedido {
+	position:absolute;
+	width:627px;
+	height:462px;
+	z-index:1;
+	left: 0px;
+	top: -1px;
+}
+#tablaPedido {
+	position:absolute;
+	width:627px;
+	height:25px;
+	z-index:1;
+	
+}
+.pedido_titulo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+.pedido_info {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#lineaPedido {
+	position:absolute;
+	width:624px;
+	height:5px;
+	z-index:2;
+	top: 23px;
+}
+#divLineaDatosPedido {
+	position:relative;
+	width:626px;
+	height:20px;
+	z-index:3;
+	top: 37px;
+}
+#divNupedido {
+	position:absolute;
+	width:57px;
+	height:14px;
+	z-index:1;
+	left: 32px;
+}
+#divFechaPedido {
+	position:absolute;
+	width:124px;
+	height:14px;
+	z-index:2;
+	left: 139px;
+}
+#divParesPedido {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:3;
+	left: 321px;
+}
+#divImportePedido {
+	position:absolute;
+	width:56px;
+	height:14px;
+	z-index:4;
+	left: 510px;
+}
+a:link {
+	color: #333;
+}
+a:hover {
+	color: #666;
+}

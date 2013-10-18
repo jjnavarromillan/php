@@ -1,0 +1,248 @@
+.abcd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-align: left;
+	margin: 1px;
+	padding: 1px;
+	
+}
+.numerosPedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+#divContent {
+	position:absolute;
+	width:683px;
+	height:538px;
+	z-index:1;
+	top: 0px;
+	left: 5px;
+}
+#infoCliente200 {
+	position:absolute;
+	width:622px;
+	height:162px;
+	z-index:1;
+	top: 3px;
+	left: 2px;
+}
+#shopping {
+	position:absolute;
+	width:94px;
+	height:34px;
+	z-index:1;
+	left: 7px;
+	top: 2px;
+}
+#datos2 {
+	position:absolute;
+	width:260px;
+	height:18px;
+	z-index:2;
+	top: 88px;
+	left: 8px;
+}
+#NomCliente {
+	position:absolute;
+	width:397px;
+	height:14px;
+	z-index:3;
+	left: 8px;
+	top: 61px;
+	text-align: left;
+}
+.clienteNombre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#666;
+	text-align:left;
+	}
+#divBarritaTablaPedido {
+	position:absolute;
+	width:222px;
+	height:18px;
+	z-index:4;
+	left: 407px;
+	top: 22px;
+	background-color: #000000;
+}
+.blancoEncabezado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	
+}
+#tablaCorridas {
+	position:absolute;
+	width:222px;
+	height:69px;
+	z-index:5;
+	left: 407px;
+	top: 24px;
+}
+#boton2 {
+	position:absolute;
+	width:308px;
+	height:22px;
+	z-index:6;
+	left: 0px;
+	top: 38px;
+}
+#shopBoton {
+	position:absolute;
+	width:99px;
+	height:17px;
+	z-index:1;
+	top: 1px;
+	left: 5px;
+}
+#checkoBoton {
+	position:absolute;
+	width:85px;
+	height:15px;
+	z-index:2;
+	left: 179px;
+	top: 1px;
+	background-color: #000000;
+}
+#divlineaDiviPedido4 {
+	position:absolute;
+	width:660px;
+	height:6px;
+	z-index:7;
+	top: 207px;
+	left: 10px;
+}
+.descripcion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	font-weight:600;
+}
+
+#desMaterial {
+	position:absolute;
+	width:520px;
+	height:18px;
+	z-index:3;
+	left: 24px;
+	top: 237px;
+}
+#pedidoShoes200 {
+	position:relative;
+	width:640px;
+	height:230px;
+	z-index:9;
+	top: 285px;
+	left: 12px;
+	overflow:auto;
+}
+#contenidoCarrito200 {
+	position:relative;
+	width:560px;
+	height:90px;
+	z-index:1;
+	left:25px;
+	top: -5px;
+}
+#Foto {
+	position:absolute;
+	width:73px;
+	height:73px;
+	z-index:1;
+	left: -7px;
+	top: 3px;
+}
+#divNomEstilo {
+	position:absolute;
+	width:113px;
+	height:15px;
+	z-index:2;
+	left: 75px;
+	top: 9px;
+}
+#abcdTabla200 {
+	position:absolute;
+	width:100px;
+	height:41px;
+	z-index:3;
+	top: 27px;
+	left: 75px;
+}
+.materialColor{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+.combito{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	
+}
+#corridas {
+	position:absolute;
+	width:211px;
+	height:21px;
+	z-index:4;
+	left: 194px;
+	top: 30px;
+}
+#precio {
+	position:absolute;
+	width:47px;
+	height:14px;
+	z-index:5;
+	left: 421px;
+	top: 33px;
+}
+#total {
+	position:absolute;
+	width:47px;
+	height:14px;
+	z-index:6;
+	left: 474px;
+	top: 33px;
+}
+#divTotalCorridas {
+	position:absolute;
+	width:55px;
+	height:31px;
+	z-index:15;
+	left: 308px;
+	top: 365px;
+}
+#divTotalPedido {
+	position:absolute;
+	width:90px;
+	height:18px;
+	z-index:12;
+	left: 551px;
+	top: 228px;
+}
+#divImgTotal {
+	position:absolute;
+	width:66px;
+	height:16px;
+	z-index:12;
+	left: -22px;
+	top: 30px;
+}
+#divNomTotal2 {
+	position:absolute;
+	width:28px;
+	height:14px;
+	z-index:1;
+	top: 1px;
+	left: 6px;
+}
+#divCantidadPedido {
+	position:absolute;
+	width:66px;
+	height:12px;
+	z-index:10;
+	left: 503px;
+	top: 541px;
+}

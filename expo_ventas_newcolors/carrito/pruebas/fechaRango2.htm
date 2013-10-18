@@ -1,0 +1,43 @@
+<link type="text/css" href= "jquery-ui-1.8.14.custom/css/ui-lightness/jquery-ui-1.8.14.custom.css"  rel="Stylesheet" />	
+<script type="text/javascript" src="jquery-ui-1.8.14.custom/js/jquery-1.5.1.min.js" ></script>
+<script type="text/javascript" src="jquery-ui-1.8.14.custom/js/jquery-ui-1.8.14.custom.min.js"></script>
+
+	<meta charset="utf-8">
+	
+	<script>
+	$(function() {
+		$( "#datepicker" ).datepicker({
+			firstDay: 1
+			
+		});
+		
+	});
+	function changePicker(){
+		$( "#datepicker" ).datepicker( "option", "dateFormat", 'yy-mm-dd' );	
+	}
+	</script>
+
+
+
+<style type="text/css">
+<!--
+.demo {
+	font-size: 11px;
+}
+-->
+</style>
+<div class="demo">
+
+<p>Date: <input type="text" id="datepicker" onchange="changePicker();"></p>
+
+</div><!-- End demo -->
+
+
+
+<div class="demo-description">
+<p>The datepicker can show the week of the year. The default calculation follows
+	the ISO 8601 definition: the week starts on Monday, the first week of the year
+	contains the first Thursday of the year. This means that some days from one
+  year may be placed into weeks 'belonging' to another year.</p>
+</div>
+<!-- End demo-description -->

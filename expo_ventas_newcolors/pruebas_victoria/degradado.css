@@ -1,0 +1,22 @@
+
+
+    .degradado {  
+      /* Color alternativo para versiones que no soporten degradados */  
+      background-color:#FFFFFF; 
+      
+      /* Safari 4+ y Chrome 1+ */  
+      background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #CCCCCC));  
+      
+      /* Safari 5.1+ y Chrome 10+ */  
+      background-image:-webkit-linear-gradient(#FFFFFF, #CCCCCC);  
+      
+      /* Firefox 3.6+ */  
+      background-image:-moz-linear-gradient(top, #FFFFFF, #CCCCCC);  
+      
+      /* Opera 11.10+ */  
+      background-image:-o-linear-gradient(top, #FFFFFF, #CCCCCC);  
+      
+      /* Internet Explorer 5.5+ */  
+      filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#CCCCCC');  
+    }  
+

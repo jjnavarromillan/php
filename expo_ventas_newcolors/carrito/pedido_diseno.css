@@ -1,0 +1,1014 @@
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position: relative;
+}
+body {
+
+	background-color: #F0F0F0;
+	background-repeat: no-repeat;
+}
+
+a:link {
+	text-decoration: none;
+	color: #666;
+}
+
+a { font-color: #666; 
+    text-decoration:none;}
+a:visited {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+a:active {
+	text-decoration: none;
+	color: #039;
+}
+#principal {
+	position: relative;
+	width:960px;
+	margin:auto;
+	z-index:1;
+	height:695px;
+}
+#top {
+	position:absolute;
+	width:1024px;
+	height:21px;
+	z-index:1;
+}
+#corner1 {
+	position:absolute;
+	background-image: url(source/corner1.png);
+	width: 24px;
+	height:21px;
+}
+#tabletop {
+	position:absolute;
+	background-image: url(source/table_top.png);
+	background-repeat: repeat-x;
+	width: 972px;
+	height:21px;
+	z-index:1;
+	left: 24px;
+	top: 0px;
+}
+#corner2 {
+	position:absolute;
+	background-image: url(source/corner2.png);
+	width: 28px;
+	height:21px;
+	z-index:2;
+	left: 996px;
+}
+#tablelft {
+	position:absolute;
+	left:0px;
+	top:21px;
+	background-image:url(source/table_left.png);
+	width: 24px;
+	height: 718px;
+	z-index:2;
+}
+#encabezado {
+	position:absolute;
+	width:960px;
+	height: 92px;
+	background-color: #FFFFFF;
+	z-index:3;
+	left: 0px;
+	top: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #666666;
+}
+#contenido {
+	position: absolute;
+	width:960px;
+	height: 560px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	font-size:14px;
+	z-index:1;
+	left: 0px;
+	top: 69px;
+	background-color:#FFF;
+	
+
+}
+#pie {
+	position:absolute;
+	width:960px;
+	height: 131px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	z-index:4;
+	left: 0px;
+	top: 652px;
+}
+#tableright {
+	position:absolute;
+	width:28px;
+	height: 718px;
+	background-image:url(source/table_right.png);
+	background-repeat:repeat-y;
+	z-index:5;
+	left: 996px;
+	top: 21px;
+}
+#tablebottom{
+	position:absolute;
+	width:960px;
+	height:22px;
+	z-index:1;
+	left: 0px;
+	top: 630px;
+	background-image: url(source/sombra.png);
+}
+#corner3 {
+	position:absolute;
+	background-image:url(source/corner4.png);
+	width:24px;
+	height:29px;
+	z-index:1;
+	left: 0px;
+	top: 0px;
+}
+#bottom{
+	position:absolute;
+	background-image: url(source/table_bottom.png);
+	background-repeat:repeat-x;
+	width:972px;
+	height:29px;
+	z-index:2;
+	left: 24px;
+	top: 0px;
+}
+#corner4 {
+	position:absolute;
+	background-image:url(source/corner3.png);
+	width:28px;
+	height:29px;
+	z-index:3;
+	left: 996px;
+	top: 0px;
+}
+#logo {
+	position:absolute;
+	width:266px;
+	height:35px;
+	background-image:url(source/logo.gif);
+	z-index:1;
+	top: 12px;
+	left: 8px;
+}
+
+#apDiv1 {
+	position:absolute;
+	width:159px;
+	height:24px;
+	z-index:3;
+	left: 792px;
+	top: 6px;
+	text-align: right;
+}
+#apDiv2 {
+	position:absolute;
+	width:301px;
+	height:23px;
+	z-index:4;
+	left: 650px;
+	top: 34px;
+	text-align: right;
+}
+#apDiv3 {
+	position:absolute;
+	width:55px;
+	height:18px;
+	z-index:5;
+	left: 839px;
+	top: 37px;
+}
+#menu2 {
+	position:absolute;
+	width:555px;
+	height:22px;
+	z-index:6;
+	left: 9px;
+	top: 52px;
+}
+#menu1 {
+	position:absolute;
+	width:284px;
+	height:28px;
+	z-index:7;
+	left: 369px;
+	top: 33px;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666;
+}
+.face {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #039;
+	font-size: 15px;
+	}
+	
+
+.descripcion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+}
+.abcd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+}
+.materialColor {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+.clienteNombre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+.combito{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	
+}
+.tablaEnca{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size: 9px;
+}
+
+#menu-inferior {
+	position:absolute;
+	width:800px;
+	height:29px;
+	z-index:2;
+	top: 22px;
+	left: 153px;
+}
+#ncSmall {
+	position:absolute;
+	width:144px;
+	height:16px;
+	z-index:3;
+	top: 27px;
+	left: 19px;
+}
+a:hover {
+	color: #333;
+}
+#apDiv9 {
+	position:absolute;
+	width:74px;
+	height:32px;
+	z-index:13;
+	left: 805px;
+	top: 37px;
+}
+#apDiv10 {
+	position:absolute;
+	width:42px;
+	height:13px;
+	z-index:1;
+	left: 7px;
+	color: #FFF;
+}
+#botonSerch {
+	position:absolute;
+	width:57px;
+	height:19px;
+	z-index:13;
+	left: 837px;
+	top: 34px;
+}
+#red-social {
+	position:absolute;
+	width:66px;
+	height:23px;
+	z-index:1;
+	left: -16px;
+	top: 28px;
+}
+#apDiv13 {
+	position:absolute;
+	width:90px;
+	height:14px;
+	z-index:5;
+	left: 59px;
+	top: 1px;
+}
+#listado {
+	position:absolute;
+	width:147px;
+	height:462px;
+	z-index:2;
+	left: 16px;
+	top: 33px;
+}
+#pedidoShoes {
+	position:absolute;
+	width:623px;
+	height:462px;
+	z-index:2;
+	left: 4px;
+	top: 2px;
+}
+#listadoCarrito {
+	position:absolute;
+	width:123px;
+	height:462px;
+	z-index:2;
+	left: 823px;
+	top: 34px;
+}
+#menuCliente {
+	position:absolute;
+	width:164px;
+	height:22px;
+	z-index:2;
+	left: 30px;
+	top: 18px;
+	font-size: 9px;
+}
+#pedido {
+	position:absolute;
+	width:41px;
+	height:20px;
+	z-index:1;
+}
+#estadoCuen {
+	position:absolute;
+	width:101px;
+	height:24px;
+	z-index:2;
+	left: 56px;
+}
+#apDiv22 {
+	position:absolute;
+	width:43px;
+	height:115px;
+	z-index:3;
+	left: 157px;
+}
+.menucliente {
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+#contenidoCarrito {
+	position:relative;
+	width:622px;
+	height:90px;
+	z-index:1;
+	top: 175px;
+	left: 0px;
+}
+
+#divZonaPedido{
+	position:absulte;
+	width:622px;
+	height:300px;
+	z-index:1;
+	top: 175px;
+	left: 0px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#Foto {
+	position:absolute;
+	width:76px;
+	height:75px;
+	z-index:1;
+	top: 1px;
+	left: 28px;
+}
+#shoppingB {
+	position:absolute;
+	width:134px;
+	height:34px;
+	z-index:2;
+	left: 0px;
+}
+#apDiv23 {
+	position:absolute;
+	width:160px;
+	height:19px;
+	z-index:14;
+	left: 651px;
+	top: 58px;
+}
+#apDiv24 {
+	position:absolute;
+	width:42px;
+	height:19px;
+	z-index:1;
+}
+#apDiv25 {
+	position:absolute;
+	width:78px;
+	height:19px;
+	z-index:2;
+	left: 63px;
+}
+#desMaterial {
+	position:absolute;
+	width:623px;
+	height:23px;
+	z-index:2;
+	top: 152px;
+	left: 1px;
+}
+#lineaDivi {
+	position:absolute;
+	width:625px;
+	height:8px;
+	z-index:3;
+	top: 121px;
+	left: 1px;
+}
+#abcdTabla {
+	position:absolute;
+	width:124px;
+	height:44px;
+	z-index:3;
+	top: 24px;
+	left: 124px;
+}
+#apDiv21 {
+	position:absolute;
+	width:218px;
+	height:36px;
+	z-index:4;
+	top: 79px;
+	left: 3px;
+}
+#apDiv26 {
+	position:absolute;
+	width:625px;
+	height:20px;
+	z-index:4;
+	left: 1px;
+	top: 64px;
+}
+#corridas {
+	position:absolute;
+	width:215px;
+	height:21px;
+	z-index:5;
+	left: 254px;
+	top: 22px;
+}
+#apDiv28 {
+	position:absolute;
+	width:322px;
+	height:90px;
+	z-index:4;
+	left: 146px;
+	top: 10px;
+}
+#infoCliente {
+	position:absolute;
+	width:629px;
+	height:118px;
+	z-index:4;
+	top: 3px;
+	left: 0px;
+}
+#shopping {
+	position:absolute;
+	width:135px;
+	height:35px;
+	z-index:1;
+}
+#datos {
+	position:absolute;
+	width:331px;
+	height:70px;
+	z-index:2;
+	top: 35px;
+	left: 1px;
+}
+#NomCliente {
+	position:absolute;
+	width:196px;
+	height:17px;
+	z-index:3;
+	left: 154px;
+	top: 9px;
+}
+#tablaCorridas {
+	position:absolute;
+	width:221px;
+	height:77px;
+	z-index:4;
+	left: 400px;
+	top: -1px;
+}
+#total {
+	position:absolute;
+	width:69px;
+	height:22px;
+	z-index:6;
+	left: 551px;
+	top: 21px;
+}
+#boton2 {
+	position:absolute;
+	width:221px;
+	height:24px;
+	z-index:5;
+	top: 83px;
+	left: 380px;
+}
+#shopBoton {
+	position:absolute;
+	width:103px;
+	height:17px;
+	z-index:1;
+	left: -33px;
+	top: -2px;
+}
+#checkoBoton {
+	position:absolute;
+	width:84px;
+	height:22px;
+	z-index:2;
+	left: 108px;
+	top: -2px;
+}
+#precio {
+	position:absolute;
+	width:57px;
+	height:22px;
+	z-index:7;
+	top: 21px;
+	left: 485px;
+}
+#Foto2 {	position:absolute;
+	width:76px;
+	height:75px;
+	z-index:1;
+	top: 1px;
+	left: 28px;
+}
+#abcdTabla2 {	position:absolute;
+	width:124px;
+	height:44px;
+	z-index:3;
+	top: 0px;
+	left: 126px;
+}
+#apDiv {	position:absolute;
+	width:83px;
+	height:36px;
+	z-index:4;
+	top: 82px;
+	left: 24px;
+}
+#contenidoCarrito2 {
+	position:relative;
+	width:622px;
+	height:129px;
+	z-index:1;
+	top: 306px;
+	left: 0px;
+}
+#corridas2 {	position:absolute;
+	width:215px;
+	height:21px;
+	z-index:5;
+	left: 255px;
+	top: 6px;
+}
+#precio2 {	position:absolute;
+	width:57px;
+	height:22px;
+	z-index:7;
+	top: 21px;
+	left: 488px;
+}
+#total2 {	position:absolute;
+	width:57px;
+	height:22px;
+	z-index:6;
+	left: 562px;
+	top: 21px;
+}
+#paqTotal {
+	position:absolute;
+	width:215px;
+	height:19px;
+	z-index:5;
+	left: 255px;
+	top: 437px;
+}
+#apDiv20 {
+	position:absolute;
+	width:146px;
+	height:21px;
+	z-index:6;
+	left: 475px;
+	top: 438px;
+}
+#apDiv27 {
+	position:absolute;
+	width:80px;
+	height:21px;
+	z-index:1;
+}
+#apDiv11 {
+	position:absolute;
+	width:240px;
+	height:23px;
+	z-index:1;
+	left: 153px;
+	top: 8px;
+}
+#apDiv29 {
+	position:absolute;
+	width:124px;
+	height:23px;
+	z-index:2;
+	left: 462px;
+	top: -133px;
+}
+#divContent {
+	position:absolute;
+	width:651px;
+	height:522px;
+	z-index:2;
+	left: 3px;
+	top: 4px;
+	overflow:auto;
+}
+#apDiv5 {
+	position:absolute;
+	width:128px;
+	height:19px;
+	z-index:1;
+	left: 11px;
+	top: 1px;
+}
+#apDiv6 {
+	position:absolute;
+	width:21px;
+	height:19px;
+	z-index:2;
+	left: 166px;
+	top: 1px;
+}
+#apDiv7 {
+	position:absolute;
+	width:106px;
+	height:19px;
+	z-index:3;
+	left: 189px;
+	top: 1px;
+}
+#apDiv8 {
+	position:absolute;
+	width:118px;
+	height:19px;
+	z-index:4;
+	left: 302px;
+	top: 1px;
+}
+#busquedaAd {
+	position:absolute;
+	width:50px;
+	height:22px;
+	z-index:7;
+	left: 899px;
+	top: 32px;
+}
+#face {
+	position:absolute;
+	width:16px;
+	height:15px;
+	z-index:8;
+	left: 902px;
+	top: 60px;
+}
+#twiter {
+	position:absolute;
+	width:16px;
+	height:15px;
+	z-index:9;
+	left: 927px;
+	top: 60px;
+}
+#apDiv12 {
+	position:absolute;
+	width:960px;
+	height:70px;
+	z-index:1;
+	top: 79px;
+	left: 0px;
+}
+#txtSearch {
+	position:absolute;
+	width:145px;
+	height:22px;
+	z-index:10;
+	left: 654px;
+	top: 35px;
+}
+#apDiv14 {
+	position:absolute;
+	width:330px;
+	height:18px;
+	z-index:2;
+	left: 5px;
+	top: 21px;
+}
+#apDiv15 {
+	position:absolute;
+	width:82px;
+	height:17px;
+	z-index:1;
+}
+#apDiv16 {
+	position:absolute;
+	width:133px;
+	height:18px;
+	z-index:2;
+	left: 104px;
+}
+#apDiv17 {
+	position:absolute;
+	width:59px;
+	height:19px;
+	z-index:3;
+	left: 255px;
+}
+#apDiv18 {
+	position:absolute;
+	width:231px;
+	height:39px;
+	z-index:1;
+}
+#apDiv19 {
+	position:absolute;
+	width:206px;
+	height:42px;
+	z-index:2;
+	left: 247px;
+}
+#piePag {
+	position:absolute;
+	width:960px;
+	height:66px;
+	z-index:2;
+	top: 0px;
+}
+#subscribe {
+	position:absolute;
+	width:375px;
+	height:27px;
+	z-index:1;
+	top: 16px;
+}
+#getnews {
+	position:absolute;
+	width:110px;
+	height:17px;
+	z-index:1;
+}
+#txtcam2 {
+	position:absolute;
+	width:147px;
+	height:23px;
+	z-index:2;
+	left: 118px;
+}
+#botonSub {
+	position:absolute;
+	width:58px;
+	height:17px;
+	z-index:3;
+	left: 279px;
+	top: 3px;
+}
+#infoEmp {
+	position:absolute;
+	width:274px;
+	height:66px;
+	z-index:2;
+	left: 427px;
+}
+#datos1 {
+	position:absolute;
+	width:272px;
+	height:15px;
+	z-index:1;
+	left: 2px;
+}
+#datos2 {
+	position:absolute;
+	width:273px;
+	height:15px;
+	z-index:2;
+	top: 17px;
+	left: 2px;
+}
+#datos3 {
+	position:absolute;
+	width:252px;
+	height:15px;
+	z-index:3;
+	top: 31px;
+	left: 22px;
+}
+#face3elem {
+	position:absolute;
+	width:222px;
+	height:67px;
+	z-index:3;
+	left: 717px;
+}
+#fotoface {
+	position:absolute;
+	width:40px;
+	height:40px;
+	z-index:1;
+	left: 1px;
+}
+#newface {
+	position:absolute;
+	width:166px;
+	height:17px;
+	z-index:2;
+	left: 51px;
+}
+#like {
+	position:absolute;
+	width:49px;
+	height:27px;
+	z-index:3;
+	top: 20px;
+	left: 51px;
+}
+.face2 {
+	color: #039;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#apDiv33 {
+	position:absolute;
+	width:949px;
+	height:27px;
+	z-index:1;
+	top: -8px;
+	left: -1px;
+}
+#apDiv34 {
+	position:absolute;
+	width:136px;
+	height:13px;
+	z-index:1;
+	left: 5px;
+}
+#apDiv35 {
+	position:absolute;
+	width:87px;
+	height:13px;
+	z-index:2;
+	left: 153px;
+	font-size: 9px;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 4px;
+}
+#apDiv36 {
+	position:absolute;
+	width:79px;
+	height:13px;
+	z-index:3;
+	left: 252px;
+	top: 4px;
+}
+#apDiv37 {
+	position:absolute;
+	width:38px;
+	height:13px;
+	z-index:4;
+	left: 342px;
+	top: 4px;
+}
+#apDiv38 {
+	position:absolute;
+	width:88px;
+	height:13px;
+	z-index:5;
+	left: 393px;
+	top: 4px;
+}
+#apDiv39 {
+	position:absolute;
+	width:72px;
+	height:13px;
+	z-index:6;
+	left: 494px;
+	top: 4px;
+}
+#apDiv40 {
+	position:absolute;
+	width:55px;
+	height:13px;
+	z-index:7;
+	left: 589px;
+	top: 4px;
+}
+#apDiv41 {
+	position:absolute;
+	width:69px;
+	height:13px;
+	z-index:8;
+	left: 644px;
+	top: 4px;
+}
+#apDiv42 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+}
+#apDiv43 {
+	position:absolute;
+	width:58px;
+	height:13px;
+	z-index:1;
+	left: 337px;
+	top: 3px;
+}
+#apDiv44 {
+	position:absolute;
+	width:81px;
+	height:13px;
+	z-index:9;
+	left: 779px;
+	top: 4px;
+}
+#apDiv45 {
+	position:absolute;
+	width:42px;
+	height:13px;
+	z-index:10;
+	left: 724px;
+	top: 4px;
+}
+#apDiv46 {
+	position:absolute;
+	width:938px;
+	height:7px;
+	z-index:11;
+	top: 78px;
+	left: 13px;
+}
+a:link {
+	color: #666;
+}
+#apDiv47 {
+	position:absolute;
+	width:226px;
+	height:35px;
+	z-index:12;
+	padding-top: 9px;
+	padding-left: 9px;
+}
+#menu-principal {
+	position:absolute;
+	width:670px;
+	height:25px;
+	z-index:12;
+	top: 49px;
+	left: 7px;
+}
+.descripcion2 {
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#F60;
+	
+}
+

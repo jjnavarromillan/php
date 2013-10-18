@@ -1,0 +1,135 @@
+#divPrinDePaquetes {
+	position:absolute;
+	left:21px;
+	top:2px;
+	width:600px;
+	height:475px;
+	z-index:1;
+}
+#divLinDePaquete {
+	position:absolute;
+	width:584px;
+	height:6px;
+	z-index:1;
+	top: 46px;
+	left: 5px;
+}
+#divEstNumDePaquetes {
+	position:absolute;
+	width:122px;
+	height:29px;
+	z-index:2;
+	top: 13px;
+	left: 6px;
+}
+#divEstilDePaquetes {
+	position:absolute;
+	width:36px;
+	height:18px;
+	z-index:1;
+	top: 5px;
+	left: 7px;
+}
+#divNumDePaquetes {
+	position:absolute;
+	width:62px;
+	height:18px;
+	z-index:2;
+	left: 48px;
+	top: 5px;
+}
+.lineaPaquetesDe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+.NumerPaquetesDe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666;
+}
+.precioDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+
+.nomEstiloDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F90;
+	font-weight:bold;
+}
+
+.selecionDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+#divNombreEstiloDePaquetes {
+	position:absolute;
+	width:218px;
+	height:23px;
+	z-index:3;
+	top: 60px;
+	left: 11px;
+}
+#divFotoImgDePaquetes {
+	position:absolute;
+	width:280px;
+	height:280px;
+	z-index:4;
+	left: 6px;
+	top: 133px;
+}
+#divSelecCOnMAPaquetes {
+	position:absolute;
+	width:227px;
+	height:19px;
+	z-index:5;
+	left: 336px;
+	top: 76px;
+}
+#divMatEstPrePaquetes {
+	position:absolute;
+	width:200px;
+	height:18px;
+	z-index:6;
+	left: 336px;
+	top: 98px;
+}
+#divPriceDePquetes {
+	position:absolute;
+	width:35px;
+	height:15px;
+	z-index:7;
+	top: 86px;
+	left: 11px;
+}
+#divLiNDES1Paquetes {
+	position:absolute;
+	width:213px;
+	height:9px;
+	z-index:8;
+	left: 1px;
+	top: 112px;
+}
+#divLiNDES2Paquetes {
+	position:absolute;
+	width:226px;
+	height:8px;
+	z-index:9;
+	left: 333px;
+	top: 190px;
+}
+#divLiNDES3Paquetes {
+	position:absolute;
+	width:227px;
+	height:9px;
+	z-index:10;
+	left: 339px;
+	top: 302px;
+}
+
+				 

@@ -1,0 +1,380 @@
+.tipogrWhitegridNc{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+}
+
+
+
+/****** Campos Datos *****************/
+/** agregar clases CSS de acuerdo al nombre del campo
+	
+	Sintaxis:	. classColumn + nombreCampoDB + { }
+	
+	Ejemplo:
+	
+	.classColumnFoto{
+		width:30px;
+		border-collapse:collapse;
+	}
+*/
+.classColumnFoto{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnidPed{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnidPedDet{
+	width:70px;
+	border-collapse:collapse;
+}
+.classColumnidEstilo{
+	width:70px;
+	border-collapse:collapse;
+}
+.classColumnLinea{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnEstilo{
+	width:55px;
+	border-collapse:collapse;
+}
+.classColumnMaterial{
+	width:110px;
+	border-collapse:collapse;
+}
+.classColumnColor{
+	width:110px;
+	border-collapse:collapse;
+}
+.classColumnPrecio{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnclvPaq{
+	width:55px;
+	border-collapse:collapse;
+} 
+.classColumncantPaq{
+	width:60px;
+	border-collapse:collapse;
+}
+.classColumnPares{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnTotal{
+	width:45px;
+	border-collapse:collapse;
+}
+.classColumnIdDatCli{
+	width:90px;
+	border-collapse:collapse;
+}
+.classColumnNombre{
+	width:150px;
+	border-collapse:collapse;
+} 
+.classColumnTienda{
+	width:60px;
+	border-collapse:collapse;
+}
+.classColumnPoblacion{
+	width:85px;
+	border-collapse:collapse;
+}
+.classColumnEstado{
+	width:85px;
+	border-collapse:collapse;
+}
+.classColumnseccionCatalogo{
+	width:100px;
+	border-collapse:collapse;
+}
+.classColumnfechaPedido{
+	width:90px;
+	border-collapse:collapse;
+}
+.classColumncategoria{
+	width:60px;
+	border-collapse:collapse;
+}
+.classColumnsubcategoria{
+	width:120px;
+	border-collapse:collapse;
+}
+.classColumnfechaSurtido{
+	width:90px;
+	border-collapse:collapse;
+}
+.classColumnDoc{
+	width:40px;
+	border-collapse:collapse;
+}
+.classColumnfechaDoc{
+	width:70px;
+	border-collapse:collapse;
+}
+
+/**** Cebecera *****/
+
+.classColumnHFoto{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+
+}
+.classColumnHidPed{
+	width:50px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+ 
+	
+}
+
+.classColumnHidPedDet{
+	width:70px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHidEstilo{
+	width:70px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+	
+.classColumnHLinea{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHEstilo{
+	width:55px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHMaterial{
+	width:110px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHColor{
+	width:110px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHPrecio{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHclvPaq{
+	width:55px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+} 
+.classColumnHcantPaq{
+	width:60px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHPares{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHTotal{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHidDatCliente{
+	width:90px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHNombre{
+	width:150px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+} 
+.classColumnHTienda{
+	width:60px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHPoblacion{
+	width:85px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+	
+}
+.classColumnHEstado{
+	width:85px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHseccionCatalogo{
+	width:100px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHfechaPedido{
+	width:90px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHcategoria{
+	width:60px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHsubcategoria{
+	width:120px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center
+	
+}
+.classColumnHfechaSurtido{
+	width:90px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHDoc{
+	width:45px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+.classColumnHfechaDoc{
+	width:70px;
+	height:20px;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+/* 	*/
+
+#divImgidPed{
+	position:absolute;
+	top:0;
+	left:40;
+}
+#divImgidEstilo	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgLinea	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+#divImgEstilo{
+	position:absolute;
+	top:0;
+	left:15;
+}
+#divImgMaterial{
+	position:absolute;
+	top:0;
+	left:50;
+}
+#divImgColor{
+	position:absolute;
+	top:0;
+	left:15;
+}
+#divImgPrecio{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgclvPaq{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgcantPaq {
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgTotal	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgCliente	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgTienda	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgseccionCatalogo	{
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgfechasubcategoria {
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+
+#divImgfechaSurtido {
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgDoc {
+	position:absolute;
+	top:0;
+	left:15;
+}
+
+#divImgfechaDoc {
+	position:absolute;
+	top:0;
+	left:15;
+}

@@ -1,0 +1,57 @@
+#divContenidoBuscarCliente {
+	position:absolute;
+	width:347px;
+	height:110px;
+	z-index:1;
+}
+#divCampoBusqueda {
+	position:absolute;
+	width:276px;
+	height:17px;
+	z-index:1;
+	top: 40px;
+	left: 28px;
+}
+#divCerrar {
+	position:absolute;
+	width:17px;
+	height:16px;
+	z-index:2;
+	left: 321px;
+	top: -1px;
+}
+#divBuscarCliente {
+	position:absolute;
+	width:200px;
+	height:15px;
+	z-index:3;
+	left: 7px;
+	top: 1px;
+}
+
+#divIconoLupa {
+	position:absolute;
+	width:20px;
+	height:19px;
+	z-index:2;
+	top: 42px;
+	left: 286px;
+}
+
+
+/*ccs******/
+
+.tipoBuscar{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+
+}
+
+.campoBusqueda{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+	height:13px;
+	font-weight:600;
+}

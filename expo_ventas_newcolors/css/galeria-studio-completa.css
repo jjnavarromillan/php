@@ -1,0 +1,138 @@
+#divPrGaleriaStudioCompleta {
+	position:absolute;
+	width:681px;
+	height:337px;
+	z-index:1;
+}
+#divBotGaleriaAtrasStudio {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:1;
+	left: 0px;
+	top: 131px;
+}
+#divBotGaleriaAdelanteStudio {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:2;
+	left: 667px;
+	top: 131px;
+}
+#divFotoGaleriaEditorial {
+	position:absolute;
+	width:257px;
+	height:334px;
+	z-index:3;
+	left: 113px;
+	top: 1px;
+}
+
+#divXpasaStudio {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 674px;
+	top: 7px;
+}
+#divLeTipoStudioGaleria {
+	position:absolute;
+	width:96px;
+	height:41px;
+	z-index:6;
+	left: 428px;
+	top: 97px;
+}
+
+
+#divCerrarPasaStudio {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:9;
+	left: 643px;
+	top: 7px;
+}
+#divIconoTodasStudio {
+	position:absolute;
+	width:74px;
+	height:19px;
+	z-index:10;
+	left: 416px;
+	top: 1px;
+}
+
+#divNumInStudio {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:12;
+	left: 437px;
+	top: 187px;
+	background-color: #999999;
+}
+#divNumFiStudio {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:13;
+	left: 456px;
+	top: 187px;
+	background-color: #666666;
+}
+#divPriVeraStudio {
+	position:absolute;
+	width:110px;
+	height:19px;
+	z-index:14;
+	left: 438px;
+	top: 139px;
+}
+#div2milStudio {
+	position:absolute;
+	width:48px;
+	height:20px;
+	z-index:15;
+	left: 438px;
+	top: 160px;
+}
+#divCreditosStudio {
+	position:absolute;
+	width:130px;
+	height:15px;
+	z-index:16;
+	left: 431px;
+	top: 319px;
+}
+#divFotoGaleriaStudio {
+	position:absolute;
+	width:223px;
+	height:334px;
+	z-index:17;
+	left: 153px;
+	top: 1px;
+}
+
+/** clases tipograficas**/
+
+.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+.leyendaPatrocinio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.todasTipoBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+
+}

@@ -1,0 +1,96 @@
+/**Div**/
+#divContenidoPrincipalCatalogoNc {
+	position:absolute;
+	width:775px;
+	height:1288px;
+	z-index:1;
+}
+#divEncabezadoPrincipal {
+	position:absolute;
+	width:775px;
+	height:173px;
+	z-index:1;
+}
+#divImgBarratitulo {
+	position:absolute;
+	width:139px;
+	height:24px;
+	z-index:5;
+	left: 597px;
+	top: 9px;
+}
+#divNomLinea {
+	position:absolute;
+	width:74px;
+	height:13px;
+	z-index:1;
+	top: 6px;
+	left: 6px;
+}
+#divGrupoContenidoImg {
+	position:relative;
+	width:736px;
+	height:255px;
+	z-index:3;
+	left: 40px;
+	top: 175px;
+}
+#divImgZapatos {
+	position:absolute;
+	width:624px;
+	height:209px;
+	z-index:1;
+	left: 9px;
+	top: 1px;
+}
+#divLineaDegrado {
+	position:absolute;
+	width:617px;
+	height:10px;
+	z-index:10;
+	left: 63px;
+	top: 231px;
+}
+#divNomZapato {
+	position:absolute;
+	width:591px;
+	height:19px;
+	z-index:2;
+	left: 2px;
+	top: 210px;
+}
+#divPiedePaginaNc {
+	position:absolute;
+	width:777px;
+	height:61px;
+	z-index:1;
+	left: 1px;
+	top: 1225px;
+}
+
+/**Clases******/
+
+.nombreLinea{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:600;
+}
+.materialColor{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+.numLinea{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#333;
+	font-weight:700;
+}
+
+.tituloPersonalizado{
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	color:#666;
+
+}

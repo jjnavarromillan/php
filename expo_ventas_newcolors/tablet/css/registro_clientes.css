@@ -1,0 +1,274 @@
+#divContenidoRegistro {
+	position:absolute;
+	width:548px;
+	height:500px;
+	z-index:1;
+}
+#divCerrarRegistro {
+	position:absolute;
+	width:20px;
+	height:19px;
+	z-index:1;
+	left: 515px;
+	top: 0px;
+}
+#divImgTipo {
+	position:absolute;
+	width:147px;
+	height:23px;
+	z-index:2;
+	top: 34px;
+	left: 20px;
+}
+#divNomRegistro {
+	position:absolute;
+	width:70px;
+	height:15px;
+	z-index:3;
+	top: 79px;
+	left: 20px;
+}
+#divDirRegistro {
+	position:absolute;
+	width:69px;
+	height:15px;
+	z-index:4;
+	left: 20px;
+	top: 106px;
+}
+#divColRegistro {
+	position:absolute;
+	width:52px;
+	height:15px;
+	z-index:5;
+	left: 28px;
+	top: 132px;
+}
+#divPobRegistro {
+	position:absolute;
+	width:68px;
+	height:15px;
+	z-index:6;
+	left: 28px;
+	top: 156px;
+}
+#divTelRegistro {
+	position:absolute;
+	width:68px;
+	height:15px;
+	z-index:7;
+	left: 20px;
+	top: 184px;
+}
+#divPaqRegistro {
+	position:absolute;
+	width:74px;
+	height:15px;
+	z-index:8;
+	left: 28px;
+	top: 210px;
+}
+#divMailRegistro {
+	position:absolute;
+	width:54px;
+	height:15px;
+	z-index:9;
+	left: 20px;
+	top: 236px;
+}
+#divObsRegistro {
+	position:absolute;
+	width:97px;
+	height:15px;
+	z-index:10;
+	left: 20px;
+	top: 317px;
+}
+#divCamRegistro {
+	position:absolute;
+	width:464px;
+	height:59px;
+	z-index:11;
+	left: 20px;
+	top: 337px;
+}
+#divAutRegistro {
+	position:absolute;
+	width:104px;
+	height:15px;
+	z-index:12;
+	left: 20px;
+	top: 262px;
+}
+#divBtnRegistro {
+	position:absolute;
+	width:67px;
+	height:27px;
+	z-index:13;
+	left: 419px;
+	top: 417px;
+}
+#divAdvRegistro {
+	position:absolute;
+	width:132px;
+	height:15px;
+	z-index:14;
+	left: 356px;
+	top: 450px;
+	text-align: right;
+}
+
+#divNomRegistroTxt {
+	position:absolute;
+	width:297px;
+	height:14px;
+	z-index:15;
+	left: 134px;
+	top: 80px;
+}
+#divDirRegistroTxt {
+	position:absolute;
+	width:81px;
+	height:14px;
+	z-index:16;
+	left: 134px;
+	top: 104px;
+}
+#divColRegistroTxt {
+	position:absolute;
+	width:81px;
+	height:14px;
+	z-index:17;
+	left: 134px;
+	top: 131px;
+}
+#divNumRegistro {
+	position:absolute;
+	width:38px;
+	height:15px;
+	z-index:18;
+	left: 312px;
+	top: 106px;
+}
+#divTelRegistroTxt {
+	position:absolute;
+	width:81px;
+	height:14px;
+	z-index:19;
+	left: 133px;
+	top: 184px;
+}
+#divPaqRegistroTxt {
+	position:absolute;
+	width:297px;
+	height:14px;
+	z-index:20;
+	left: 134px;
+	top: 210px;
+}
+#divMailRegistroTxt {
+	position:absolute;
+	width:297px;
+	height:14px;
+	z-index:21;
+	left: 134px;
+	top: 235px;
+}
+#divAutRegistrotxt {
+	position:absolute;
+	width:297px;
+	height:14px;
+	z-index:22;
+	left: 134px;
+	top: 260px;
+}
+#divPobRegistroCombo {
+	position:absolute;
+	width:200px;
+	height:24px;
+	z-index:23;
+	left: 134px;
+	top: 154px;
+}
+#divNumRegistroTxt {
+	position:absolute;
+	width:78px;
+	height:14px;
+	z-index:24;
+	left: 351px;
+	top: 104px;
+}
+#divCPRegistro {
+	position:absolute;
+	width:23px;
+	height:15px;
+	z-index:25;
+	left: 324px;
+	top: 132px;
+}
+#divCPRegistroTxt {
+	position:absolute;
+	width:77px;
+	height:14px;
+	z-index:26;
+	left: 351px;
+	top: 131px;
+}
+#divLadaRegistro {
+	position:absolute;
+	width:30px;
+	height:15px;
+	z-index:27;
+	left: 316px;
+	top: 184px;
+}
+#divLadaRegistroTxt {
+	position:absolute;
+	width:77px;
+	height:14px;
+	z-index:28;
+	left: 351px;
+	top: 184px;
+}
+
+
+/*********css*******/
+
+.tipoDatos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:600;
+	color:#666;
+}
+
+.tipoRed{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:600;
+	color:#F00;
+}
+
+.campoBusqueda{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	height:13px;
+	font-weight:600;
+}
+
+.areaTexto{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11;
+	color:#999;
+	height:60px;
+	width:464px;
+}
+
+.comboEdo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	height:17px;
+	font-weight:600;
+	width:150px;
+}

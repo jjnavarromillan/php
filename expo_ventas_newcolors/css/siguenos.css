@@ -1,0 +1,45 @@
+#fondo-siguenos-principal {
+	position:absolute;
+	width:900px;
+	height:480px;
+	z-index:1;
+	left: 5px;
+	top: 2px;
+}
+#divBoCamNacional {
+	position:absolute;
+	width:100px;
+	height:16px;
+	z-index:1;
+	left: 269px;
+	top: 86px;
+}
+#divBotEdito {
+	position:absolute;
+	width:55px;
+	height:16px;
+	z-index:2;
+	left: 402px;
+	top: 86px;
+}
+#divBotPasarela {
+	position:absolute;
+	width:49px;
+	height:16px;
+	z-index:3;
+	left: 493px;
+	top: 86px;
+}
+#divBotEventos {
+	position:absolute;
+	width:49px;
+	height:16px;
+	z-index:4;
+	left: 576px;
+	top: 86px;
+}
+.botoTipoPrin{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#999;
+}

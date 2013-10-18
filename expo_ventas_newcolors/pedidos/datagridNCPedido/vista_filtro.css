@@ -1,0 +1,334 @@
+.divPrinVisFiltro {
+	position:absolute;
+	width:172px;
+	height:286px;
+	z-index:100;
+	left: 0px;
+	top: 5px;
+
+}
+#divSecVisFiltro {
+	position:absolute;
+	width:151px;
+	height:200px;
+	z-index:1;
+	top: 40px;
+	left: 7px;
+}
+#divConVFil {
+	position:absolute;
+	width:135px;
+	height:36px;
+	z-index:1;
+	top: 17px;
+	left: 2px;
+}
+#divVeriFiltro {
+	position:absolute;
+	width:20px;
+	height:19px;
+	z-index:1;
+}
+#divInfFiltro {
+	position:absolute;
+	width:96px;
+	height:24px;
+	z-index:2;
+	left: 27px;
+}
+#divCeFiltro {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:2;
+	left: 172px;
+	top: 6px;
+}
+#divMaxFiltro {
+	position:absolute;
+	width:15px;
+	height:12px;
+	z-index:3;
+	left: 153px;
+	top: 7px;
+}
+#divminFiltro {
+	position:absolute;
+	width:16px;
+	height:5px;
+	z-index:4;
+	left: 133px;
+	top: 15px;
+}
+#divAcepFiltro {
+	position:absolute;
+	width:68px;
+	height:29px;
+	z-index:5;
+	left: 20px;
+	top: 277px;
+}
+#divCanFiltro {
+	position:absolute;
+	width:90px;
+	height:24px;
+	z-index:6;
+	left: 92px;
+	top: 277px;
+}
+#divConVFil {
+	position:absolute;
+	width:135px;
+	height:36px;
+	z-index:1;
+	top: 17px;
+	left: 2px;
+}
+#divVeriFiltro {
+	position:absolute;
+	width:20px;
+	height:19px;
+	z-index:1;
+}
+#divInfFiltro {
+	position:absolute;
+	width:96px;
+	height:24px;
+	z-index:2;
+	left: 27px;
+}
+#divCeFiltro {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:2;
+	left: 172px;
+	top: 6px;
+}
+#divMaxFiltro {
+	position:absolute;
+	width:15px;
+	height:12px;
+	z-index:3;
+	left: 153px;
+	top: 7px;
+}
+#divminFiltro {
+	position:absolute;
+	width:16px;
+	height:5px;
+	z-index:4;
+	left: 133px;
+	top: 15px;
+}
+#divAcepFiltro {
+	position:absolute;
+	width:68px;
+	height:29px;
+	z-index:5;
+	left: 20px;
+	top: 277px;
+}
+#divCanFiltro {
+	position:absolute;
+	width:90px;
+	height:24px;
+	z-index:6;
+	left: 92px;
+	top: 277px;
+}
+#divConVFil {
+	position:relative;
+	width:135px;
+	height:21px;
+	z-index:1;
+	top: 1px;
+	left: 2px;
+}
+#divVeriFiltro {
+	position:absolute;
+	width:20px;
+	height:19px;
+	z-index:1;
+}
+#divInfFiltro {
+	position:absolute;
+	width:96px;
+	height:14px;
+	z-index:2;
+	left: 27px;
+	top: 3px;
+}
+#divCeFiltro {
+	position:absolute;
+	width:10px;
+	height:10px;
+	z-index:2;
+	left: 142px;
+	top: 7px;
+}
+#divMaxFiltro {
+	position:absolute;
+	width:11px;
+	height:10px;
+	z-index:3;
+	left: 127px;
+	top: 7px;
+}
+#divminFiltro {
+	position:absolute;
+	width:14px;
+	height:6px;
+	z-index:4;
+	left: 108px;
+	top: 11px;
+}
+#divAcepFiltro {
+	position:absolute;
+	width:60px;
+	height:20px;
+	z-index:5;
+	left: 8px;
+	top: 245px;
+}
+#divCanFiltro {
+	position:absolute;
+	width:60px;
+	height:20px;
+	z-index:6;
+	left: 95px;
+	top: 246px;
+}
+#divAsceFiltro {
+	position:absolute;
+	width:142px;
+	height:19px;
+	z-index:7;
+	top: 26px;
+	left: 27px;
+}
+#apDiv2 {
+	position:absolute;
+	width:142px;
+	height:23px;
+	z-index:2;
+	left: 1px;
+	top: -14px;
+}
+#divDesFiltro {
+	position:absolute;
+	width:142px;
+	height:19px;
+	z-index:8;
+	top: 48px;
+	left: 27px;
+}
+#divAscTipFiltro {
+	position:absolute;
+	width:94px;
+	height:12px;
+	z-index:1;
+	left: 27px;
+	top: 3px;
+}
+#divdesTipoFiltro {
+	position:absolute;
+	width:100px;
+	height:12px;
+	z-index:1;
+	left: 25px;
+	top: 3px;
+}
+#divAcTipFiltro {
+	position:absolute;
+	width:45px;
+	height:12px;
+	z-index:1;
+	left: 9px;
+	top: 3px;
+}
+#divCanTipoFiltro {
+	position:absolute;
+	width:47px;
+	height:12px;
+	z-index:1;
+	left: 8px;
+	top: 3px;
+}
+.tipoAsFiltro{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+.tipoIntroFil{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+.tipoBlanFiltro{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	}
+	
+#divXfiltro {
+	position:absolute;
+	width:13px;
+	height:14px;
+	z-index:9;
+	left: 166px;
+	top: 73px;
+}
+
+#divAZviFiltro {
+	position:absolute;
+	width:34px;
+	height:15px;
+	z-index:7;
+	top: 19px;
+	left: 7px;
+}
+#divZAvisFiltro {
+	position:absolute;
+	width:34px;
+	height:15px;
+	z-index:8;
+	left: 54px;
+	top: 19px;
+}
+
+
+#divLiDeFiltro {
+	position:absolute;
+	width:150px;
+	height:6px;
+	z-index:3;
+	left: 1px;
+	top: 20px;
+}
+.divInVisFiltro {
+	position:absolute;
+	width:145px;
+	height:170px;
+	z-index:1;
+	left: 1px;
+	top: 28px;
+	overflow:auto;
+}
+#divXvisFiltro {
+	position:absolute;
+	width:12px;
+	height:14px;
+	z-index:2;
+	left: 131px;
+	top: 3px;
+}
+#divFvisFiltro {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:4;
+	left: 3px;
+	top: 3px;
+}

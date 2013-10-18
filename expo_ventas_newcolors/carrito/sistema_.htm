@@ -1,0 +1,780 @@
+
+3 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+
+
+
+       <link rel="stylesheet" type="text/css" href="sistema_files/StyleSheet.css">
+    <!--[if IE]>
+
+    <link rel="stylesheet" type="text/css" href="ie7.css"/>
+
+    <![endif]-->
+    
+    <script type="text/javascript">
+
+        var urlHrefDestino =""
+        function redirect(){
+            
+            window.location.href=urlHrefDestino;
+            //window.location.href="Hola.html";
+        }
+        function findXCoord(evt) {
+	        if (evt.x) 	return evt.x; 
+	        if (evt.pageX) return evt.pageX; 
+        }
+        function findYCoord(evt) {
+	        if (evt.y) return evt.y; 
+	        if (evt.pageY) return evt.pageY; 
+        }
+        function cambiarDisplay(id) {
+          if (!document.getElementById) return false;
+          fila = document.getElementById(id);
+          if (fila.style.display != "none") {
+            fila.style.display = "none"; //ocultar fila
+          } else {
+            fila.style.display = ""; //mostrar fila
+          }
+        }
+        function limpiarImagen(idImg){
+            imgDest=document.getElementById(idImg);
+            imgDest.src="";            
+        }
+        function posicionaImagen(id,idOrigen,idImg,estiloImg,evt,hrefOrigen,hrefDest){
+            
+            cambiarDisplay(id);
+            
+            imgDest=document.getElementById(idImg);
+            imgDest.src=estiloImg ;
+            
+            objOrigen= document.getElementById(idOrigen);
+            
+            hrefOrgenFoto=document.getElementById(hrefOrigen);
+            //hrefDestFoto=document.getElementById(hrefDest);
+            
+            
+            urlHrefDestino=hrefOrgenFoto.href;      
+            //alert(urlHrefDestino);
+            div=document.getElementById(id);
+            
+            left = parseInt(findXCoord(evt))-150;
+            vtop = parseInt(findYCoord(evt))-100;
+            
+            div.style.left=left+"px";
+            div.style.top=vtop+"px";
+             
+            
+            
+        }
+        function sacarValor(valor){
+            
+            tam= valor.length;
+            cadenaVal="";
+            if(tam>2){
+                for (i=0;i<tam-2;i++){
+                    cadenaVal+=valor.charAt(i);       
+                }
+            }
+            return cadenaVal;
+        } 
+        function calculaTotales(){
+            var indice = document.frmPopup.ComboNumeracion.selectedIndex 
+            
+            numeraciones = document.frmPopup.ComboNumeracion.value 
+            
+            if(numeraciones=="2"){
+                document.frmPopup.txtN2.value="1";
+                document.frmPopup.txtN2m.value="1";
+                document.frmPopup.txtN3.value="1";
+                document.frmPopup.txtN3m.value="1";
+                document.frmPopup.txtN4.value="1";
+                document.frmPopup.txtN4m.value="1";
+                document.frmPopup.txtN5.value="";
+                document.frmPopup.txtN5m.value="";
+                document.frmPopup.txtN6.value="";
+                document.frmPopup.txtN6m.value=""; 
+            }
+            if(numeraciones=="2m"){
+                document.frmPopup.txtN2.value="";
+                document.frmPopup.txtN2m.value="1";
+                document.frmPopup.txtN3.value="1";
+                document.frmPopup.txtN3m.value="1";
+                document.frmPopup.txtN4.value="1";
+                document.frmPopup.txtN4m.value="1";
+                document.frmPopup.txtN5.value="1";
+                document.frmPopup.txtN5m.value="";
+                document.frmPopup.txtN6.value="";
+                document.frmPopup.txtN6m.value=""; 
+            }
+            if(numeraciones=="3"){
+                document.frmPopup.txtN2.value="";
+                document.frmPopup.txtN2m.value="";
+                document.frmPopup.txtN3.value="1";
+                document.frmPopup.txtN3m.value="1";
+                document.frmPopup.txtN4.value="1";
+                document.frmPopup.txtN4m.value="1";
+                document.frmPopup.txtN5.value="1";
+                document.frmPopup.txtN5m.value="1";
+                document.frmPopup.txtN6.value="";
+                document.frmPopup.txtN6m.value=""; 
+            }
+            if(numeraciones=="3m"){
+                document.frmPopup.txtN2.value="";
+                document.frmPopup.txtN2m.value="";
+                document.frmPopup.txtN3.value="";
+                document.frmPopup.txtN3m.value="1";
+                document.frmPopup.txtN4.value="1";
+                document.frmPopup.txtN4m.value="1";
+                document.frmPopup.txtN5.value="1";
+                document.frmPopup.txtN5m.value="1";
+                document.frmPopup.txtN6.value="1";
+                document.frmPopup.txtN6m.value=""; 
+            }
+            if(numeraciones=="4"){
+                document.frmPopup.txtN2.value="";
+                document.frmPopup.txtN2m.value="";
+                document.frmPopup.txtN3.value="";
+                document.frmPopup.txtN3m.value="";
+                document.frmPopup.txtN4.value="1";
+                document.frmPopup.txtN4m.value="1";
+                document.frmPopup.txtN5.value="1";
+                document.frmPopup.txtN5m.value="1";
+                document.frmPopup.txtN6.value="1";
+                document.frmPopup.txtN6m.value="1"; 
+            }
+            
+            cantidad = document.frmPopup.ComboCantidad.value;
+            txtN2=document.frmPopup.txtN2.value*cantidad;
+            txtN2m=document.frmPopup.txtN2m.value*cantidad;
+            txtN3=document.frmPopup.txtN3.value*cantidad;
+            txtN3m=document.frmPopup.txtN3m.value*cantidad;
+            txtN4=document.frmPopup.txtN4.value*cantidad;
+            txtN4m=document.frmPopup.txtN4m.value*cantidad;
+            txtN5=document.frmPopup.txtN5.value*cantidad;
+            txtN5m=document.frmPopup.txtN5m.value*cantidad;
+            txtN6=document.frmPopup.txtN6.value*cantidad;
+            txtN6m=document.frmPopup.txtN6m.value*cantidad;
+            
+            document.frmPopup.txtN2.value=txtN2;
+            document.frmPopup.txtN2m.value=txtN2m;
+            document.frmPopup.txtN3.value=txtN3;
+            document.frmPopup.txtN3m.value=txtN3m;
+            document.frmPopup.txtN4.value=txtN4;
+            document.frmPopup.txtN4m.value=txtN4m;            
+            document.frmPopup.txtN5.value=txtN5;
+            document.frmPopup.txtN5m.value=txtN5m;
+            document.frmPopup.txtN6.value=txtN6;
+            document.frmPopup.txtN6m.value=txtN6m;
+            
+            document.frmPopup.txtTotalN.value=6*cantidad ;
+
+            document.getElementById("lblTotalCompra").innerHTML = parseFloat(document.frmPopup.txtTotalN.value )* parseFloat(document.getElementById("lblPrecio").innerHTML ); 
+        }
+        
+        function setValueToLabel(lblObjeto,valorObjeto){
+            document.getElementById(lblObjeto).innerHTML = valorObjeto;
+        }
+        
+        
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bienvenidos a New Colors</title>
+
+</head><body>
+            	                
+       
+<div class="encabezadito">
+
+                    
+                    
+    	    <div class="logotipoPrincipal"></div>
+        <div class="sesion">
+        	<span class="catalogo"><a href="http://10.63.68.107/sistema.aspx"><font color="#666">Catálogo</font></a></span>        
+        	<span class="pedidos"><a href="http://10.63.68.107/pedidosydetalle.aspx?sessionId=phyiox3y0pcwptryq5fwyp55"><font color="#666">Pedidos</font></a></span>
+        	<span class="cuenta"><a href="http://10.63.68.107/cuenta.aspx"><font color="#666">Estado de Cuenta</font></a></span>
+        	<span class="foro"><a href="http://10.63.68.107/foro.aspx"><font color="#666">Foro</font></a></span>
+        <span class="infoEncabezado"><label class="nombreUsuario">Jose Juan Juan Navarro Millan</label></span>
+        <select id="combo2" class="cerrarSesion"><option selected="selected" value="cerrar">Cerrar Sesión</option><option value="imagenmostrar">Cambiar Imagen</option><option value="modificar">Cambiar Contraseña</option></select>
+        <span class="monito"></span>
+        </div>
+</div>
+        <select id="combo" class="combo"><option selected="selected" value="temporada1">Primavera Verano 2009</option><option value="temporada2">Otoño Invierno 2009</option></select>
+<div class="contenidote2">
+<div class="cuadro"></div>               
+                        
+
+
+		<div class="marcote"><span class="menucito">
+           	<span class="linea">Línea</span>
+            <span class="estilo3">Estilo</span>
+        </span>
+     
+<div class="cuadroLinea">
+                <form action="sistema.aspx?opcion=verEstilos" method="get">
+                    <p>
+                      <input name="opcion" value="verEstilo" type="hidden">
+                      <input name="sessionId" value="phyiox3y0pcwptryq5fwyp55" type="hidden">
+                      <input name="btnLinea" class="botonLinea" value="150" type="submit">
+                      <br />
+<input name="btnLinea" class="botonLinea" value="400" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="700" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="850" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="900" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="2800" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="2850" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="2900" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="2950" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="3000" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="3100" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="3200" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="6000" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="6300" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="6500" type="submit">
+<br />
+<input name="btnLinea" class="botonLinea" value="8000" type="submit">
+                    </p>
+</form>
+          </div>
+      
+      
+        <div class="cuadroEstilo">
+            
+            
+            	    <div class="lineaEstilo">
+            	    <span class="fondoestilo"></span>
+            	    <span class="nombreLinea">
+            	        <span class="numeritoLinea">2810</span>
+            	    </span>
+                    
+            	    <a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=40&amp;linea=2800" id="hrefOrigenFoto40" class="link"><img id="imgEst40" src="sistema_files/2810-OXFORD-CAFE.gif" style="left: 68px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst40','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2810-OXFORD-CAFE.gif',event,'hrefOrigenFoto40','hrefImgGaleria')">
+           	           
+       	            <label class="nombreEstilo" style="left: 55px; top: 105px;">OXFORD CAFE</label>
+                                
+                           
+
+               	      </a><a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=41&amp;linea=2800" id="hrefOrigenFoto41" class="link"><img id="imgEst41" src="sistema_files/2810-OXFORD-GRIS.gif" style="left: 176px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst41','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2810-OXFORD-GRIS.gif',event,'hrefOrigenFoto41','hrefImgGaleria')">
+           	           
+            	            <label class="nombreEstilo" style="left: 163px; top: 105px;">OXFORD GRIS</label>
+                                
+                           
+
+                	    </a><a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=42&amp;linea=2800" id="hrefOrigenFoto42" class="link"><img id="imgEst42" src="sistema_files/2810-OXFORD-NEGRO.gif" style="left: 284px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst42','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2810-OXFORD-NEGRO.gif',event,'hrefOrigenFoto42','hrefImgGaleria')">
+           	           
+            	            <label class="nombreEstilo" style="left: 271px; top: 105px;">OXFORD NEGRO</label>
+                                
+                           
+
+                	    
+                        </a>
+                        
+       	      </div>
+
+            	    
+            	              
+            	    
+            
+            	    <div class="lineaEstilo">
+            	    <span class="fondoestilo"></span>
+            	    <span class="nombreLinea">
+            	        <span class="numeritoLinea">2811</span>
+            	    </span>
+                    
+            	    <a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=43&amp;linea=2800" id="hrefOrigenFoto43" class="link"><img id="imgEst43" src="sistema_files/2811-CHAROL-CRACK-NEGRO.gif" style="left: 68px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst43','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2811-CHAROL-CRACK-NEGRO.gif',event,'hrefOrigenFoto43','hrefImgGaleria')">
+           	           
+            	            <label class="nombreEstilo" style="left: 55px; top: 105px;">CHAROL CRACK NEGRO</label>
+                                
+                           
+
+               	      </a><a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=187&amp;linea=2800" id="hrefOrigenFoto187" class="link"><img id="imgEst187" src="sistema_files/2811-TAURUS-CONAC.gif" style="left: 176px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst187','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2811-TAURUS-CONAC.gif',event,'hrefOrigenFoto187','hrefImgGaleria')">
+           	           
+            	            <label class="nombreEstilo" style="left: 163px; top: 105px;">TAURUS COÑAC</label>
+                                
+                           
+
+                	    </a><a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;opcionPopup=yes&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;idEstilo=188&amp;linea=2800" id="hrefOrigenFoto188" class="link"><img id="imgEst188" src="sistema_files/2811-TAURUS-NEGRO.gif" style="left: 284px; top: 10px;" class="imagen" onmouseover="posicionaImagen('divimggaleria','imgEst188','imggaleria','http://www.newcolors.com.mx/img/catalogo/normal/2811-TAURUS-NEGRO.gif',event,'hrefOrigenFoto188','hrefImgGaleria')">
+           	           
+            	            <label class="nombreEstilo" style="left: 271px; top: 105px;">TAURUS NEGRO</label>
+                                
+                           
+
+                	    
+                        </a>
+                        
+            	    </div>
+
+            	    
+            	              
+            	        
+          </div>         
+            <p>&nbsp;</p>
+            <form action="accionesCarrito.aspx?opcion=verEstilos" name="frmCarrito" method="get">
+            <div class="cuadroCarrito">
+                
+
+            	
+                    <input name="opcion" value="verEstilo" type="hidden">
+                    <input name="sessionId" value="phyiox3y0pcwptryq5fwyp55" type="hidden">
+          <div class="cuadroresumen">
+            	
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="41" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2810-OXFORD-GRIS.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="tema_files/2810-OXFORD-GRIS.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2810</span>
+            	        <span class="infoResumen">
+            	        <label class="material">OXFORD GRIS</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="42" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2810-OXFORD-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2810-OXFORD-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2810</span>
+            	        <span class="infoResumen">
+            	        <label class="material">OXFORD NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="42" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2810-OXFORD-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2810-OXFORD-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2810</span>
+            	        <span class="infoResumen">
+            	        <label class="material">OXFORD NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="42" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2810-OXFORD-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2810-OXFORD-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2810</span>
+            	        <span class="infoResumen">
+            	        <label class="material">OXFORD NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="188" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2811-TAURUS-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2811-TAURUS-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2811</span>
+            	        <span class="infoResumen">
+            	        <label class="material">TAURUS NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="188" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2811-TAURUS-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2811-TAURUS-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2811</span>
+            	        <span class="infoResumen">
+            	        <label class="material">TAURUS NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+            	 
+            	 <div class="resumen">
+            	            <span class="borrar">
+            	        <input name="check" value="188" class="checar" type="checkbox">
+            	        <a href="http://10.63.68.107/sistema.aspx">
+            	        <span class="fondoestilo2"></span>
+            	        <!--<span class="fotoResumen" style="background:url(http://www.newcolors.com.mx/img/catalogo/minis/2811-TAURUS-NEGRO.gif)no-repeat center"></span>-->
+            	        <span class="fotoResumen"><img src="sistema_files/2811-TAURUS-NEGRO.gif" style="border: medium hidden ; height: 60px; width: 48px;"></span>
+            	        <span class="lineaResumen">2800</span>
+            	        <span class="estiloResumen">2811</span>
+            	        <span class="infoResumen">
+            	        <label class="material">TAURUS NEGRO</label>
+            	        <label class="precio">PRECIO $200</label>
+            	        <span class="numeros">
+            	        <label class="n2">N2</label>
+            	        <label class="n2m">-</label>
+            	        <label class="n3">N3</label>
+            	        <label class="n3m">-</label>
+            	        <label class="n4">N4</label>
+            	        <label class="n4m">-</label>
+            	        <label class="n5">N5</label>
+            	        <label class="n5m">-</label>
+            	        <label class="n6">N6</label>
+            	        <label class="n6m">-</label>
+            	        <label class="n2a">1</label>
+            	        <label class="n2ma">1</label>
+            	        <label class="n3a">1</label>
+            	        <label class="n3ma">1</label>
+            	        <label class="n4a">1</label>
+            	        <label class="n4ma">1</label>
+            	        <label class="n5a">1</label>
+            	        <label class="n5ma">0</label>
+            	        <label class="n6a">0</label>
+            	        <label class="n6ma">0</label>
+            	        </span>
+            	        <label class="totalPares">TOTAL PARES: </label>
+            	        <label class="numeroPares"> 7</label>
+            	        <label class="totalPrecio">TOTAL PRECIO: </label>
+            	        <label class="numeroPrecio">$1400</label>
+            	        
+                        
+            	        </span>
+            	        </a>
+            	  </span>
+            	  </div> 
+            	 
+            	  
+           </div>
+                <span class="infoCarrito">
+                <span class="carrito"><img src="sistema_files/carrito.gif" width="19" height="19" /></span>
+                <label name="lblPares" id="lblPares" class="pares">Pares: 0</label>
+                <label name="lblTotal" id="Label1" class="monto">Total: $0 </label>
+                </span>
+            </div>
+                
+                <span class="botonesResumen">
+                	<input name="btnAccion" class="eliminar" value="Eliminar" type="submit">
+                	<input name="btnAccion" class="aceptar" value="Aceptar" type="submit">
+                </span>  
+
+  </form></div>
+</div>
+
+<div class="pie2">
+<span class="textoPie"><font color="#666">© 2009 NEW COLOR’S SHOES. ALL RIGHTS RESERVED</font></span>
+</div>
+<div class="imgabajo"></div>
+
+
+
+
+<div class="divimggaleria" id="divimggaleria" style="border: thin solid; background-color:#333; position: absolute; height: 203px; width: 203px; left: 229px; top: 282px; display: none;"><img alt="" id="imggaleria" src="" onmouseout="cambiarDisplay('divimggaleria');limpiarImagen('imggaleria')" onclick="redirect();" width="203" height="203"></div>
+<span class="cuadrito">   
+<label class="cerrar2">cerrar</label>         
+                    <a href="http://10.63.68.107/sistema.aspx?opcion=verEstilo&amp;sessionId=phyiox3y0pcwptryq5fwyp55&amp;btnLinea=2800&amp;linea=2800"><span class="cerrar">X</span></a>
+                    
+                         <span class="linea3"></span>
+                    <span class="florecitas1"></span>
+<input class="fotoZapato" src="sistema_files/2810-OXFORD-NEGRO_002.gif" id="btnImgEstilo" type="image">              
+<label id="lblLinea" class="linea2">2800</label>
+                    <label id="lblEstilo" class="estilo2">2810</label>
+                  
+                    <label id="lblMaterial" class="material2">OXFORD NEGRO</label>
+                    <label id="lblPrecioEt" class="precio2">Precio</label>
+                    <label id="lblPrecio" class="cantidadPrecio2">$ 200</label>
+                    <label id="lblTotal" class="total2">Total</label>
+                    <label id="lblTotalCompra" class="cantidadTotal2">$ 200</label>
+                    <label id="Label9" class="numeracion2">Num.</label>
+                    <label id="150" class="cantidad3">Cant.</label>
+                    <label id="Label10" class="n22">N2</label>
+                    <label id="Label11" class="n2m2">-</label>
+                    <label id="Label12" class="n32">N3</label>
+                    <label id="Label13" class="n3m2">-</label>
+                    <label id="Label14" class="n42">N4</label>
+                    <label id="Label15" class="n4m2">-</label>
+                    <label id="Label16" class="n52">N5</label>
+                    <label id="Label17" class="n5m2">-</label>
+                    <label id="Label18" class="n62">N6</label>
+                    <label id="Label20" class="n6m2">-</label>
+                    <label id="Label21" class="totalN2">Total</label>                
+                    <select class="numeracion" name="ComboNumeracion" id="ComboNumeracion" onchange="calculaTotales();">
+                        <option selected="selected" value="2">2</option>
+                        <option value="2m">2m</option>
+                        <option value="3">3</option>
+                        <option value="3m">3m</option>
+                        <option value="4">4</option>
+                    </select>
+                    <select class="cantidad" name="ComboCantidad" id="ComboCantidad" onchange="calculaTotales()">
+                        <option selected="selected" value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">18</option>
+                        <option value="18">19</option>
+                        <option value="19">20</option>
+                        <option value="20">21</option>
+                    
+                    </select>
+                    
+                    <input id="txtN2" name="txtN2" value="1" class="n2a2" maxlength="3" type="text">
+                    <input id="txtN2m" name="txtN2m" value="1" class="n2ma2" maxlength="3" type="text">
+                    <input id="txtN3" name="txtN3" value="1" class="n3a2" maxlength="3" type="text">
+                    <input id="txtN3m" name="txtN3m" value="1" class="n3ma2" maxlength="3" type="text">
+                    <input id="txtN4" name="txtN4" value="1" class="n4a2" maxlength="3" type="text">
+                    <input id="txtN4m" name="txtN4m" value="1" class="n4ma2" maxlength="3" type="text">
+                    <input id="txtN5" name="txtN5" value="1" class="n5a2" maxlength="3" type="text">
+                    <input id="txtN5m" name="txtN5m" value="0" class="n5ma2" maxlength="3" type="text">
+                    <input id="txtN6" name="txtN6" value="0" class="n6a2" maxlength="3" type="text">
+                    <input id="txtN6m" name="txtN6m" value="0" class="n6ma2" maxlength="3" type="text">                
+                    <input id="txtTotalN" name="txtTotalN" value="6" class="totalNa2" maxlength="8" type="text">   
+                    
+                    
+                    <input name="opcion" id="opcion" value="verEstilo" type="hidden">
+                    <input name="opcionPopup" id="opcionPopup" value="yes" type="hidden">
+                    
+                    <input name="idEstilo" id="idEstilo" value="42" type="hidden">
+                    <input name="linea" id="linea" value="2800" type="hidden">
+                    <input name="estilo" id="estilo" value="2810" type="hidden">
+                    <input name="material_color" id="material_color" value="OXFORD NEGRO" type="hidden">
+                    <input name="precio" id="precio" value="200" type="hidden">
+                    
+                    <input name="sessionId" id="sessionId" value="phyiox3y0pcwptryq5fwyp55" type="hidden">
+                    
+                    
+                    
+                    <input id="btnAceptar" name="btnAceptar" class="aceptar2" value="Aceptar" type="submit">
+                                     
+                    <textarea class="observaciones"></textarea>
+                    <input id="btnEnviar" class="enviar" value="Enviar" type="submit">
+</span> 
+    
+</body></html>
+                

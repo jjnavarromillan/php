@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	width:123px;
+	height:152px;
+	z-index:1;
+}
+-->
+</style>
+<script src="SpryAssets/SpryTooltip.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryTooltip.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="apDiv1"><img src="../img/siguenos/eventos/evento-3.jpg" width="122" height="152" border="0" usemap="#sprytrigger1Map" id="sprytrigger1" />
+  <map name="sprytrigger1Map" id="sprytrigger1Map">
+    <area shape="rect" coords="8,6,113,141" href="#" />
+  </map>
+</div>
+<div class="tooltipContent" id="sprytooltip1"><img src="../img/siguenos/eventos/eventos-gd/evento-03.jpg"  />MODAMA  </div>
+<script type="text/javascript">
+<!--
+var sprytooltip1 = new Spry.Widget.Tooltip("sprytooltip1", "#sprytrigger1", {followMouse:true, useEffect:"fade"});
+//-->
+</script>
+</body>
+</html>

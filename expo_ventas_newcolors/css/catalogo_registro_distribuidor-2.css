@@ -1,0 +1,408 @@
+#divPrinCataRConsumidorConsumidor2 {
+	position:absolute;
+	width:800px;
+	height:522px;
+	z-index:1;
+	left: 176px;
+	top: 5px;
+}
+#divEmailoCatalogoConsumidor2 {
+	position:absolute;
+	width:35px;
+	height:14px;
+	z-index:50;
+	top: 279px;
+	left: 592px;
+}
+#divContraCatalogoConsumidor {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:2;
+	top: 385px;
+	left: 498px;
+}
+#divEmailoCatalogoConsumidor2Txt {
+	position:absolute;
+	width:102px;
+	height:14px;
+	z-index:3;
+	left: 644px;
+	top: 282px;
+}
+#divCam2TCatgConsumidor {
+	position:absolute;
+	width:144px;
+	height:14px;
+	z-index:4;
+	left: 499px;
+	top: 405px;
+}
+#divImgNCConsumidor2 {
+	position:absolute;
+	width:254px;
+	height:385px;
+	z-index:5;
+	top: 49px;
+	left: 16px;
+}
+#divInfoRegistroConsumidor2 {
+	position:absolute;
+	width:258px;
+	height:49px;
+	z-index:6;
+	left: 15px;
+	top: 454px;
+}
+#divPleasCatalogConsumidor2 {
+	position:absolute;
+	width:123px;
+	height:40px;
+	z-index:7;
+	left: 314px;
+	top: 51px;
+}
+#divEnviarCatalogConsumidor2 {
+	position:absolute;
+	width:124px;
+	height:16px;
+	z-index:8;
+	left: 319px;
+	top: 311px;
+}
+#divDisfruCatalogConsumidor2 {
+	position:absolute;
+	width:306px;
+	height:42px;
+	z-index:9;
+	left: 320px;
+	top: 96px;
+}
+#divResBusUsuarioConsumidor {
+	position:absolute;
+	width:423px;
+	height:19px;
+	z-index:10;
+	left: 325px;
+	top: 465px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divCerrarRojoConsumidor {
+	position:absolute;
+	width:19px;
+	height:21px;
+	z-index:11;
+	left:-22px;
+	top: -3px;
+}
+#divLeyConsumidor2 {
+	position:absolute;
+	width:46px;
+	height:14px;
+	z-index:11;
+	left: 321px;
+	top: 144px;
+}
+#divCalleConsumidor2 {
+	position:absolute;
+	width:39px;
+	height:14px;
+	z-index:12;
+	left: 320px;
+	top: 169px;
+}
+#divColAunConsu2 {
+	position:absolute;
+	width:49px;
+	height:15px;
+	z-index:13;
+	left: 592px;
+	top: 169px;
+}
+#divPaisConsumidor2 {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:14;
+	left: 320px;
+	top: 196px;
+}
+#divEdoConsumidor2 {
+	position:absolute;
+	width:45px;
+	height:14px;
+	z-index:15;
+	left: 466px;
+	top: 196px;
+}
+#divSexAuntConsumidor2 {
+	position:absolute;
+	width:31px;
+	height:14px;
+	z-index:16;
+	left: 592px;
+	top: 251px;
+}
+#divFeNacAunConsumidor2 {
+	position:absolute;
+	width:114px;
+	height:14px;
+	z-index:17;
+	left: 321px;
+	top: 253px;
+}
+#divOcupAunConsumidor2 {
+	position:absolute;
+	width:62px;
+	height:14px;
+	z-index:18;
+	left: 320px;
+	top: 279px;
+}
+#divtxtNomConsu2 {
+	position:absolute;
+	width:176px;
+	height:14px;
+	z-index:19;
+	left: 386px;
+	top: 144px;
+}
+#divTxtCalleConsumidor2 {
+	position:absolute;
+	width:91px;
+	height:14px;
+	z-index:20;
+	left: 386px;
+	top: 168px;
+}
+#divColAunTxtConsu2 {
+	position:absolute;
+	width:104px;
+	height:15px;
+	z-index:21;
+	left: 644px;
+	top: 168px;
+}
+#divPaisAuntConsumidor2 {
+	position:absolute;
+	width:130px;
+	height:17px;
+	z-index:22;
+	left: 386px;
+	top: 192px;
+}
+#divEdoAuntConsumidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:23;
+	left: 518px;
+	top: 192px;
+}
+#divFeNacAunConsumidor2Txt {
+	position:absolute;
+	width:49px;
+	height:15px;
+	z-index:24;
+	left: 443px;
+	top: 252px;
+}
+#divSexAuntConsumidor2Txt {
+	position:absolute;
+	width:126px;
+	height:19px;
+	z-index:25;
+	left: 644px;
+	top: 249px;
+}
+#divOcupAunConsumidor2TxT {
+	position:absolute;
+	width:106px;
+	height:15px;
+	z-index:26;
+	left: 386px;
+	top: 277px;
+}
+#divTelAutConsumidor2 {
+	position:absolute;
+	width:29px;
+	height:14px;
+	z-index:27;
+	left: 592px;
+	top: 223px;
+}
+#divTelAutConsumidor2TxT {
+	position:absolute;
+	width:97px;
+	height:15px;
+	z-index:28;
+	left: 644px;
+	top: 223px;
+}
+#divPobLConsumidor2 {
+	position:absolute;
+	width:62px;
+	height:14px;
+	z-index:29;
+	left: 320px;
+	top: 226px;
+}
+#divPobLConsumidor2TxT {
+	position:absolute;
+	width:132px;
+	height:21px;
+	z-index:30;
+	left: 386px;
+	top: 222px;
+}
+#divCPAuntTxTConsumidor2 {
+	position:absolute;
+	width:53px;
+	height:14px;
+	z-index:1;
+	left: 627px;
+	top: 145px;
+}
+#divCPAunt {
+	position:absolute;
+	width:24px;
+	height:14px;
+	z-index:31;
+	left: 592px;
+	top: 196px;
+}
+
+/**Clases***/
+
+.regCatalogo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#333;
+}
+
+.infCatalog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #666;
+	text-align: justify;
+}
+ .combitoContactoDis{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	width:auto;
+	height:16px;
+	}
+ .bienvCatalog{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px;
+	 color:#999;
+ }
+ #divPrinCataR {
+	position:absolute;
+	width:651px;
+	height:522px;
+	z-index:1;
+	left: 75px;
+	top: 3px;
+}
+#divUsuarioCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:1;
+	top: 155px;
+	left: 320px;
+}
+#divContraCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:2;
+	top: 216px;
+	left: 320px;
+}
+#divCamTCatg {
+	position:absolute;
+	width:144px;
+	height:22px;
+	z-index:3;
+	left: 320px;
+	top: 174px;
+}
+#divCam2TCatg {
+	position:absolute;
+	width:144px;
+	height:22px;
+	z-index:4;
+	left: 320px;
+	top: 237px;
+}
+#divImgNC {
+	position:absolute;
+	width:254px;
+	height:385px;
+	z-index:5;
+	top: 49px;
+	left: 16px;
+}
+#divInfoRegistro {
+	position:absolute;
+	width:258px;
+	height:49px;
+	z-index:6;
+	left: 15px;
+	top: 454px;
+}
+#divPleasCatalog {
+	position:absolute;
+	width:191px;
+	height:40px;
+	z-index:7;
+	left: 320px;
+	top: 48px;
+}
+#divEntraCatalog {
+	position:absolute;
+	width:143px;
+	height:16px;
+	z-index:8;
+	left: 320px;
+	top: 289px;
+}
+#divDisfruCatalog {
+	position:absolute;
+	width:306px;
+	height:42px;
+	z-index:9;
+	left: 320px;
+	top: 96px;
+}
+
+.reCliTxAutentica{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	width:210px;
+	height:14px;
+}
+
+.noverifecacion{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F00;
+}
+.campoTxtTipo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	height:14px;
+	text-align:left;
+}

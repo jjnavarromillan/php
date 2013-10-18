@@ -1,0 +1,121 @@
+#divPrinBusCli {
+	position:absolute;
+	width:580px;
+	height:401px;
+	z-index:1;
+}
+#divPrinBusCliTitulo {
+	position:absolute;
+	width:563px;
+	height:16px;
+	z-index:1;
+	left: 11px;
+	top: 8px;
+}
+#divPrinBusCliDivBusCrit {
+	position:absolute;
+	width:563px;
+	height:46px;
+	z-index:2;
+	left: 11px;
+	top: 36px;
+}
+#divPrinBusClilblFacA {
+	position:absolute;
+	width:200px;
+	height:14px;
+	z-index:1;
+	top: 1px;
+	left: 1px;
+}
+#divPrinBusCliNombre {
+	position:absolute;
+	width:200px;
+	height:19px;
+	z-index:2;
+	left: 203px;
+	top: 1px;
+}
+#divPrinBusCliTxtFacADiv {
+	position:absolute;
+	width:429px;
+	height:16px;
+	z-index:3;
+	left: 1px;
+	top: 16px;
+}
+#divPrinBusCliTxtNombreDiv {
+	position:absolute;
+	width:276px;
+	height:22px;
+	z-index:4;
+	left: 205px;
+	top: 23px;
+}
+#divPrinBusCliBtnEnviar {
+	position:absolute;
+	width:54px;
+	height:26px;
+	z-index:5;
+	left: 503px;
+	top: 10px;
+}
+#divPrinBusCliGridDatos {
+	position:absolute;
+	width:564px;
+	height:303px;
+	z-index:3;
+	left: 9px;
+	top: 89px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#apDiv1 {
+	position:absolute;
+	width:60px;
+	height:26px;
+	z-index:6;
+	left: 438px;
+	top: 10px;
+}
+.regiDatosCli{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	font-weight:bold;
+}
+
+.regiCombitoDatos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	height:16px;
+}
+.tipoRegiWhite{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	font-weight:bold;
+}
+#divNuBoBuClietes {
+	position:absolute;
+	width:53px;
+	height:17px;
+	z-index:2;
+	left: 251px;
+	top: 13px;
+}
+#divNuTiBClientes {
+	position:absolute;
+	width:34px;
+	height:12px;
+	z-index:1;
+	top: 2px;
+	left: 10px;
+}

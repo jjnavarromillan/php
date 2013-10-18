@@ -1,0 +1,126 @@
+#divGridDatosBusCli {
+	position:absolute;
+	width:545px;
+	height:265px;
+	z-index:1;
+	top: 23px;
+	left: 2px;
+	overflow:auto;
+	border: thin none #999;
+}
+#divRowGridB8usCli2 {
+	position:relative;
+	width:540px;
+	height:26px;
+	z-index:1;
+	top: 0px;
+	font-size:9px;
+	
+}
+#divGridDatosBusClienteIdCli {
+	position:absolute;
+	width:34px;
+	height:18px;
+	z-index:1;
+	top: 1px;
+	left: 1px;
+}
+#divGridDatosBusClienteFacturaA {
+	position:absolute;
+	width:136px;
+	height:18px;
+	z-index:2;
+	left: 38px;
+	top: 1px;
+}
+#divGridDatosBusClienteNombre {
+	position:absolute;
+	width:147px;
+	height:18px;
+	z-index:3;
+	left: 181px;
+	top: 1px;
+}
+#divGridDatosBusClienteEstado {
+	position:absolute;
+	width:86px;
+	height:18px;
+	z-index:4;
+	left: 333px;
+	top: 1px;
+}
+#divGridDatosBusClienteCuidad {
+	position:absolute;
+	width:110px;
+	height:18px;
+	z-index:5;
+	left: 426px;
+	top: 1px;
+}
+#divGridDatosBusClientePrincipal {
+	position:absolute;
+	width:560px;
+	height:300px;
+	z-index:2;
+	font-size:9px;
+}
+#divGridDatosBusClientelblIdCli {
+	position:absolute;
+	width:37px;
+	height:16px;
+	z-index:2;
+	text-align: center;
+}
+#divGridDatosBusClientelblFacturaA {
+	position:absolute;
+	width:137px;
+	height:16px;
+	z-index:3;
+	left: 40px;
+	text-align: left;
+}
+#divGridDatosBusClientelblNombre {
+	position:absolute;
+	width:147px;
+	height:16px;
+	z-index:4;
+	left: 184px;
+	top: 0px;
+	text-align: left;
+}
+#divGridDatosBusClientelblEstado {
+	position:absolute;
+	width:88px;
+	height:16px;
+	z-index:5;
+	left: 337px;
+	top: 1px;
+	text-align: left;
+}
+#divGridDatosBusClientelblCuidad {
+	position:absolute;
+	width:108px;
+	height:16px;
+	z-index:6;
+	left: 429px;
+	top: 1px;
+	text-align: left;
+}
+.tipoGridBlack{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+	
+
+.tipoGridGrey{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#333;
+}
+
+.tipoGridGreyClaro{
+	font-size:9px;
+	color:#666;
+	font-family:Arial, Helvetica, sans-serif;
+}

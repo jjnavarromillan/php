@@ -1,0 +1,186 @@
+.infoCompany {
+	color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.infoCompanyIntro {
+	color:#999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    font-weight:600;
+	text-align:justify;
+	
+}
+
+
+.tituloCompany {
+	color:#F60;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#divPrincipalCompany {
+	position:absolute;
+	width:709px;
+	height:561px;
+	z-index:1;
+}
+#divLinCompany {
+	position:absolute;
+	width:318px;
+	height:8px;
+	z-index:1;
+	left: 329px;
+	top: 138px;
+}
+
+#divEmpCompany {
+	position:absolute;
+	width:289px;
+	height:72px;
+	z-index:2;
+	left: 322px;
+	top: 133px;
+	text-align: justify;
+}
+.contenido {	
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999;
+}
+#divLin2Company {
+	position:absolute;
+	width:322px;
+	height:13px;
+	z-index:3;
+	left: 330px;
+	top: 254px;
+}
+#divMisCompany {
+	position:absolute;
+	width:66px;
+	height:14px;
+	z-index:4;
+	left: 330px;
+	top: 288px;
+	color: #F90;
+}
+#divOfreCompany {
+	position:absolute;
+	width:314px;
+	height:92px;
+	z-index:5;
+	left: 331px;
+	top: 297px;
+	text-align: justify;
+}
+#divVisiCompany {
+	position:absolute;
+	width:65px;
+	height:14px;
+	z-index:1;
+	top: 374px;
+	left: 0px;
+}
+#divConsoCompany {
+	position:absolute;
+	width:314px;
+	height:41px;
+	z-index:6;
+	left: 332px;
+	top: 427px;
+	text-align: justify;
+}
+}
+#divEmpCompany {
+	position:absolute;
+	width:447px;
+	height:68px;
+	z-index:2;
+	left: 526px;
+	top: 111px;
+	text-align: justify;
+}
+.contenido {	
+     font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #999;
+}
+#divLin2Company {
+	position:absolute;
+	width:289px;
+	height:7px;
+	z-index:3;
+	left: 536px;
+	top: 246px;
+}
+#divMisCompany {
+	position:absolute;
+	width:66px;
+	height:14px;
+	z-index:4;
+	left: 330px;
+	top: 288px;
+	color: #F90;
+}
+#divOfreCompany {
+	position:absolute;
+	width:419px;
+	height:87px;
+	z-index:5;
+	left: 473px;
+	top: 283px;
+	text-align: justify;
+}
+#divVisiCompany {
+	position:absolute;
+	width:65px;
+	height:14px;
+	z-index:1;
+	top: 404px;
+	left: 473px;
+}
+#divConsoCompany {
+	position:absolute;
+	width:421px;
+	height:41px;
+	z-index:6;
+	left: 473px;
+	top: 427px;
+	text-align: justify;
+}
+
+#apDiv1 {
+	position:absolute;
+	width:65px;
+	height:14px;
+	z-index:2;
+	left: -1px;
+	top: -22px;
+}
+#divMisiCompany {
+	position:absolute;
+	width:65px;
+	height:14px;
+	z-index:7;
+	left: 473px;
+	top: 261px;
+	color: #F60;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#divPrincipalCompany {
+	position:absolute;
+	width:961px;
+	height:564px;
+	z-index:1;
+	top: 7px;
+	left: 0px;
+}
+#divLinCompany {
+	position:absolute;
+	width:289px;
+	height:7px;
+	z-index:1;
+	left: 500px;
+	top: 147px;
+}

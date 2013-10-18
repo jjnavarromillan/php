@@ -1,0 +1,358 @@
+.clienteNombre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666;
+	}
+#divConPriLevantarPe {
+	position:absolute;
+	width:612px;
+	height:801px;
+	z-index:1;
+	left: -2px;
+	top: 0px;
+}
+#divPediLevantarPe {
+	position:absolute;
+	width:92px;
+	height:34px;
+	z-index:1;
+	top: 39px;
+	left: 12px;
+}
+#divNomCliLevantarPe {
+	position:absolute;
+	width:252px;
+	height:14px;
+	z-index:2;
+	top: 57px;
+	left: 109px;
+}
+#divLogoNcLevantarPe {
+	position:absolute;
+	width:212px;
+	height:21px;
+	z-index:3;
+	left: 13px;
+	top: 12px;
+}
+
+.abcdDatosCliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+	font-weight:bold;
+}
+#divDatClieLevantarPe {
+	position:absolute;
+	width:282px;
+	height:83px;
+	z-index:4;
+	left: 10px;
+	top: 76px;
+}
+
+.blancoEncabezado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.abcd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	font-weight:bold;
+}
+.numerosPedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+	
+#divTabGriLevantarPe {
+	position:absolute;
+	width:216px;
+	height:22px;
+	z-index:5;
+	left: 376px;
+	top: 55px;
+}
+#divCorriLevantarPe {
+	position:absolute;
+	width:214px;
+	height:69px;
+	z-index:6;
+	left: 379px;
+	top: 57px;
+}
+.descripcion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	font-weight:bold;
+}
+	
+#divNumPedLevantarPed {
+	position:absolute;
+	width:54px;
+	height:34px;
+	z-index:7;
+	left: 541px;
+	top: 10px;
+}
+#divLinDiLevantarPe {
+	position:absolute;
+	width:593px;
+	height:6px;
+	z-index:8;
+	left: 12px;
+	top: 166px;
+}
+#divFecMADLevantarpe {
+	position:absolute;
+	width:85px;
+	height:14px;
+	z-index:9;
+	left: 436px;
+	top: 27px;
+}
+#divGrisLevantarPe {
+	position:absolute;
+	width:102px;
+	height:15px;
+	z-index:10;
+	left: 425px;
+	top: 11px;
+}
+#divFeTipoLevantarPe {
+	position:absolute;
+	width:38px;
+	height:12px;
+	z-index:1;
+	left: 32px;
+	top: 2px;
+}
+#divPePediLevantarPe {
+	position:absolute;
+	width:47px;
+	height:12px;
+	z-index:1;
+	top: 3px;
+	left: 3px;
+}
+#divNumPed2LevantarPe {
+	position:absolute;
+	width:39px;
+	height:13px;
+	z-index:2;
+	left: 6px;
+	top: 18px;
+}
+#divTabaVaLevantarPe {
+	position:absolute;
+	width:588px;
+	height:18px;
+	z-index:11;
+	left: 9px;
+	top: 173px;
+}
+.materialColor{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+#divPeCompLevantarPe {
+	position:relative;
+	width:588px;
+	height:53px;
+	z-index:12;
+	left: 9px;
+	top: 198px;
+}
+#divImgZaLevantarPe {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:1;
+	left: 21px;
+	top: 1px;
+}
+#divNomCalLevantarPe {
+	position:absolute;
+	width:119px;
+	height:13px;
+	z-index:2;
+	left: 108px;
+	top: 1px;
+}
+#divPaCanLevantarPe {
+	position:absolute;
+	width:110px;
+	height:36px;
+	z-index:3;
+	left: 112px;
+	top: 15px;
+}
+#divNumCorrLevantarPe {
+	position:absolute;
+	width:200px;
+	height:35px;
+	z-index:4;
+	left: 240px;
+	top: 0px;
+}
+#divPreLevantarPe {
+	position:absolute;
+	width:47px;
+	height:14px;
+	z-index:5;
+	left: 462px;
+	top: 4px;
+}
+#divTotLevantarPe {
+	position:absolute;
+	width:47px;
+	height:14px;
+	z-index:6;
+	left: 531px;
+	top: 3px;
+}
+#divLinDi2LevantarPe {
+	position:absolute;
+	width:593px;
+	height:8px;
+	z-index:13;
+	top: 730px;
+	left: 12px;
+}
+#divTotalInfeLevantarPe {
+	position:absolute;
+	width:102px;
+	height:17px;
+	z-index:14;
+	left: 481px;
+	top: 768px;
+}
+#divToInfLevantarPe {
+	position:absolute;
+	width:37px;
+	height:11px;
+	z-index:1;
+	left: 7px;
+	top: 2px;
+}
+
+.domicilioNew{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+
+.blackinformetion{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	font-weight:bold;
+}
+#divAcaDomLevantarPe {
+	position:absolute;
+	width:140px;
+	height:56px;
+	z-index:16;
+	left: 13px;
+	top: 737px;
+}
+#divLinFirLevantarPe {
+	position:absolute;
+	width:118px;
+	height:5px;
+	z-index:17;
+	left: 195px;
+	top: 766px;
+}
+#divFirmCliLevantarPe {
+	position:absolute;
+	width:64px;
+	height:11px;
+	z-index:18;
+	left: 221px;
+	top: 773px;
+}
+#divGrCl1Levantarpe {
+	position:absolute;
+	width:103px;
+	height:16px;
+	z-index:19;
+	left: 363px;
+	top: 746px;
+}
+#divToLoLevantarPe {
+	position:absolute;
+	width:92px;
+	height:17px;
+	z-index:1;
+	left: 1px;
+	top: 0px;
+}
+#divGrClLevantarpe {
+	position:absolute;
+	width:103px;
+	height:16px;
+	z-index:15;
+	left: 363px;
+	top: 768px;
+}
+#divToPaLevantarPe {
+	position:absolute;
+	width:89px;
+	height:17px;
+	z-index:1;
+	left: 0px;
+	top: -1px;
+}
+#divIVALevantarPe {
+	position:absolute;
+	width:71px;
+	height:11px;
+	z-index:20;
+	left: 487px;
+	top: 756px;
+}
+#divWwwLevantarPe {
+	position:absolute;
+	width:123px;
+	height:11px;
+	z-index:1;
+	top: 39px;
+}
+#divNuDCeLevantarPe {
+	position:absolute;
+	width:135px;
+	height:11px;
+	z-index:2;
+	left: 0px;
+}
+#divGuaJaLevantarPe {
+	position:absolute;
+	width:92px;
+	height:11px;
+	z-index:3;
+	top: 13px;
+}
+#divTel52LevantarPe {
+	position:absolute;
+	width:108px;
+	height:11px;
+	z-index:4;
+	top: 25px;
+}
+
+#divDesCoLevantarPe {
+	position:absolute;
+	width:586px;
+	height:4px;
+	z-index:7;
+	top: 47px;
+	left: 1px;
+}

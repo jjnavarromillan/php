@@ -1,0 +1,135 @@
+#divToolTipTex {
+	position:absolute;
+	width:133px;
+	height:171px;
+	z-index:5;
+	left: 669px;
+	top: 16px;
+	background-color: #999999;
+}
+#divGdlCursiva {
+	position:absolute;
+	width:121px;
+	height:28px;
+	z-index:6;
+	left: 65px;
+	top: 181px;
+}
+#divSapicaCursiva {
+	position:absolute;
+	width:121px;
+	height:28px;
+	z-index:7;
+	left: 202px;
+	top: 181px;
+}
+#divModamaCursiva {
+	position:absolute;
+	width:121px;
+	height:28px;
+	z-index:8;
+	left: 332px;
+	top: 181px;
+}
+#divInterCursiva {
+	position:absolute;
+	width:121px;
+	height:28px;
+	z-index:9;
+	left: 464px;
+	top: 181px;
+}
+#divPriVeEventos {
+	position:absolute;
+	width:653px;
+	height:313px;
+	z-index:1;
+}
+#divEventos1 {
+	position:absolute;
+	width:122px;
+	height:152px;
+	z-index:1;
+	left: 65px;
+	top: 21px;
+}
+#divEventos2 {
+	position:absolute;
+	width:122px;
+	height:152px;
+	z-index:2;
+	left: 200px;
+	top: 21px;
+}
+#divEventos3 {
+	position:absolute;
+	width:122px;
+	height:152px;
+	z-index:3;
+	left: 332px;
+	top: 21px;
+}
+#divEventos4 {
+	position:absolute;
+	width:122px;
+	height:152px;
+	z-index:4;
+	left: 465px;
+	top: 21px;
+}
+
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #666;
+}
+a:hover {
+	text-decoration: none;
+	color: #333;
+}
+a:active {
+	text-decoration: none;
+}
+#divDate4Eventos {
+	position:absolute;
+	width:121px;
+	height:14px;
+	z-index:2;
+}
+#divDate3Eventos {
+	position:absolute;
+	width:121px;
+	height:15px;
+	z-index:2;
+}
+#divDate2Eventos {
+	position:absolute;
+	width:121px;
+	height:13px;
+	z-index:2;
+}
+#divDate1Eventos {
+	position:absolute;
+	width:121px;
+	height:15px;
+	z-index:2;
+}
+
+/**clases**/
+
+.titulosLink{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.fechaEventos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	font-weight:700;
+}
+	

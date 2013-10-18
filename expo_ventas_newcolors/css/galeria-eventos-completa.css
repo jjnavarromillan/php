@@ -1,0 +1,123 @@
+#divPrGaleriaEventosCompleta {
+	position:absolute;
+	width:697px;
+	height:337px;
+	z-index:1;
+	background-image:url(img/fondo-galeria-siguenos.jpg);
+	background-color: #FFFFFF;
+}
+#divBotGaleriaAtrasEventos {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:1;
+	left: 0px;
+	top: 131px;
+}
+#divBotGaleriaAdelanteEventos {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:2;
+	left: 675px;
+	top: 131px;
+}
+#divFotoGaleriaEventos {
+	position:absolute;
+	width:257px;
+	height:334px;
+	z-index:3;
+	left: 113px;
+	top: 2px;
+}
+
+#divXpasaEventos {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 674px;
+	top: 7px;
+}
+#divLeTipoStudioEditorial {
+	position:absolute;
+	width:198px;
+	height:117px;
+	z-index:6;
+	left: 413px;
+	top: 93px;
+}
+
+
+#divCerrarPasaEventos {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:9;
+	left: 643px;
+	top: 7px;
+}
+#divIconoTodasEventos {
+	position:absolute;
+	width:74px;
+	height:19px;
+	z-index:10;
+	left: 416px;
+	top: 1px;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+}
+#divNumInEditorial {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:12;
+	left: 437px;
+	top: 218px;
+	background-color: #999999;
+}
+#divNumFiEditorial {
+	position:absolute;
+	width:15px;
+	height:13px;
+	z-index:13;
+	left: 456px;
+	top: 218px;
+	background-color: #666666;
+}
+
+/** clases tipograficas**/
+
+.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+.leyendaPatrocinio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.todasTipoBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+
+}

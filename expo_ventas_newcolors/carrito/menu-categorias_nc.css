@@ -1,0 +1,213 @@
+#divContMenCategorias {
+	position:absolute;
+	width:604px;
+	height:62px;
+	z-index:1;
+	top: 0px;
+	left: 2px;
+	background-image:url(img/fondo-menu-descripcion.jpg);
+	background-repeat:no-repeat;
+	
+}
+#divArtiMenCategorias {
+	position:absolute;
+	width:42px;
+	height:14px;
+	z-index:1;
+	left: 3px;
+	top: -2px;
+}
+#divComArtiMenCategorias {
+	position:absolute;
+	width:72px;
+	height:21px;
+	z-index:2;
+	left: 3px;
+	top: 14px;
+}
+#divEstMenCategorias {
+	position:absolute;
+	width:47px;
+	height:14px;
+	z-index:3;
+	top: -17px;
+	left: 8px;
+}
+#divComEstMenCategorias {
+	position:absolute;
+	width:87px;
+	height:20px;
+	z-index:4;
+	top: -1px;
+	left: 4px;
+}
+#divTipMenCategorias {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:5;
+	top: 28px;
+	left: 269px;
+}
+#divComTipMenCategorias {
+	position:absolute;
+	width:78px;
+	height:20px;
+	z-index:6;
+	left: 512px;
+	top: 3px;
+}
+#divTaSuMenCategorias {
+	position:absolute;
+	width:87px;
+	height:14px;
+	z-index:7;
+	left: 7px;
+	top: 103px;
+}
+#divComTaSuMenCategorias {
+	position:absolute;
+	width:78px;
+	height:20px;
+	z-index:8;
+	left: 7px;
+	top: 119px;
+}
+#divMatMenCategorias {
+	position:absolute;
+	width:50px;
+	height:14px;
+	z-index:11;
+	left: 114px;
+	top: 27px;
+}
+#divComMatMenCategorias {
+	position:absolute;
+	width:110px;
+	height:20px;
+	z-index:12;
+	left: 240px;
+	top: 3px;
+}
+#divColMenCategorias {
+	position:absolute;
+	width:40px;
+	height:14px;
+	z-index:13;
+	left: 332px;
+	top: 33px;
+}
+#divComColMenColores {
+	position:absolute;
+	width:90px;
+	height:20px;
+	z-index:14;
+	left: 375px;
+	top: 3px;
+}
+
+#divLinMenCategorias {
+	position:absolute;
+	width:35px;
+	height:14px;
+	z-index:17;
+	left: 200px;
+	top: 30px;
+}
+#divComLinMenCategorias {
+	position:absolute;
+	width:72px;
+	height:20px;
+	z-index:18;
+	top: 3px;
+	left: 155px;
+}
+
+.tipoMenPriCategorias{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+.combitoMenCategorias{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#999;
+	width:auto;
+	height:14px;
+	}
+#divBtnMenuCategoriasBuscar {
+	position:absolute;
+	width:82px;
+	height:25px;
+	z-index:19;
+	left: 29px;
+	top: 246px;
+	text-align: center;
+	background-color: #00FF99;
+}
+.BlancoBusquedaMenuCa{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	font-weight:bold;
+}
+#divBusMeCateTodo {
+	position:absolute;
+	width:5px;
+	height:16px;
+	z-index:20;
+	left: 40px;
+	top: 30px;
+}
+#divTipBuMenCaTodo {
+	position:absolute;
+	width:50px;
+	height:12px;
+	z-index:1;
+	left: 8px;
+	top: 5px;
+}
+
+.TipoBlackCategorias{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+/***CLASES MENU-SECUNDARIO-nc***/
+
+.combitoMenCategoriasLineas-nc{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#999;
+	width:80px;
+	height:17px;
+	}
+
+.combitoMenCategoriasMateriales-nc{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#999;
+	width:130px;
+	height:17px;
+	}
+.combitoMenCategoriasColores-nc{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#999;
+	width:130px;
+	height:17px;
+	}
+.combitoMenCategoriasTipo-nc{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#999;
+	width:80px;
+	height:17px;
+	}
+	
+	.infoPrecio2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	}

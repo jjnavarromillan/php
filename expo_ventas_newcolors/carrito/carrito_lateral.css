@@ -1,0 +1,907 @@
+﻿@charset "utf-8";
+  body{
+	position:relative;
+	background: url(back2.gif) ;
+	width:1152px;
+	_width:1132px;
+	margin:auto;
+	font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight:lighter;
+	color: #666;
+}
+	 a{
+	text-decoration:none;
+	color:#666;
+}
+	.encabezadito{
+	position:relative;
+	background-color:#FFF;
+	height:96px;
+	margin:auto;
+	top:20px;
+	-moz-border-radius:10px;
+	-webkit-border-radius-topleft:10px;
+	color: #666;
+	
+}
+		.logotipoPrincipal{
+	position:relative;
+	float:left;
+	font-size:24pt;
+	color:Black;
+	height:35px;
+	width:321px;
+	left:43px;
+	top:20px;
+	background-image: url(logo.gif);
+}
+        .sesion{
+	position:absolute;
+	float:right;
+	width:1118px;
+	height:50px;
+	font-size:12pt;
+	color:#666;
+	left: 3px;
+}
+			.catalogo{
+	position:relative;
+	top:45px;
+	left:40px;
+	font-size:small;
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+			.pedidos{
+	position:relative;
+	top:45px;
+	left:60px;
+	font-size:small;
+	color:#666;
+}
+			.cuenta{position:relative; top:45px; left:80px; color:#666; font-size:small;}
+			.foro{
+	position:relative;
+	top:45px;
+	left:100px;
+	color:#666;
+	font-size:small;
+}
+			.catalogo:hover, .pedidos:hover, .cuenta:hover, .foro:hover{
+	color:#666;
+}
+			.monito{
+	position:absolute;
+	background:url(http://www.newcolors.com.mx/img/web/imagenusuario.jpg)no-repeat;
+	height:50px;
+	width:50px;
+	left:1066px;
+	top:11px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+			.nombreUsuario{
+	position:absolute;
+	top:4px;
+	right:68px;
+	font-size:10pt;
+	color: #666;
+}
+			.combo{
+	position:absolute;
+	top:71px;
+	right:97px;
+	border:thin solid #999;
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+		.cerrarSesion{
+	position:absolute;
+	right:66px;
+	top:23px;
+	border:thin solid #999;
+	font-size:small;
+	color:#666;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+        .contenidote{position:relative; background:white; height:680px; margin:auto; top:-1px;}
+	
+div emergente<--
+.cuadro{position:absolute;  width:515px; height:590px; top:84px; left:165px;z-index:1;}
+		    .cerrar2{position:absolute; top:-20px; left:500px; color:White;}
+		    .cerrar{position:absolute; height:20px; width:20px; top:-23px; right:0; font-size:20px; font-weight:500; text-align:center; background:#666666; color:white; cursor:pointer; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.cuadrito{position:absolute; background:#FFFFFF; height:250px; width:565px; left:-27px; top:260px; border:solid 1px #666666; border-top:solid 25px #666666; -moz-border-radius:10px; -webkit-border-radius:10px;z-index:4;}
+			.fotoZapato{position:absolute; background:#FFFFFF; width:203px; height:203px; top:10px; left:10px;}
+			.linea2{
+	position:absolute;
+	color:#333;
+	font-size:30pt;
+	top:2px;
+	left:220px;
+}
+			.estilo2{
+	position:absolute;
+	color:#666;
+	font-size:16pt;
+	top:42px;
+	left:220px;
+}
+			    .linea3{position:absolute; background:#666; width:345px; height:3px; left:220px; top:67px;}
+			    .florecitas1{
+	position:absolute;
+	width:464px;
+	height:67px;
+	top:0px;
+	left:316px;
+	background-image:url(back2.gif);
+	background-repeat:repeat;
+}
+	div emergente<--
+
+	.cuadrote{position:absolute; width:1114px; height:665px; top:10px; left:19px; }
+			.cuadrote2{
+	position:absolute;
+	width:930px;
+	height:665px;
+	top:0;
+	left:19px;
+	border:1px solid #DDD;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+}
+			.menucito{
+	position:absolute;
+	top:17px;
+	height:40px;
+	font-size:11pt;
+	color:#666;
+	font-weight:lighter;
+	left: 140px;
+}
+			.linea{
+	position:absolute;
+	left:-86px;
+	top: -1px;
+
+}
+					.cuadroLinea{
+	position:absolute;
+	width:114px;
+	height:591px;
+	top:54px;
+	left:15px;
+	overflow:auto;
+	text-align:center;
+	background-image: url(file://///sistemas/wwwroot/sitio2009/carrito/sistema_files/t1back.jpg);
+	background-color: #FFF;
+}
+						.botonLinea, .botonLinea2{
+	border-style:hidden;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	width:55px;
+	height:33px;
+	background:#FFFFFF;
+	_border:hidden;
+	cursor:pointer;
+	top: 0px;
+	left: 0px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color: #666;
+}
+						.botonLinea:hover, .botonLinea2:hover{color:#e5e5e5;}
+.cuadroEstilo{
+	position:absolute;
+	width:561px;
+	height:551px;
+	top:59px;
+	left:148px;
+	overflow:auto;
+	background:#FFFFFF;
+	z-index:1;
+}	
+
+					    .link{position:absolute; z-index:1;}
+						.lineaEstilo {position:absolute; height:145px;}
+                          
+							.nombreLinea, .nombreLinea2{position:relative; width:51px; height:145px; color:#666; top:0; text-align:center; background-color:#093}
+								.numeritoLinea{
+	position:absolute;
+	top:70px;
+	left: 12px;
+}
+							.imagen{position:absolute; z-index:99; border:solid 1px white;}
+							.fondoestilo{
+	position:absolute;
+	background:url("http://www.newcolors.com.mx/img/web/degradado5.png") repeat-x;
+	width:100%;
+	height:29px;
+	bottom:0;
+}
+							.fondoestilo2{
+	position:absolute;
+	background:url("http://www.newcolors.com.mx/img/web/degradado6.png") repeat-x;
+	width:208px;
+	height:40px;
+	bottom:-161px;
+	left: -1px;
+}
+							.nombreEstilo{position:absolute; color:Black; font-size:10px; text-align:center; height:20px; width:110px; margin-top:2px; left:0px;}
+				 	.cuadroCarrito{
+	position:absolute;
+	width:191px;
+	height:597px;
+	background:#FFFFFF;
+	top:8px;
+	left:731px;
+}
+				 	    .infocarrito{position:absolute; height:40px; width:187px; top:0px; left:0px;}
+			                .carrito{
+	position:absolute;
+	background:url("file://///sistemas/wwwroot/sitio2009/carrito/sistema_files/sistema_files/carrito.gif") no-repeat;
+	height:27px;
+	width:28px;
+	left:55px;
+	top:2px;
+} 
+			                .pares, .monto{position:absolute; font-size:9pt; left:95px; top:1px; color:#666;}		
+			                .monto{left:95px; top:17px;}
+			            .cuadroresumen{
+	position:absolute;
+	width:208px;
+	height:561px;
+	top:33px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	left: 15px;
+}	 	   
+						.resumen{
+	position:absolute;
+	width:100%;
+	height:183px;
+	top:10px;
+	left:0px;
+}
+						.borrar{
+	position: absolute;
+	width:auto;
+	left:1px;
+	top: 1px;
+}
+							.fotoResumen{
+	position:absolute;
+	top:20px;
+	left:3px;
+	width:73px;
+	height:73px;
+} 
+								.lineaResumen{
+	position:absolute;
+	height:0px;
+	top:20px;
+	left:85px;
+	font-size:16pt;
+	color:#999;
+}
+								.estiloResumen{
+	position:absolute;
+	top:40px;
+	left:87px;
+	font-size:10pt;
+	color:#999;
+}
+								.infoResumen{position:absolute; top:100px; left:18px; width:217px; height:67px;}
+									.material, .precio, .n2, .n2m, .n3, .n3m, .n4, .n4m, .n5, .n5m, .n6, .n6m, .totalPares, .numeroPares, .totalPrecio, .numeroPrecio{position:absolute; font-size:8pt; color:#999;}
+									.precio{
+	left:68px;
+	top:-26px;
+}
+									.material{
+	top:-41px;
+	left:68px;
+}
+#tablaResumen{
+	position:absolute;
+	left:-13px;
+	top:4px;
+	width:201px;
+	height:46px;
+	z-index:1;
+	font-size:9px;
+}
+									.n2, .n2m, .n3, .n3m, .n4, .n4m, .n5, .n5m, .n6, .n6m{top:-15px; font-size:8pt; left:1px;}
+									.n2m{left:24px;}
+									.n3{left:36px;}
+									.n3m{left:60px;}	
+									.n4{left:74px;}	
+									.n4m{left:98px;}
+									.n5{left:111px;}
+									.n5m{left:136px;}
+									.n6{left:152px;}
+									.n6m{left:175px;}
+									.n2a, .n2ma, .n3a, .n3ma, .n4a, .n4ma, .n5a, .n5ma, .n6a, .n6ma{
+	position:relative;
+	top:16px;
+	font-size:8pt;
+	background:#FFFFFF;
+	color:#999;
+}
+									.n2a{left:-60px;}
+									.n2ma{left:-50px;}
+									.n3a{left:-40px;}
+									.n3ma{left:-30px;}	
+									.n4a{left:-20px;}	
+									.n4ma{left:-10px;}
+									.n5a{left:0px;}
+									.n5ma{
+	left:-3px;
+}
+									.n6a{left:20px;}
+									.n6ma{left:30px;}
+									.numeros{
+	position:absolute;
+	top:21px;
+	left:0px;
+	width:215px;
+	height:25px;
+}
+									.totalPares, .numeroPares{
+	position:absolute;
+	top:52px;
+}
+									.totalPares{
+	left:-13px;
+}
+									.numeroPares{
+	left:75px;
+}
+									.totalPrecio, .numeroPrecio{
+	position:absolute;
+	top:62px;
+}
+									.totalPrecio{
+	left:-13px;
+}
+									.numeroPrecio{
+	left:82px;
+}
+						.botonesResumen{position:absolute; height:25px; width:220px; left:700px; top:618px;}
+						.eliminar, .aceptar{position:absolute; background:white; border:hidden; font-size:12pt; font-weight:lighter; color:#666666; top:0; left:0; height:25px; width:110px; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+						.aceptar{left:110px; _left:100px;}            
+			.tabla1{position:absolute; top:100px; left:50px; width:1050px;}
+            .tabla2{position:absolute; top:140px; left:50px; width:1050px;}
+            .tabla3{position:absolute; top:200px; left:50px; width:1050px;}
+            .tabla4{position:absolute; top:287px; left:50px; width:1050px; font-size:10px; z-index:2;}
+            .tabla5{position:absolute; top:287px; left:50px; width:1050px; text-align:center;}
+            .tabla6{position:absolute; top:337px; left:50px; width:1050px; text-align:center; font-size:9px; border:solid 1px #666666; border-top:hidden;}
+                .material1{width:300px; height:40px;}
+                .img{position:absolute; left:49px; top:252px; background:url("http://www.newcolors.com.mx/img/web/pestana2.png")no-repeat; width:1051px; height:86px;}
+                        .titulopedido{position:absolute; font-size:25px; color:#666; left:14px; top:9px;}
+            .tituloentrada{position:absolute; font-size:25px; color:#666; left:500px; top:10px;}
+            .linea6{position:absolute; background:#666; width:1100px; height:2px; left:35px; top:90px;}
+		    .florecitas, .florecitas3{
+	position:absolute;
+	width:100px;
+	height:67px;
+	top:23px;
+	left:1034px;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+		    .florecitas3{left:1034px;}
+                    .txtfecha{position:relative; top:-4px; left:-10px; height:16px;}
+                    .txtsemana{ position:relative; top:-4px; left:0px; height:16px;}
+                    .txtcasillero{position:relative; top:-4px; left:0px; height:16px;}
+                    .txtlote{position:relative; top:-4px; left:0px; height:16px;}
+                    .comboestilo{position:absolute; top:-4px; left:0px;}
+                    .txtc2, .txtc2m, .txtc3, .txtc3m, .txtc4, .lblctot, .lblcnp, .txtn2, .txtn2m, .txtn3, .txtn3m, .txtn4, .txtn4m, .txtn5, .txtn5m, .txtn6, .txtn6m, .txtprecio, .lblpares, .lblnp{position:absolute; top:218px; left:53px; text-align:center; height:16px; width:30px;}
+                        .txtc2m{left:91px;}
+                        .txtc3{left:129px;}
+                        .txtc3m{left:167px;}
+                        .txtc4{left:205px;}
+                        .lblctot{left:252px;}
+                        .lblcnp{left:296px;}
+                        .txtn2{left:341px;}
+                        .txtn2m{left:385px;}
+                        .txtn3{left:429px;}
+                        .txtn3m{left:471px;}
+                        .txtn4{left:514px;}
+                        .txtn4m{left:557px;}
+                        .txtn5{left:600px;}
+                        .txtn5m{left:644px;}
+                        .txtn6{left:688px;}
+                        .txtn6m{left:730px;}
+                        .txtprecio{left:816px;}
+                        .lblpares{left:769px;}
+                        .lblnp{left:876px;}
+	.pie{position:relative; height:25px; margin:auto; background:#FFFFFF; top:1px;}
+	.pie2{position:relative; height:25px; margin:auto; background:#FFFFFF; top:-1px;}
+		.textoPie{
+	position:absolute;
+	font-size:12px;
+	left:418px;
+	top:0px;
+	color:#666;
+}	
+    .imgabajo{
+	position:relative;
+	height:30px;
+	background:url("http://www.newcolors.com.mx/img/web/imgabajo.png")no-repeat;
+	background-image: url(http://www.newcolors.com.mx/img/web/imgabajo.png);
+}
+.contenido{position:absolute; width:515px; height:590px; top:56px; left:165px; z-index:2;}
+		.cuadro{
+	position:absolute;
+	width:589px;
+	height:590px;
+	top:52px;
+	left:140px;
+	z-index:1;
+}
+		    .cerrar2{
+	position:absolute;
+	top:-19px;
+	left:712px;
+	color:White;
+	z-index:3;
+}
+		    .cerrar{position:absolute; height:20px; width:20px; top:-23px; right:0; font-size:20px; font-weight:500; text-align:center; background:#666666; color:white; cursor:pointer; -moz-border-radius:5px; -webkit-border-radius:5px;}
+		    .cerrar:hover{color:#e5e5e5;}
+			.cuadrito{
+	position:absolute;
+	background:#FFFFFF;
+	height:366px;
+	width:777px;
+	left:182px;
+	top:882px;
+	border:solid 3px #666666;
+	border-top:solid 25px #666666;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+			.fotoZapato{
+	position:absolute;
+	background:#FFFFFF;
+	width:300px;
+	height:300px;
+	top:26px;
+	left:10px;
+}
+			.linea2{
+	position:absolute;
+	color:#333;
+	font-size:30pt;
+	top:2px;
+	left:318px;
+}
+			.estilo2{
+	position:absolute;
+	color:#333;
+	font-size:16pt;
+	top:42px;
+	left:320px;
+}
+			    .linea3{
+	position:absolute;
+	background:#666;
+	width:463px;
+	height:3px;
+	left:318px;
+	top:67px;
+
+}
+			.material2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:89px;
+	left:320px;
+}
+			.precio2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:109px;
+	left:320px;
+}
+			.cantidadPrecio2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:109px;
+	left:370px;
+}
+			.total2{
+	position:absolute;
+	color:#333;
+	font-size:14pt;
+	top:130px;
+	left:314px;
+	width: 36px;
+	height: 22px;
+	font-weight: bold;
+}
+			.cantidadTotal2{
+	position:absolute;
+	color:#333;
+	font-size:12pt;
+	top:133px;
+	left:377px;
+	width: 61px;
+}
+			.numeracion2, .cantidad3, .n22, .n2m2, .n32, .n3m2, .n42, .n4m2, .n52, .n5m2, .n62, .n6m2, .totalN2{
+	position:absolute;
+	color:#000000;
+	font-size:11px;
+	bottom:189px;
+	left:322px;
+}
+			.cantidad3{
+	left:367px;
+}
+			.n22{
+	left:408px;
+}
+			.n2m2{
+	left:432px;
+}
+			.n32{
+	left:447px;
+}
+			.n3m2{
+	left:471px;
+}
+			.n42{
+	left:485px;
+}
+			.n4m2{
+	left:511px;
+}
+			.n52{
+	left:525px;
+}
+			.n5m2{
+	left:550px;
+}
+			.n62{
+	left:563px;
+}
+			.n6m2{
+	left:590px;
+}
+			.totalN2{
+	left:609px;
+}
+			.numeracion, .cantidad, .n2a2, .n2ma2, .n3a2, .n3ma2, .n4a2, .n4ma2, .n5a2, .n5ma2, .n6a2, .n6ma2, .totalNa2{
+	position:absolute;
+	bottom:171px;
+	left:220px;
+	_left:236px;
+	border:solid 1px #666666;
+	font-size:9pt;
+	height:18px;
+	text-align:center;
+}       
+            .numeracion{
+	width:44px;
+	left:316px;
+}
+            .cantidad{
+	left:363px;
+	width:40px;
+}
+			.n2a2{
+	left:406px;
+	width:15px;
+	height:13px;
+}
+			.n2ma2{
+	left:426px;
+	width:15px;
+	height:13px;
+}
+			.n3a2{
+	left:445px;
+	width:15px;
+	height:13px;
+}
+			.n3ma2{
+	left:464px;
+	width:15px;
+	height:13px;
+}
+			.n4a2{
+	left:484px;
+	width:15px;
+	height:13px;
+}
+			.n4ma2{
+	left:504px;
+	width:15px;
+	height:13px;
+}
+			.n5a2{
+	left:524px;
+	width:15px;
+	height:13px;
+}
+			.n5ma2{
+	left:543px;
+	width:15px;
+	right: 111px;
+	height:13px;
+}
+			.n6a2{
+	left:562px;
+	width:15px;
+	height:13px;
+}
+			.n6ma2{
+	left:582px;
+	width:15px;
+	height:13px;
+}
+			.totalNa2{
+	left:609px;
+	width:30px;
+	height:13px;
+}
+			.aceptar2{
+	position:absolute;
+	bottom:39px;
+	right:39px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+			.agregar{
+	position:absolute;
+	bottom:168px;
+	right:48px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+			.observaciones{position:absolute; left:220px; bottom:10px; height:60px; width:255px; border:solid #666666 1px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+			.enviar{
+	position:absolute;
+	bottom:39px;
+	right:131px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+}
+			.contenido2{position:absolute; width:515px; height:590px; top:84px; left:165px; z-index:3; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.cuadro2{position:absolute;  width:515px; height:590px; top:56px; left:0px;}
+		.blanco{position:absolute; width:610px; height:450px; top:65px; left:-27px; background:white; border:solid 3px #666666; border-top:solid 25px #666666; -moz-border-radius:10px; -webkit-border-radius:10px;}
+		.tablacontenido{position:absolute; width:585px; height:270px; top:75px; left:15px; overflow-y:auto; overflow-x:hidden; color:Black; z-index:1;}
+		.titulotabla2{position:absolute; width:570px; height:25px; left:15px; top:50px; text-align:center; font-size:smaller; background:url("http://www.newcolors.com.mx/img/web/degradado.png"); color:#666666; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.pedido{position:relative; width:570px; height:55px; top:0; text-align:center; color:Black; font-size:10px; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .tablatotal{position:absolute; width:569px; height:25px; top:345px; left:15px; font-size:smaller; color:#666666; text-align:center; border:solid 1px #666666;-moz-border-radius:10px; -webkit-border-radius:10px;}
+        .btnguardar{position:absolute; top:375px; left:514px; background:white; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .btncancelar{position:absolute; top:375px; left:430px; background:white; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .cerrar3{position:absolute; top:-20px; left:540px; color:White;}
+        .titulopedido{position:absolute; font-size:25px; color:#666  a0be; left:14px; top:9px;}
+            .linea4{position:absolute; background:#666; width:915px; height:2px; left:35px; top:78px;}
+            .linea5{position:absolute; background:#666; width:597px; height:2px; left:13px; top:38px;}
+		    .florecitas2{position:absolute; width:58px; height:39px; top:0px; left:552px; background:url("http://www.newcolors.com.mx/img/web/florecitas.jpg")no-repeat;}
+		    .enviar2{position:absolute; left:15px; bottom:10px; height:60px; width:405px; border:solid #666666 1px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		    .btnenviar2{position:absolute; bottom:12px; right:115px; background:#FFFFFF; border:solid #666666 1px; height: 24px; width:65px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .divimggaleria{position:absolute; width:203px; height:203px; left:6px; top:3px; z-index:1000;}
+			.florecitas{position:absolute; width:100px; height:67px; top:11px; left:850px; background:url("http://www.newcolors.com.mx/img/web/florecitas2.jpg")no-repeat;}
+			.cliente, .domicilio{position:absolute; left:35px; top:35px; font-size:small; font-weight:lighter;}
+			.domicilio{top:55px; font-size:x-small;}
+			.tabla{position:absolute; width:521px; height:500px; left:415px; top:148px; overflow:auto;}
+		.titulotabla{position:absolute; width:500px; height:25px; left:415px; top:122px; text-align:center; font-size:smaller; background:url("http://www.newcolors.com.mx/img/web/degradado.png"); color:#666666; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.pedidofila{position:relative; width:502px; height:33px; top:0; text-align:center; color:Black; font-size:10px; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;} 
+		.flechita{position:relative; background:url("http://www.newcolors.com.mx/img/web/triangulito.jpg"); width:22px; height:22px; left:1px; top:1px;}
+		.estilo{position:relative; width:100%; height:25px; text-align:center; font-size:smaller; background:url("http://www.newcolors.com.mx/img/web/degradado.png"); color:#666666;}
+		    .estilo3{
+	position:absolute;
+	width:50px;
+	height:15px;
+	font-size:medium;
+	color: #666;
+	font-weight: normal;
+	top: 0px;
+	left: -15px;
+}
+		.hojita{position:relative; background:url("http://www.newcolors.com.mx/img/web/hojita.png"); height:95px; width:95px; top:0px; left:35px; text-align:center;}
+		    .semana{position:relative; font-size:small; font-weight:bold;
+    top: 207px;
+    left: 37px;
+    height: 29px;
+    width: 89px;
+}
+		    .numsem{position:relative; font-size:xx-large;}
+		    .fechasem{position:relative; font-size:x-small;}
+		.tablacliente{position:absolute; top:30px; left:150px; width:950px;}
+		.tablainfo{position:absolute;top:4px;left:0px; text-align:center; font-size:10px; width:100%;}
+		    .titulotablacliente, .tablafiltros{position:relative; text-align:center; font-size:10px; width:100%;}
+		        .txtcliente, .txttienda{width:390px;}
+		        .selectdoc{width:150px;}
+		.infoventas{position:relative; top:25px; left:70px; width:950px; text-align:center; font-size:10px;}
+            .img2{position:absolute; left:49px; top:232px; width:1051px; height:86px;}
+		.tablafiltros{top:35px;}
+		    .txtfecha2, .txtsem2, .txtcas2, .txtlote2, .txttemp2, .txtlinea2{width:40px; height:11px; font-size:10px;}
+		    .txtestilo2, .selectdoc2{width:90px; font-size:10px;}
+		    .txtcliente2, .txtcolor2{width:190px; height:11px; font-size:10px;}
+		    .txtestilo2{height:11px;}
+		    .tablota{position:absolute; top:160px; font-size:10px;}
+		    .miclasedetablaventas{position:absolute; top:30px; font-size:10px; overflow:auto; height:190px; overflow-x:hidden;}
+		    .tablatitulo2{left:30px;top:25px; overflow:auto; width:1024px; height:200px; left:-13px; position:absolute; font-size:10px;}
+            
+            
+            
+            .classCorridas{width:20px; font-size:10px;}
+		.style2
+        {
+            width: 100px; text-align:center;
+        }
+        .style3
+        {
+            width: 80px; text-align:center;
+        }
+        .style4
+        {
+            width: 322px; text-align:center;
+        }
+        .style5
+        {
+            width: 65px; text-align:center;
+        }
+        .style6
+        {
+            width: 50px; text-align:center;
+        }
+        .style7
+        {
+            width: 57px; text-align:center;
+        }
+        .style8
+        {
+            width: 68px; text-align:center;
+        }
+        .style9
+        {
+            width: 125px; text-align:center;
+        }
+        .style10
+        {
+            width: 64px; text-align:center;
+        }
+        .style11, .txtfecha
+        {
+            width: 150px; text-align:center; font-size:x-small;
+        }
+        .style12, .txtsemana
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style13, .txtcasillero
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style14, .txtlote
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style16
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style17
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style18
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style19
+        {
+            width: 150px; text-align:center; font-size:x-small;   
+        }
+        .style20
+        {
+            width: 30px; text-align:center; font-size:x-small;   
+        }
+        .style21
+        {
+            width: 40px; text-align:center; font-size:x-small;   
+        }
+        .style22
+        {
+            width: 35px; text-align:center; font-size:x-small;  
+        }
+        .style0
+        {
+            width:24px;
+        }
+        .style23
+        {
+            width: 30px;
+        }
+        .style24
+        {
+            width: 80px;
+        }
+        .style25
+        {
+            width: 70px;
+        }
+        .style26
+        {
+            width: 70px;
+        }
+        .style27
+        {
+            width: 50px;
+        }
+        .style28
+        {
+            width: 50px;
+        }
+        .style29
+        {
+            width: 130px;
+        }   
+        .style30
+        {
+            width: 132px;
+        }    
+        .style31
+        {
+            width: 105px;
+        }  
+        .style32
+        {
+            width: 80px;
+        }                 
+        .style33
+        {
+            width: 15px;
+        }
+        .style34
+        {
+            width: 180px;
+        }  
+        .style35
+        {
+            width: 100px;
+        }    
+        .style36
+        {
+            width: 100px;
+        } 
+        .style37
+        {
+            width: 100px;
+        } 
+        .style38
+        {
+            width: 5px;
+        }  
+       
+                        
+        .classBtnAgregar{position:absolute;  left:990px; top:485px;z-index:2}
+#banner {
+	position:absolute;
+	left:964px;
+	top:123px;
+	width:170px;
+	height:598px;
+	z-index:4;
+}

@@ -1,0 +1,139 @@
+#divRegistroNuevoCliente {
+	position:absolute;
+	width:582px;
+	height:373px;
+	z-index:1;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divRegistroNuevoClienteDivFacturaA {
+	position:absolute;
+	width:559px;
+	height:22px;
+	z-index:1;
+	left: 9px;
+	top: 44px;
+}
+#divRegistroNuevoClienteNombre {
+	position:absolute;
+	width:555px;
+	height:22px;
+	z-index:2;
+	left: 9px;
+	top: 77px;
+}
+#divRegistroNuevoClienteDireccion {
+	position:absolute;
+	width:552px;
+	height:22px;
+	z-index:3;
+	left: 9px;
+	top: 108px;
+}
+#divRegistroNuevoClienteColonia {
+	position:absolute;
+	width:555px;
+	height:22px;
+	z-index:4;
+	left: 9px;
+	top: 138px;
+}
+#divRegistroNuevoClienteLocalidad {
+	position:absolute;
+	width:558px;
+	height:55px;
+	z-index:5;
+	left: 9px;
+	top: 171px;
+}
+#divRegistroNuevoClienteTels {
+	position:absolute;
+	width:558px;
+	height:22px;
+	z-index:6;
+	left: 9px;
+	top: 232px;
+}
+#divRegistroNuevoClienteWeb {
+	position:absolute;
+	width:560px;
+	height:22px;
+	z-index:7;
+	left: 9px;
+	top: 265px;
+}
+#divRegistroNuevoClientePaqueteria {
+	position:absolute;
+	width:562px;
+	height:22px;
+	z-index:8;
+	left: 9px;
+	top: 297px;
+}
+#divRegistroNuevoClienteBotons {
+	position:absolute;
+	width:562px;
+	height:26px;
+	z-index:9;
+	left: 10px;
+	top: 337px;
+	text-align: center;
+}
+#divRegistroNuevoClienteTitulo {
+	position:absolute;
+	width:563px;
+	height:25px;
+	z-index:10;
+	left: 9px;
+	top: 9px;
+}
+#divRegistroNuevoClienteDivComboMunicipio {
+	position:absolute;
+	width:419px;
+	height:23px;
+	z-index:2;
+	left: 0px;
+	top: 29px;
+}
+#divBoGuarDaClientes {
+	position:absolute;
+	width:53px;
+	height:16px;
+	z-index:2;
+	left: 367px;
+	top: -17px;
+}
+#divTiGuaDaClientes {
+	position:absolute;
+	width:46px;
+	height:13px;
+	z-index:1;
+	left: 3px;
+	top: 3px;
+}
+
+.regiDatosCli{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	font-weight:bold;
+}
+.regiCombitoDatos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	height:16px;
+}
+
+.tipoRegiWhite{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	font-weight:bold;
+}

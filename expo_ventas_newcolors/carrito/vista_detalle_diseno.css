@@ -1,0 +1,469 @@
+.tituloPrincialDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666;
+}
+
+.lineaDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+.precioDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+
+.selecionDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+
+.nomEstiloDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F90;
+	font-weight:bold;
+}
+
+.descripcionDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+}
+
+.ofertasDetalle{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	color:#039;
+	font-weight:bold;
+}
+#divPrinDetalle   {
+	position:absolute;
+	width:554px;
+	height:373px;
+	z-index:1;
+	left: 6px;
+	top: 2px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	
+
+}
+#divLinea2Detalle {
+	position:absolute;
+	width:515px;
+	height:5px;
+	z-index:1;
+	top: 27px;
+	left: 10px;
+}
+#divGdDetalle {
+	position:absolute;
+	width:139px;
+	height:21px;
+	z-index:2;
+	left: 289px;
+	top: 6px;
+}
+#divLineaDetalle {
+	position:absolute;
+	width:32px;
+	height:14px;
+	z-index:1;
+	top: 3px;
+}
+#divNumDetalle {
+	position:absolute;
+	width:92px;
+	height:16px;
+	z-index:2;
+	left: 38px;
+	top: 3px;
+}
+#divIMG_Detalles {
+	position:absolute;
+	width:280px;
+	height:280px;
+	z-index:3;
+	left: 3px;
+	top: 34px;
+}
+#divNombreDetalle {
+	position:absolute;
+	width:419px;
+	height:17px;
+	z-index:4;
+	top: 37px;
+	left: 10px;
+	text-align: left;
+	visibility: hidden;
+}
+#divCostoDetalle {
+	position:absolute;
+	width:33px;
+	height:13px;
+	z-index:5;
+	top: 29px;
+	left: 11px;
+}
+#divDescriDetalles {
+	position:absolute;
+	width:218px;
+	height:16px;
+	z-index:6;
+	top: 66px;
+	left: 44px;
+}
+#divSelecDetalles2 {
+	position:absolute;
+	width:236px;
+	height:16px;
+	z-index:7;
+	left: 275px;
+	top: 86px;
+}
+#divNomCostDetalle {
+	position:absolute;
+	width:222px;
+	height:16px;
+	z-index:8;
+	left: 288px;
+	top: 50px;
+	text-align:left;
+}
+#divGrupDetalles {
+	position:absolute;
+	width:245px;
+	height:213px;
+	z-index:9;
+	left: 287px;
+	top: 80px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	text-align: left;
+}
+#divMat1Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:1;
+}
+#divMat2Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:2;
+	top: 0px;
+	left: 69px;
+}
+#divMat3Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:3;
+	top: 0px;
+	left: 142px;
+}
+#divMat4Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:4;
+	top: 37px;
+}
+#divMat5Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:5;
+	top: 37px;
+	left: 69px;
+}
+#divMat6Detalles {
+	position:absolute;
+	width:60px;
+	height:32px;
+	z-index:6;
+	top: 37px;
+	left: 142px;
+}
+a:link {
+	color: #333;
+}
+a:hover {
+	color: #666;
+	text-align: left;
+}
+#divLinDescoDetalle {
+	position:absolute;
+	width:218px;
+	height:7px;
+	z-index:10;
+	left: 8px;
+	top: 49px;
+}
+#divLinDesco1Detalle {
+	position:absolute;
+	width:218px;
+	height:7px;
+	z-index:11;
+	left: 4px;
+	top: 9px;
+}
+#divCheckDetalles {
+	position:absolute;
+	width:83px;
+	height:20px;
+	z-index:12;
+	left: 4px;
+	top: 32px;
+}
+#divAddDetalles {
+	position:absolute;
+	width:84px;
+	height:21px;
+	z-index:13;
+	left: 144px;
+	top: 60px;
+}
+#divContiDetalles {
+	position:absolute;
+	width:125px;
+	height:21px;
+	z-index:14;
+	left: 3px;
+	top: 60px;
+}
+#divLinDesco22Detalle {
+	position:absolute;
+	width:218px;
+	height:7px;
+	z-index:15;
+	left: 1px;
+	top: 181px;
+}
+#divMini2Detalles {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:16;
+	left: 57px;
+	top: 95px;
+}
+#divMini3Detalles {
+	position:absolute;
+	width:48px;
+	height:48;
+	z-index:17;
+	left: 382px;
+	top: 455px;
+}
+#divMini1Detalles {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:18;
+	top: 96px;
+	left: 5px;
+}
+#divPro1Detalles {
+	position:absolute;
+	width:171px;
+	height:16px;
+	z-index:19;
+	left: 62px;
+	top: 112px;
+}
+#divPro2Detalles {
+	position:absolute;
+	width:155px;
+	height:16px;
+	z-index:20;
+	top: 95px;
+	left: 78px;
+}
+#divPro3Detalles {
+	position:absolute;
+	width:193px;
+	height:16px;
+	z-index:21;
+	left: 448px;
+	top: 467px;
+}
+.blancoEncabezado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	font-weight:bold;
+}
+.abcd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	font-weight:bold;
+}	
+
+.numerosPedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+#divDetalleOptions {
+	position:absolute;
+	width:254px;
+	height:251px;
+	z-index:1;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divTableGrisDeInventario {
+	position:absolute;
+	width:235px;
+	height:17px;
+	z-index:16;
+	top: 45px;
+	left: -1px;
+}
+#divtableMultiDeInventario {
+	position:absolute;
+	width:232px;
+	height:54px;
+	z-index:17;
+	top: 48px;
+	left: 2px;
+}
+#divInveDeInventario {
+	position:absolute;
+	width:68px;
+	height:14px;
+	z-index:18;
+	top: 23px;
+	left: 4px;
+}
+#divLinDesco4Detalle {
+	position:absolute;
+	width:218px;
+	height:7px;
+	z-index:21;
+	top: 87px;
+	left: 4px;
+}
+#divDetalleOptions {
+	position:absolute;
+	width:240px;
+	height:150px;
+	z-index:1;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	left: 1px;
+}
+.combito{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	
+}
+
+#divBarriTabDeInventario {
+	position:absolute;
+	width:208px;
+	height:15px;
+	z-index:21;
+	left: -3px;
+	top: 192px;
+}
+#divVarNumDeInventario {
+	position:absolute;
+	width:201px;
+	height:43px;
+	z-index:22;
+	left: 1px;
+	top: 189px;
+}
+
+#divSeleccionaDeInventario {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:19;
+	left: 4px;
+	top: 127px;
+}
+#divPaqCanDeInventario {
+	position:absolute;
+	width:101px;
+	height:48px;
+	z-index:1;
+	top: 145px;
+	left: 4px;
+}
+#divLinDesco5Detalle {
+	position:absolute;
+	width:218px;
+	height:7px;
+	z-index:23;
+	top: 112px;
+	left: 4px;
+}
+#divSelec22Detalles {
+	position:absolute;
+	width:215px;
+	height:16px;
+	z-index:11;
+	left: 305px;
+	top: 90px;
+}
+
+.regresarOpcion{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	
+}
+
+#divMatColo {
+	position:absolute;
+	width:244px;
+	height:21px;
+	z-index:11;
+	left: 230px;
+	top: 33px;
+}
+#idvVisDetDiseAtras   {
+	position:absolute;
+	width:49px;
+	height:15px;
+	z-index:2;
+	top: 9px;
+	left: 488px;
+}
+
+				

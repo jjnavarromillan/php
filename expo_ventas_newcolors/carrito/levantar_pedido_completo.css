@@ -1,0 +1,541 @@
+.clienteNombre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#666;
+	}
+
+.abcdDatosCliente {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+	font-weight:bold;
+}
+#divPriLePCompleto {
+	position:absolute;
+	width:939px;
+	height:455px;
+	z-index:1;
+	left: 5px;
+	top: 1px;
+	background-image:url(img/fondo-levantar-pedido-completo.png);
+}
+#divLOgoNcCompleto {
+	position:absolute;
+	width:220px;
+	height:24px;
+	z-index:1;
+	left: 2px;
+	top: 0px;
+}
+#divPeedCompleto {
+	position:absolute;
+	width:196px;
+	height:20px;
+	z-index:2;
+	top: 18px;
+	left: 9px;
+}
+#divCLiePeCompleto {
+	position:absolute;
+	width:251px;
+	height:16px;
+	z-index:3;
+	left: 10px;
+	top: 45px;
+}
+#divTaInClCompleto {
+	position:absolute;
+	width:281px;
+	height:80px;
+	z-index:4;
+	left: 0px;
+	top: 66px;
+}
+.blancoEncabezado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+	font-weight:bold;
+}
+.abcd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	font-weight:bold;
+}
+.numerosPedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+.descripcion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+
+#div1icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	left: 35px;
+	top: 6px;
+}
+#div2icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 88px;
+}
+#div3icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 136px;
+}
+#div4icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 214px;
+}
+#div5icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 293px;
+}
+#div6icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 343px;
+}
+#div7icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 391px;
+}
+#div8icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 442px;
+}
+
+#div10icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 550px;
+}
+#div11icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 607px;
+}
+#div12icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 654px;
+}
+#div13icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 731px;
+}
+#div14icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 802px;
+}
+#div15icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 7px;
+	left: 893px;
+}
+
+#divLInPeCom {
+	position:absolute;
+	width:913px;
+	height:7px;
+	z-index:7;
+	left: 8px;
+	top: 82px;
+}
+#divEnTaCOmp {
+	position:absolute;
+	width:900px;
+	height:21px;
+	z-index:8;
+	left: 1px;
+	top: 95px;
+}
+
+#divEnBarraCom {
+	position:absolute;
+	width:220px;
+	height:21px;
+	z-index:5;
+	left: 589px;
+	top: 6px;
+}
+#divTabNUmComp {
+	position:absolute;
+	width:223px;
+	height:67px;
+	z-index:6;
+	left: 588px;
+	top: 8px;
+}
+.TipoPedidoCompletoClientes{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+#divElemPeCom {
+	position:absolute;
+	width:945px;
+	height:50px;
+	z-index:9;
+	left: 1px;
+	top: 185px;
+}
+#divImgZaCompleto {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:1;
+}
+#div1TabCom {
+	position:absolute;
+	width:25px;
+	height:12px;
+	z-index:2;
+	left: 56px;
+	top: 18px;
+}
+#div2TabCom {
+	position:absolute;
+	width:31px;
+	height:12px;
+	z-index:3;
+	left: 105px;
+	top: 17px;
+}
+#div3TabCom {
+	position:absolute;
+	width:71px;
+	height:25px;
+	z-index:4;
+	left: 153px;
+	top: 18px;
+}
+#div4TabCom {
+	position:absolute;
+	width:81px;
+	height:26px;
+	z-index:5;
+	left: 232px;
+	top: 18px;
+}
+#div5TabCom {
+	position:absolute;
+	width:10px;
+	height:12px;
+	z-index:6;
+	left: 323px;
+	top: 18px;
+}
+#div6TabCom {
+	position:absolute;
+	width:39px;
+	height:12px;
+	z-index:7;
+	left: 359px;
+	top: 17px;
+}
+#div7TabCom {
+	position:absolute;
+	width:31px;
+	height:12px;
+	z-index:8;
+	left: 410px;
+	top: 18px;
+}
+#div8TabCom {
+	position:absolute;
+	width:33px;
+	height:12px;
+	z-index:9;
+	top: 19px;
+	left: 461px;
+}
+#div9TabCom {
+	position:absolute;
+	width:28px;
+	height:12px;
+	z-index:10;
+	left: 517px;
+	top: 19px;
+}
+#div10TabCom {
+	position:absolute;
+	width:26px;
+	height:12px;
+	z-index:11;
+	left: 576px;
+	top: 18px;
+}
+#div11TabCom {
+	position:absolute;
+	width:32px;
+	height:12px;
+	z-index:12;
+	left: 628px;
+	top: 18px;
+}
+#div12TabCom {
+	position:absolute;
+	width:51px;
+	height:12px;
+	z-index:13;
+	left: 678px;
+	top: 19px;
+}
+#div13TabCom {
+	position:absolute;
+	width:55px;
+	height:12px;
+	z-index:14;
+	left: 748px;
+	top: 19px;
+}
+#div14TabCom {
+	position:absolute;
+	width:64px;
+	height:12px;
+	z-index:15;
+	left: 832px;
+	top: 18px;
+}
+#divSep1Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 50px;
+	top: 5px;
+}
+
+#divSep2Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:1;
+	left: 13px;
+	top: -1px;
+}
+#divSep3Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 147px;
+	top: 5px;
+}
+#divSep4Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 230px;
+	top: 5px;
+}
+#divSep5Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 307px;
+	top: 5px;
+}
+#divSep6Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 355px;
+	top: 5px;
+}
+#divSep7Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 402px;
+	top: 5px;
+}
+#divSep8Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 5px;
+	left: 455px;
+}
+#divSep9Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 5px;
+	left: 507px;
+}
+#divSep10Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 5px;
+	left: 563px;
+}
+#divSep11Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 5px;
+	left: 620px;
+}
+#divSep12Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 6px;
+	left: 667px;
+}
+#divSep13Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 744px;
+	top: 5px;
+}
+#divSep14Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	top: 5px;
+	left: 819px;
+}
+#divSep15Com {
+	position:absolute;
+	width:2px;
+	height:10px;
+	z-index:2;
+	left: 509px;
+	top: 5px;
+}
+#divTotCompleto {
+	position:absolute;
+	width:56px;
+	height:12px;
+	z-index:16;
+	left: 890px;
+	top: 0px;
+}
+
+.tituloPrincialDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666;
+}
+.TipoBitacora{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#999;
+}
+.tituloPrincialClienteCom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+
+.precioZoom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	text-align:left;
+}
+#divRowsDetallePedidos {
+	position:absolute;
+	width:925px;
+	height:291px;
+	z-index:2;
+	left: 1px;
+	top: 120px;
+	overflow:auto;
+}
+#divImgCerrar {
+	position:absolute;
+	width:12px;
+	height:13px;
+	z-index:9;
+	left: 906px;
+	top: 9px;
+}
+#divCerrLePeComple {
+	position:absolute;
+	width:30px;
+	height:14px;
+	z-index:10;
+	left: 872px;
+	top: 8px;
+}
+#div9icoF {
+	position:absolute;
+	width:8px;
+	height:8px;
+	z-index:2;
+	top: 6px;
+	left: 497px;
+}

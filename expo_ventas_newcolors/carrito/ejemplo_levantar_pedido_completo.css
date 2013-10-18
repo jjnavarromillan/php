@@ -1,0 +1,63 @@
+#fondoEjem1 {
+	position:absolute;
+	width:939px;
+	height:455px;
+	z-index:1;
+	background:url(img/fondo-levantar-pedido-completo.png);
+}
+#fondoCol_tab {
+	position:absolute;
+	width:900px;
+	height:120px;
+	z-index:1;
+	top: 119px;
+	color: #999;
+	left: 14px;
+}
+.descripcion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+}
+
+.TipoPedidoCompletoClientes{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+
+.TipoPedidoCompletoClientes-2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color: #333;
+}
+
+.NombreClientePP{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+.NombreClienteDatosPP{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+.NombreClienteDatosBoldPP{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	font-weight:bold;
+}
+.precioZoom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	text-align:left;
+}
+.filtroColor{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#F60;
+	font-weight:bold;
+}

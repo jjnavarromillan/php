@@ -1,0 +1,158 @@
+#divPriVeStudio {
+	position:absolute;
+	width:653px;
+	height:351px;
+	z-index:1;
+}
+#divE1Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:1;
+	left: 57px;
+	top: 21px;
+}
+#divE2Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:2;
+	left: 171px;
+	top: 21px;
+}
+#divE3Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:3;
+	left: 284px;
+	top: 21px;
+}
+#divE4Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:4;
+	left: 397px;
+	top: 21px;
+}
+#divE5Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:5;
+	left: 511px;
+	top: 21px;
+}
+#divE6Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:6;
+	left: 57px;
+	top: 182px;
+}
+#divE7Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:7;
+	left: 171px;
+	top: 182px;
+}
+#divE8Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:8;
+	left: 284px;
+	top: 182px;
+}
+#divE9Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:9;
+	left: 397px;
+	top: 182px;
+}
+#divE10Studio {
+	position:absolute;
+	width:101px;
+	height:152px;
+	z-index:10;
+	left: 511px;
+	top: 182px;
+}
+
+#divIcoAnteriorStudio {
+	position:absolute;
+	width:12px;
+	height:13px;
+	z-index:11;
+	left: 510px;
+	top: 0px;
+}
+#divAnteriorStudio {
+	position:absolute;
+	width:55px;
+	height:12px;
+	z-index:12;
+	left: 524px;
+	top: 1px;
+}
+#divSiguienteStudio {
+	position:absolute;
+	width:54px;
+	height:12px;
+	z-index:13;
+	left: 588px;
+	top: 1px;
+}
+#divIcoSiguienteStudio {
+	position:absolute;
+	width:12px;
+	height:13px;
+	z-index:14;
+	left: 642px;
+	top: 0px;
+}
+
+/** clases **/
+.botoTipoPrin{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#999;
+}
+
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+}
+#divLocationStudio {
+	position:absolute;
+	width:51px;
+	height:12px;
+	z-index:15;
+	left: 101px;
+	top: 1px;
+}
+#divStudioStudio {
+	position:absolute;
+	width:40px;
+	height:12px;
+	z-index:16;
+	left: 56px;
+	top: 1px;
+}

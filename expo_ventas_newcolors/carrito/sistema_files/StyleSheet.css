@@ -1,0 +1,1841 @@
+﻿@charset "utf-8";
+  body{
+	position:relative;
+	width:970px;
+	_width:1024px;
+	margin:auto;
+	font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+	font-weight:lighter;
+	color: #666;
+	font-size: 10px;
+	height: 700px;
+
+
+ 
+	
+}
+	 a{
+	text-decoration:none;
+	color:#666;
+}
+	.encabezadito{
+	position:relative;
+	margin:auto;
+	background-color:#FFF;
+	height:96px;
+	top:0px;
+	-moz-border-radius:10px;
+	-webkit-border-radius-topleft:10px;
+	color: #666;
+	clip: rect(auto,auto,auto,-500px);
+	
+}
+		.logotipoPrincipal{
+	position:relative;
+	float:left;
+	font-size:24pt;
+	color:Black;
+	height:35px;
+	width:321px;
+	left:20px;
+	top:10px;
+	background-image: url(logo.gif);
+}
+  	  .sesion{
+	position:absolute;
+	margin:auto;
+	float:right;
+	width:1024px;
+	height:81px;
+	font-size:9pt;
+	color:#666;
+	left: -1px;
+	top: 1px;
+}
+		.catalogo{
+	position:relative;
+	top:55px;
+	left:40px;
+	font-size:small;
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+		.pedidos{
+	position:relative;
+	top:55px;
+	left:60px;
+	font-size:small;
+	color:#666;
+}
+			.cuenta{
+	position:relative;
+	top:55px;
+	left:80px;
+	color:#666;
+	font-size:small;
+}
+			.foro{
+	position:relative;
+	top:55px;
+	left:100px;
+	color:#666;
+	font-size:small;
+}
+			.catalogo:hover, .pedidos:hover, .cuenta:hover, .foro:hover{
+	color:#666;
+}
+			.monito{
+	position:absolute;
+	background:url(http://localhost/img/web/imagenusuario.jpg)no-repeat;
+	height:50px;
+	width:50px;
+	left:965px;
+	top:11px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+			.nombreUsuario{
+	position:absolute;
+	top:-5px;
+	right:489px;
+	font-size:10pt;
+	color: #666;
+	width: 304px;
+	text-align: right;
+	height: 21px;
+
+
+}
+		.combo{
+	position:absolute;
+	top:68px;
+	right:818px;
+	border:thin none #999;
+	color:#666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	width: 244px;
+	height: 24px;
+	z-index: 10;
+}
+		.cerrarSesion{
+	position:absolute;
+	right:198px;
+	top:22px;
+	border:thin solid #999;
+	font-size:small;
+	color:#666;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ 	   .contenidote{position:relative;	 background:white; height:680px; top:-1px;}
+		.contenidote2{
+	position:relative;
+	height:530px;
+	top:-1px;
+	background-color: #FFF;
+	width: 800;
+}		
+div emergente<--
+.cuadro{position:absolute;  width:515px; height:590px; top:84px; left:165px;z-index:1;}
+		    .cerrar2{position:absolute; top:-20px; left:500px; color:White;}
+		    .cerrar{position:absolute; height:20px; width:20px; top:-23px; right:0; font-size:20px; font-weight:500; text-align:center; background:#666666; color:white; cursor:pointer; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.cuadrito{position:absolute; background:#FFFFFF; height:250px; width:565px; left:-27px; top:260px; border:solid 1px #666666; border-top:solid 25px #666666; -moz-border-radius:10px; -webkit-border-radius:10px;z-index:1000;}
+			.linea2{
+	position:absolute;
+	color:#333;
+	font-size:30pt;
+	top:2px;
+	left:220px;
+}
+			.estilo2{
+	position:absolute;
+	color:#666;
+	font-size:16pt;
+	top:42px;
+	left:220px;
+}
+			    .linea3{position:absolute; background:#666; width:345px; height:3px; left:220px; top:67px;}
+			    .florecitas1{
+	position:absolute;
+	width:513px;
+	height:67px;
+	top:3px;
+	left:317px;
+	
+	background-repeat:repeat;
+}
+	div emergente<--
+
+	.cuadrote{position:absolute; width:1114px; height:665px; top:10px; left:19px; }
+			.cuadrote2{
+	position:absolute;
+	width:930px;
+	height:665px;
+	top:0;
+	left:19px;
+	border:1px solid #DDD;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFFF;
+}
+			.menucito{
+	position:absolute;
+	top:18px;
+	height:40px;
+	font-size:11pt;
+	color:#666;
+	font-weight:lighter;
+	left: 117px;
+}
+			.linea{
+	position:absolute;
+	left:-101px;
+	top: -1px;
+
+}
+					.cuadroLinea{
+	position:absolute;
+	width:604px;
+	height:56px;
+	top:38px;
+	left:5px;
+	text-align: left;
+	font-weight:normal;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	z-index: 100;
+}
+						.botonLinea, .botonLinea2{
+	border-style:hidden;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	width:40px;
+	height:30px;
+	background:#FFFFFF;
+	cursor:pointer;
+	top: 10px;
+	left: 0px;
+	color: #666;
+}
+.divBotonLinea{
+	border-style:hidden;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	width:40px;
+	height:30px;
+	background:#FFFFFF;
+	cursor:pointer;
+	top: 0px;
+	left: 0px;
+	color: #666;	
+}
+					.botonLinea:hover, .botonLinea2:hover{color:#e5e5e5;}
+.cuadroEstilo{
+	position:absolute;
+	width:600px;
+	height:420px;
+	top:96px;
+	left:2px;
+	background:#FFFFFF;
+	z-index:1;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow:auto;
+}	
+	
+	.cuadroEstilo2{
+	position:absolute;
+	width:600px;
+	height:420px;
+	top:96px;
+	left:2px;
+	background:#FFFFFF;
+	z-index:1;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	overflow:auto;
+}
+					    .link{position:absolute; z-index:1;}
+						.lineaEstilo {position:absolute; height:145px;}
+                          
+							.nombreLinea, .nombreLinea2{position:relative; width:51px; height:145px; color:#666; top:0; text-align:center; background-color:#093}
+								.numeritoLinea{
+	position:absolute;
+	top:70px;
+	left: 12px;
+}
+							.imagen{position:absolute; z-index:99; border:solid 1px white;}
+							.fondoestilo{
+	position:absolute;
+	background:url("http://localhost/img/web/degradado5.png") repeat-x;
+	width:100%;
+	height:29px;
+	bottom:0;
+	z-index:4;
+}
+							.fondoestilo2{
+	position:absolute;
+	background:url("http://localhost/img/web/degradado6.png") repeat-x;
+	width:204px;
+	height:20px;
+	bottom:-120px;
+	left: 3px;
+	z-index:4;
+	
+}
+.nombreEstilo{
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative; 
+	color:#666;
+	font-size:9px; 
+	height:20px; 
+	width:110px;
+	margin-top:2px; 
+<--	left:0px; 
+	z-index:6;
+}
+				 	.cuadroCarrito{
+	position:absolute;
+	width:212px;
+	height:523px;
+	background:#FFFFFF;
+	top:0px;
+	left:612px;
+	z-index: 1000;
+	overflow: auto;
+}
+				 	    .infocarrito{position:absolute; height:40px; width:187px; top:0px; left:0px;}
+			                .carrito{
+	position:absolute;
+	background:url("file://///sistemas/wwwroot/sitio2009/carrito/sistema_files/sistema_files/carrito.gif") no-repeat;
+	height:27px;
+	width:28px;
+	left:55px;
+	top:2px;
+} 
+			                .pares, .monto{position:absolute; font-size:9pt; left:95px; top:1px; color:#666;}		
+			                .monto{left:95px; top:17px;}
+			           .cuadroresumen{
+	position:absolute;
+	width:221px;
+	height:541px;
+	top:-1px;
+	left: -3px;
+	background-image:url(nback1.gif);
+	background-repeat:no-repeat;
+	z-index: 1000;
+
+}	 	   
+												.resumen{
+	position:relative;
+	width:100%;
+	height:140px;
+	top:10px;
+	left:0px;
+}
+						.borrar{
+	position: absolute;
+	width:auto;
+	left:0px;
+	top: 0px;
+}
+							.fotoResumen{
+	position:absolute;
+	top:0px;
+	left:13px;
+	width:73px;
+	height:73px;
+} 
+								.lineaResumen{
+	position:absolute;
+	height:0px;
+	top:0px;
+	left:61px;
+	font-size:16pt;
+	color:#999;
+}
+								.estiloResumen{
+	position:absolute;
+	top:20px;
+	left:61px;
+	font-size:10pt;
+	color:#999;
+}
+								.infoResumen{position:absolute; top:100px; left:18px; width:217px; height:67px;}
+									 .precio, .n2, .n2m, .n3, .n3m, .n4, .n4m, .n5, .n5m, .n6, .n6m, .totalPares, .numeroPares, .totalPrecio, .numeroPrecio{position:absolute; font-size:8pt; color:#999;}
+									.precio{
+	left:44px;
+	top:-46px;
+}
+			.material{
+	position:absolute; font-size:7pt; color:#999;top:-60px;left:44px;
+	
+	
+}
+#tablaResumen{
+	position:absolute;
+	left:-13px;
+	top:4px;
+	width:201px;
+	height:46px;
+	z-index:1;
+	font-size:9px;
+}
+									.n2, .n2m, .n3, .n3m, .n4, .n4m, .n5, .n5m, .n6, .n6m{top:-46px; font-size:8pt; left:-12px;}
+									.n2m{left:10px;}
+									.n3{left:20px;}
+									.n3m{left:42px;}	
+									.n4{left:52px;}	
+									.n4m{left:74px;}
+									.n5{left:84px;}
+									.n5m{left:106px;}
+									.n6{left:118px;}
+									.n6m{left:140px;}
+									.n2a, .n2ma, .n3a, .n3ma, .n4a, .n4ma, .n5a, .n5ma, .n6a, .n6ma{
+	position:relative;
+	top:-36px;
+	font-size:8pt;
+	background:#FFFFFF;
+	color:#999;
+}
+									.n2a{left:-10px;}
+									.n2ma{left:0px;}
+									.n3a{left:5px;}
+									.n3ma{left:12px;}	
+									.n4a{left:20px;}	
+									.n4ma{left:28px;}
+									.n5a{left:32px;}
+									.n5ma{left:42px;}
+									.n6a{left:48px;}
+									.n6ma{left:56px;}
+									.numeros{
+	position:absolute;
+	top:21px;
+	left:0px;
+	width:215px;
+	height:25px;
+}
+									.totalPares, .numeroPares{
+	position:absolute;
+	top:0px;
+}
+									.totalPares{
+	left:-13px;
+}
+									.numeroPares{
+	left:70px;
+}
+									.totalPrecio, .numeroPrecio{
+	position:absolute;
+	top:15px;
+}
+									.totalPrecio{
+	left:-13px;
+}
+									.numeroPrecio{
+	left:70px;
+}
+						.botonesResumen{
+	position:absolute;
+	height:25px;
+	width:181px;
+	left:842px;
+	top:525px;
+}
+						.eliminar, .aceptar{
+	position:absolute;
+	background-repeat:no-repeat;
+	background: transparent url(sistema_files/fondo.gif) no-repeat scroll top right;
+	background: #DDD;
+	border:hidden;
+	font-size:10pt;
+	color:#666666;
+	top:2px;
+	left:19px;
+	height:20px;
+	width:60px;
+	outline: none;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+}
+						.aceptar{
+	left:107px;
+	_left:100px;
+}            
+			.tabla1{position:absolute; top:100px; left:50px; width:1050px;}
+            .tabla2{position:absolute; top:140px; left:50px; width:1050px;}
+            .tabla3{position:absolute; top:200px; left:50px; width:1050px;}
+            .tabla4{position:absolute; top:287px; left:50px; width:1050px; font-size:10px; z-index:2;}
+            .tabla5{position:absolute; top:287px; left:50px; width:1050px; text-align:center;}
+            .tabla6{position:absolute; top:337px; left:50px; width:1050px; text-align:center; font-size:9px; border:solid 1px #666666; border-top:hidden;}
+                .material1{width:300px; height:40px;}
+                .img{position:absolute; left:49px; top:252px; background:url("http://localhost/img/web/pestana2.png")no-repeat; width:1051px; height:86px;}
+                        .titulopedido{position:absolute; font-size:25px; color:#666; left:14px; top:9px;}
+            .tituloentrada{position:absolute; font-size:25px; color:#666; left:500px; top:10px;}
+            .linea6{position:absolute; background:#666; width:1100px; height:2px; left:35px; top:90px;}
+		    .florecitas, .florecitas3{
+	position:absolute;
+	width:100px;
+	height:67px;
+	top:23px;
+	left:1034px;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+		    .florecitas3{left:1034px;}
+                    .txtfecha{position:relative; top:-4px; left:-10px; height:16px;}
+                    .txtsemana{ position:relative; top:-4px; left:0px; height:16px;}
+                    .txtcasillero{position:relative; top:-4px; left:0px; height:16px;}
+                    .txtlote{position:relative; top:-4px; left:0px; height:16px;}
+                    .comboestilo{position:absolute; top:-4px; left:0px;}
+                    .txtc2, .txtc2m, .txtc3, .txtc3m, .txtc4, .lblctot, .lblcnp, .txtn2, .txtn2m, .txtn3, .txtn3m, .txtn4, .txtn4m, .txtn5, .txtn5m, .txtn6, .txtn6m, .txtprecio, .lblpares, .lblnp{position:absolute; top:218px; left:53px; text-align:center; height:16px; width:30px;}
+                        .txtc2m{left:91px;}
+                        .txtc3{left:129px;}
+                        .txtc3m{left:167px;}
+                        .txtc4{left:205px;}
+                        .lblctot{left:252px;}
+                        .lblcnp{left:296px;}
+                        .txtn2{left:341px;}
+                        .txtn2m{left:385px;}
+                        .txtn3{left:429px;}
+                        .txtn3m{left:471px;}
+                        .txtn4{left:514px;}
+                        .txtn4m{left:557px;}
+                        .txtn5{left:600px;}
+                        .txtn5m{left:644px;}
+                        .txtn6{left:688px;}
+                        .txtn6m{left:730px;}
+                        .txtprecio{left:816px;}
+                        .lblpares{left:769px;}
+                        .lblnp{left:876px;}
+	.pie{position:relative; height:25px; margin:auto; background:#FFFFFF; top:1px;}
+	.pie2{position:relative; height:25px; margin:auto; background:#FFFFFF; top:-1px;}
+		.textoPie{
+	position:absolute;
+	font-size:12px;
+	left:418px;
+	top:0px;
+	color:#666;
+}	
+    .imgabajo{
+	position:relative;
+	margin:auto;
+
+	height:27px;
+	background:url("http://localhost/img/web/imgabajo.png")no-repeat;
+	background-image: url(http://localhost/img/web/imgabajo.png);
+}
+.contenido{position:absolute; width:515px; height:590px; top:56px; left:165px; z-index:2;}
+		.cuadro{
+	position:absolute;
+	width:640px;
+	height:590px;
+	top:46px;
+	left:187px;
+	z-index:1;
+}
+		    .cerrar2{
+	position:absolute;
+	top:-22px;
+	left:758px;
+	color:White;
+	z-index:3;
+}
+		    .cerrar{
+	position:absolute;
+	height:20px;
+	width:20px;
+	top:3px;
+	right:6px;
+	font-size:20px;
+	font-weight:500;
+	text-align:center;
+	background:#666666;
+	color:white;
+	cursor:pointer;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	z-index:2;
+}
+		    .cerrar:hover{color:#e5e5e5;}
+			.cuadrito{
+	position:absolute;
+	background:#FFFFFF;
+	height:364px;
+	width:830px;
+	left:182px;
+	top:882px;
+	border:solid 3px #666666;
+	border-top:solid 25px #666666;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+			.fotoZapato{
+	position:absolute;
+	background:#FFFFFF;
+	width:300px;
+	height:300px;
+	top:26px;
+	left:10px;
+}
+			.linea2{
+	position:absolute;
+	color:#333;
+	font-size:30pt;
+	top:2px;
+	left:318px;
+}
+			.estilo2{
+	position:absolute;
+	color:#333;
+	font-size:16pt;
+	top:42px;
+	left:320px;
+}
+			    .linea3{
+	position:absolute;
+	background:#666;
+	width:511px;
+	height:3px;
+	left:319px;
+	top:70px;
+
+}
+			.material2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:89px;
+	left:320px;
+}
+			.precio2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:109px;
+	left:320px;
+}
+			.cantidadPrecio2{
+	position:absolute;
+	color:#333;
+	font-size:10pt;
+	top:109px;
+	left:370px;
+}
+			.total2{
+	position:absolute;
+	color:#333;
+	font-size:12pt;
+	top:130px;
+	left:320px;
+	width: 36px;
+	height: 22px;
+	font-weight: bold;
+}
+			.cantidadTotal2{
+	position:absolute;
+	color:#333;
+	font-size:12pt;
+	top:132px;
+	left:369px;
+	width: 61px;
+}
+			.numeracion2, .cantidad3, .n22, .n2m2, .n32, .n3m2, .n42, .n4m2, .n52, .n5m2, .n62, .n6m2, .totalN2{
+	position:absolute;
+	color:#000000;
+	font-size:11px;
+	bottom:192px;
+	left:322px;
+}
+			.cantidad3{
+	left:367px;
+}
+			.n22{
+	left:408px;
+}
+			.n2m2{
+	left:432px;
+}
+			.n32{
+	left:447px;
+}
+			.n3m2{
+	left:471px;
+}
+			.n42{
+	left:485px;
+}
+			.n4m2{
+	left:511px;
+}
+			.n52{
+	left:525px;
+}
+			.n5m2{
+	left:550px;
+}
+			.n62{
+	left:563px;
+}
+			.n6m2{
+	left:590px;
+}
+			.totalN2{
+	left:609px;
+}
+			.numeracion, .cantidad, .n2a2, .n2ma2, .n3a2, .n3ma2, .n4a2, .n4ma2, .n5a2, .n5ma2, .n6a2, .n6ma2, .totalNa2{
+	position:absolute;
+	bottom:174px;
+	left:220px;
+	_left:236px;
+	border:solid 1px #666666;
+	font-size:9pt;
+	height:18px;
+	text-align:center;
+}       
+            .numeracion{
+	width:44px;
+	left:316px;
+}
+            .cantidad{
+	left:363px;
+	width:40px;
+}
+			.n2a2{
+	left:406px;
+	width:15px;
+	height:13px;
+}
+			.n2ma2{
+	left:426px;
+	width:15px;
+	height:13px;
+}
+			.n3a2{
+	left:445px;
+	width:15px;
+	height:13px;
+}
+			.n3ma2{
+	left:464px;
+	width:15px;
+	height:13px;
+}
+			.n4a2{
+	left:484px;
+	width:15px;
+	height:13px;
+}
+			.n4ma2{
+	left:504px;
+	width:15px;
+	height:13px;
+}
+			.n5a2{
+	left:524px;
+	width:15px;
+	height:13px;
+}
+			.n5ma2{
+	left:543px;
+	width:15px;
+	right: 111px;
+	height:13px;
+}
+			.n6a2{
+	left:562px;
+	width:15px;
+	height:13px;
+}
+			.n6ma2{
+	left:582px;
+	width:15px;
+	height:13px;
+}
+			.totalNa2{
+	left:609px;
+	width:30px;
+	height:13px;
+}
+			.aceptar2{
+	position:absolute;
+	bottom:6px;
+	right:38px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	background-image: url(sistema_files/fondo.gif);
+}
+			.agregar{
+	position:absolute;
+	bottom:171px;
+	right:48px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+			.observaciones{position:absolute; left:220px; bottom:10px; height:60px; width:255px; border:solid #666666 1px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+			.enviar{
+	position:absolute;
+	bottom:6px;
+	right:130px;
+	background:#FFFFFF;
+	border:solid #666666 1px;
+	height: 24px;
+	width:65px;
+	background-image: url(sistema_files/fondo.gif);
+}
+			.contenido2{position:absolute; width:515px; height:590px; top:84px; left:165px; z-index:3; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.cuadro2{position:absolute;  width:515px; height:590px; top:56px; left:0px;}
+		.blanco{position:absolute; width:610px; height:450px; top:65px; left:-27px; background:white; border:solid 3px #666666; border-top:solid 25px #666666; -moz-border-radius:10px; -webkit-border-radius:10px;}
+		.tablacontenido{position:absolute; width:585px; height:270px; top:75px; left:15px; overflow-y:auto; overflow-x:hidden; color:Black; z-index:1;}
+		.titulotabla2{position:absolute; width:570px; height:25px; left:15px; top:50px; text-align:center; font-size:smaller; background:url("http://localhost/img/web/degradado.png"); color:#666666; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.pedido{position:relative; width:570px; height:55px; top:0; text-align:center; color:Black; font-size:10px; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .tablatotal{position:absolute; width:569px; height:25px; top:345px; left:15px; font-size:smaller; color:#666666; text-align:center; border:solid 1px #666666;-moz-border-radius:10px; -webkit-border-radius:10px;}
+        .btnguardar{position:absolute; top:375px; left:514px; background:white; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .btncancelar{position:absolute; top:375px; left:430px; background:white; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .cerrar3{position:absolute; top:-20px; left:540px; color:White;}
+        .titulopedido{position:absolute; font-size:25px; color:#666  a0be; left:14px; top:9px;}
+            .linea4{position:absolute; background:#666; width:915px; height:2px; left:35px; top:78px;}
+            .linea5{position:absolute; background:#666; width:597px; height:2px; left:13px; top:38px;}
+		    .florecitas2{position:absolute; width:58px; height:39px; top:0px; left:552px; background:url("http://localhost/img/web/florecitas.jpg")no-repeat;}
+		    .enviar2{position:absolute; left:15px; bottom:10px; height:60px; width:405px; border:solid #666666 1px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		    .btnenviar2{position:absolute; bottom:12px; right:115px; background:#FFFFFF; border:solid #666666 1px; height: 24px; width:65px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+        .divimggaleria{position:absolute; width:203px; height:203px; left:6px; top:3px; z-index:90;}
+			.florecitas{position:absolute; width:100px; height:67px; top:11px; left:850px; background:url("http://localhost/img/web/florecitas2.jpg")no-repeat;}
+			.cliente, .domicilio{position:absolute; left:35px; top:35px; font-size:small; font-weight:lighter;}
+			.domicilio{top:55px; font-size:x-small;}
+			.tabla{position:absolute; width:521px; height:500px; left:415px; top:148px; overflow:auto;}
+		.titulotabla{position:absolute; width:500px; height:25px; left:415px; top:122px; text-align:center; font-size:smaller; background:url("http://localhost/img/web/degradado.png"); color:#666666; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;}
+		.pedidofila{position:relative; width:502px; height:33px; top:0; text-align:center; color:Black; font-size:10px; border:solid 1px #666666; -moz-border-radius:3px; -webkit-border-radius:3px;} 
+		.flechita{position:relative; background:url("http://localhost/img/web/triangulito.jpg"); width:22px; height:22px; left:1px; top:1px;}
+		.estilo{position:relative; width:100%; height:25px; text-align:center; font-size:smaller; background:url("http://localhost/img/web/degradado.png"); color:#666666;}
+		    .estilo3{
+	position:absolute;
+	width:50px;
+	height:15px;
+	font-size:medium;
+	color: #666;
+	font-weight: normal;
+	top: -1px;
+	left: -49px;
+}
+		.hojita{position:relative; background:url("http://localhost/img/web/hojita.png"); height:95px; width:95px; top:0px; left:35px; text-align:center;}
+		    .semana{position:relative; font-size:small; font-weight:bold;
+    top: 207px;
+    left: 37px;
+    height: 29px;
+    width: 89px;
+}
+		    .numsem{position:relative; font-size:xx-large;}
+		    .fechasem{position:relative; font-size:x-small;}
+		.tablacliente{position:absolute; top:30px; left:150px; width:950px;}
+		.tablainfo{position:absolute;top:4px;left:0px; text-align:center; font-size:10px; width:100%;}
+		    .titulotablacliente, .tablafiltros{position:relative; text-align:center; font-size:10px; width:100%;}
+		        .txtcliente, .txttienda{width:390px;}
+		        .selectdoc{width:150px;}
+		.infoventas{position:relative; top:25px; left:70px; width:950px; text-align:center; font-size:10px;}
+            .img2{position:absolute; left:49px; top:232px; width:1051px; height:86px;}
+		.tablafiltros{top:35px;}
+		    .txtfecha2, .txtsem2, .txtcas2, .txtlote2, .txttemp2, .txtlinea2{width:40px; height:11px; font-size:10px;}
+		    .txtestilo2, .selectdoc2{width:90px; font-size:10px;}
+		    .txtcliente2, .txtcolor2{width:190px; height:11px; font-size:10px;}
+		    .txtestilo2{height:11px;}
+		    .tablota{position:absolute; top:160px; font-size:10px;}
+		    .miclasedetablaventas{position:absolute; top:30px; font-size:10px; overflow:auto; height:190px; overflow-x:hidden;}
+		    .tablatitulo2{left:30px;top:25px; overflow:auto; width:1024px; height:200px; left:-13px; position:absolute; font-size:10px;}
+            
+            
+            
+            .classCorridas{width:20px; font-size:10px;}
+		.style2
+        {
+            width: 100px; text-align:center;
+        }
+        .style3
+        {
+            width: 80px; text-align:center;
+        }
+        .style4
+        {
+            width: 322px; text-align:center;
+        }
+        .style5
+        {
+            width: 65px; text-align:center;
+        }
+        .style6
+        {
+            width: 50px; text-align:center;
+        }
+        .style7
+        {
+            width: 57px; text-align:center;
+        }
+        .style8
+        {
+            width: 68px; text-align:center;
+        }
+        .style9
+        {
+            width: 125px; text-align:center;
+        }
+        .style10
+        {
+            width: 64px; text-align:center;
+        }
+        .style11, .txtfecha
+        {
+            width: 150px; text-align:center; font-size:x-small;
+        }
+        .style12, .txtsemana
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style13, .txtcasillero
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style14, .txtlote
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style16
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style17
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style18
+        {
+            width: 85px; text-align:center; font-size:x-small;
+        }
+        .style19
+        {
+            width: 150px; text-align:center; font-size:x-small;   
+        }
+        .style20
+        {
+            width: 30px; text-align:center; font-size:x-small;   
+        }
+        .style21
+        {
+            width: 40px; text-align:center; font-size:x-small;   
+        }
+        .style22
+        {
+            width: 35px; text-align:center; font-size:x-small;  
+        }
+        .style0
+        {
+            width:24px;
+        }
+        .style23
+        {
+            width: 30px;
+        }
+        .style24
+        {
+            width: 80px;
+        }
+        .style25
+        {
+            width: 70px;
+        }
+        .style26
+        {
+            width: 70px;
+        }
+        .style27
+        {
+            width: 50px;
+        }
+        .style28
+        {
+            width: 50px;
+        }
+        .style29
+        {
+            width: 130px;
+        }   
+        .style30
+        {
+            width: 132px;
+        }    
+        .style31
+        {
+            width: 105px;
+        }  
+        .style32
+        {
+            width: 80px;
+        }                 
+        .style33
+        {
+            width: 15px;
+        }
+        .style34
+        {
+            width: 180px;
+        }  
+        .style35
+        {
+            width: 100px;
+        }    
+        .style36
+        {
+            width: 100px;
+        } 
+        .style37
+        {
+            width: 100px;
+        } 
+        .style38
+        {
+            width: 5px;
+        }  
+       
+                        
+        .classBtnAgregar{ position:absolute;  left:990px; top:485px; z-index:2}
+#banner {
+	position:absolute;
+	left:870px;
+	top:35px;
+	width:155px;
+	height:609px;
+	z-index:4;
+}
+#cerrar {
+	position:absolute;
+	width:210px;
+	height:21px;
+	z-index:1;
+	left: -266px;
+	top: 1px;
+	font-weight:normal;
+}
+#cerrarX {
+	position:absolute;
+	width:26px;
+	height:21px;
+	z-index:1;
+	left: 804px;
+	top: -25px;
+	font-weight:normal;
+}
+#divFormatoPedido {
+	position:absolute;
+	width:677px;
+	height:520px;
+	z-index:1;
+}
+#divImgPedido {
+	position:absolute;
+	width:203px;
+	height:203px;
+	z-index:1;
+	left: 22px;
+	top: 10px;
+}
+#divLblCategoria {
+	position:absolute;
+	width:41px;
+	height:20px;
+	z-index:2;
+	left: 14px;
+	top: 6px;
+}
+#divlblDescCategoria {
+	position:absolute;
+	width:99px;
+	height:22px;
+	z-index:3;
+	top: 9px;
+	left: 311px;
+	text-align: left;
+}
+#divNombreEstilo {
+	position:absolute;
+	width:346px;
+	height:26px;
+	z-index:4;
+	top: 48px;
+	left: 312px;
+	text-align: left;
+}
+#apDiv3 {
+	position:absolute;
+	width:218px;
+	height:25px;
+	z-index:5;
+	top: 202px;
+	left: 37px;
+}
+#lblObservacion {
+	position:absolute;
+	width:346px;
+	height:45px;
+	z-index:6;
+	top: 172px;
+	left: 311px;
+}
+#apDiv5 {
+	position:absolute;
+	width:609px;
+	height:130px;
+	z-index:7;
+	left: 29px;
+	top: 301px;
+}
+#divCarro1 {
+	position:relative;
+	width:180px;
+	height:105px;
+	z-index:1;
+	left: 6px;
+	top: 5px;
+	
+}
+#divImg1 {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:1;
+	left: 4px;
+	top: 3px;
+}
+#carroLinea1 {
+	position:absolute;
+	width:115px;
+	height:19px;
+	z-index:2;
+	top: 25px;
+	left: 60px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-weight: bold;
+
+}
+#divChk {
+	position:absolute;
+	width:21px;
+	height:25px;
+	z-index:3;
+	left: 151px;
+	top: 4px;
+}
+#carroNombreEstilo1 {
+	position:absolute;
+	width:165px;
+	height:18px;
+	z-index:4;
+	top: 55px;
+	left: 6px;
+	font-size: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #666;
+}
+#divLblPrecio {
+	position:absolute;
+	width:47px;
+	height:13px;
+	z-index:5;
+	top: 77px;
+	left: 7px;
+	font-size: 9px;
+}
+#carroPrecio1 {
+	position:absolute;
+	width:110px;
+	height:13px;
+	z-index:6;
+	top: 76px;
+	left: 10px;
+	font-size: 9px;
+}
+#divLblPares {
+	position:absolute;
+	width:48px;
+	height:13px;
+	z-index:7;
+	top: 93px;
+	left: 7px;
+	font-size: 9px;
+}
+#carroPares1 {
+	position:absolute;
+	width:112px;
+	height:13px;
+	z-index:8;
+	top: 91px;
+	left: 60px;
+	font-size: 9px;
+}
+#divLblImporte {
+	position:absolute;
+	width:47px;
+	height:13px;
+	z-index:9;
+	top: 108px;
+	left: 6px;
+	font-size: 9px;
+}
+#carroImporte1 {
+	position:absolute;
+	width:113px;
+	height:14px;
+	z-index:10;
+	left: 59px;
+	top: 107px;
+	font-size: 9px;
+}
+#menu-principal {
+	position:absolute;
+	width:670px;
+	height:25px;
+	z-index:12;
+	top: 49px;
+	left: 7px;
+}
+#divCrearPedido {
+	position:absolute;
+	width:83px;
+	height:15px;
+	z-index:3;
+	left: 358px;
+	top: 90px;
+}
+#comboPlantillas {
+	position:absolute;
+	width:141px;
+	height:17px;
+	z-index:92;
+	left: 4px;
+	top: 4px;
+}
+#divBtnVerPedidos {
+	position:absolute;
+	width:62px;
+	height:17px;
+	z-index:4;
+	top: 91px;
+	left: 573px;
+	text-align: center;
+}
+#agregar {
+	position:absolute;
+	left:674px;
+	top:176px;
+	width:73px;
+	height:24px;
+	z-index:1002;
+}
+#gridEncabezado {
+	position:absolute;
+	left:317px;
+	top:206px;
+	width:436px;
+	height:17px;
+	z-index:1004;
+	color: #FFF;
+	background-color:#666;
+}
+#gridContenido {
+	position:absolute;
+	left:314px;
+	top:165px;
+	width:442px;
+	height:147px;
+	z-index:1005;
+}
+#totales {
+	position:absolute;
+	left:376px;
+	top:312px;
+	width:444px;
+	height:16px;
+	z-index:1006;
+	background-color: #FFFFFF;
+}
+#leyenda {
+	position:absolute;
+	width:513px;
+	height:19px;
+	z-index:1001;
+	left: 10px;
+	top: 349px;
+	font-weight: normal;
+	text-align: right;
+}
+#idContenedor {
+	position:absolute;
+	width:200px;
+	height:23px;
+	z-index:3;
+	top: 18px;
+}
+#divDatosCarro {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:91;
+}
+#divEliminarElemento {
+	position:absolute;
+	width:74px;
+	height:21px;
+	z-index:1;
+	left: 815px;
+	top: 468px;
+}
+#divAgregarACarro {
+	position:absolute;
+	width:96px;
+	height:18px;
+	z-index:2;
+	left: 466px;
+	top: 89px;
+}
+.infoPrecio2Sistema{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	}
+	
+.EliminarBlancooSistema2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+}
+
+.negroTipografia2323{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+	#divConCAPE {
+	position:absolute;
+	width:582px;
+	height:17px;
+	z-index:92;
+	left: 153px;
+	top: 19px;
+}
+
+.tipoDatosClientesSistema{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	font-weight:600;
+}
+.campoTxPedidoSistema{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	width:210px;
+	height:13px;
+	font-weight:500;
+}
+
+.campoBusquedaSistema{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+/***Div*******/
+
+#divLimpiarCarriro2    {
+	position:absolute;
+	width:73px;
+	height:11px;
+	z-index:2000;
+	left: 27px;
+	top: 30px;
+	text-align: center;
+}
+#divBarita3Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:94;
+	left: 262px;
+	top: 7px;
+}
+#divVerCatalogoInventario {
+	position:absolute;
+	width:59px;
+	height:16px;
+	z-index:95;
+	left: 5px;
+	top: 3px;
+	visibility: hidden;
+}
+#divSugerencias {
+	position:absolute;
+	width:90px;
+	height:16px;
+	z-index:96;
+	left: 8px;
+	top: 5px;
+	text-align: center;
+}
+#divMuestrario {
+	position:absolute;
+	width:90px;
+	height:16px;
+	z-index:97;
+	left: 181px;
+	top: 5px;
+	text-align: center;
+	visibility: hidden;
+}
+#divInventario {
+	position:absolute;
+	width:90px;
+	height:16px;
+	z-index:98;
+	left: 83px;
+	top: 5px;
+	text-align: center;
+	visibility: hidden;
+}
+
+#divGranTotalCarro {
+	position:absolute;
+	width:173px;
+	height:24px;
+	z-index:1;
+	left: 25px;
+	top: 34px;
+	
+	
+}
+#divFotoZoom {
+	position:absolute;
+	width:450px;
+	height:495px;
+	z-index:2004;
+	left: 100px;
+	top: 20px;
+	background-color: #FFFFFF;
+}
+#divCrearPedidoCarro {
+	position:absolute;
+	width:93px;
+	height:17px;
+	z-index:1123;
+	left: 51px;
+	top: 5px;
+	visibility: visible;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	
+	
+}
+
+.fuenteCrear{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#FFF;
+	font-weight:600;
+}
+#divEncabezadoSistema {
+	position:absolute;
+	width:599px;
+	height:31px;
+	z-index:2000;
+	top: 1px;
+	left: 5px;
+}
+
+#divClienteSistema {
+	position:absolute;
+	width:44px;
+	height:15px;
+	z-index:2010;
+	left: 1px;
+	top: 7px;
+}
+#divNomClienteSistema {
+	position:absolute;
+	width:236px;
+	height:16px;
+	z-index:2010;
+	left: 49px;
+	top: 7px;
+	border: thin solid #CCC;
+	text-align:left;
+}
+
+#divCampoTxtSistema {
+	position:absolute;
+	width:143px;
+	height:19px;
+	z-index:1;
+	top: 1px;
+}
+#divImgLupaSistema {
+	position:absolute;
+	width:19px;
+	height:19px;
+	z-index:2010;
+	left: 465px;
+	top: 7px;
+}
+
+
+#divImgMasSistemas {
+	position:absolute;
+	width:18px;
+	height:18px;
+	z-index:1007;
+	left: 525px;
+	top: 1px;
+}
+
+
+#divConCAPE {
+	position:absolute;
+	width:949px;
+	height:25px;
+	z-index:92;
+	left: -148px;
+	top: 1px;
+}
+#divCreaP2SisFondo {
+	position:absolute;
+	width:82px;
+	height:18px;
+	z-index:1;
+	top: 2px;
+	left: 1px;
+}
+#divcreaTxt2peSis {
+	position:absolute;
+	width:69px;
+	height:13px;
+	z-index:1;
+	top: 2px;
+	left: 4px;
+}
+
+#divPepTxt2peSis {
+	position:absolute;
+	width:47px;
+	height:15px;
+	z-index:1;
+	left: 13px;
+	top: 0px;
+}
+#divCreaPSisstema20 {
+	position:absolute;
+	width:65px;
+	height:11px;
+	z-index:1;
+	left: 190px;
+	top: 6px;
+}
+#divBarita1Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:2;
+	left: 325px;
+	top: 7px;
+}
+#divAgreSist {
+	position:absolute;
+	width:79px;
+	height:11px;
+	z-index:102;
+	left: 591px;
+	top: 26px;
+}
+#divZapSistema {
+	position:absolute;
+	width:13px;
+	height:12px;
+	z-index:4;
+	left: 188px;
+	top: 6px;
+}
+#divZap01MSistema {
+	position:absolute;
+	width:27px;
+	height:12px;
+	z-index:5;
+	left: 225px;
+	top: 6px;
+}
+#divBarita2Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:6;
+	left: 559px;
+	top: 7px;
+}
+#divPediSist {
+	position:absolute;
+	width:47px;
+	height:11px;
+	z-index:7;
+	left: 271px;
+	top: 6px;
+}
+#divEliminar23Sistemas2012B    {
+	position:absolute;
+	width:45px;
+	height:11px;
+	z-index:8;
+	left: 859px;
+	top: 8px;
+}
+
+
+
+#divCreaP2SisFondo {
+	position:absolute;
+	width:82px;
+	height:18px;
+	z-index:1;
+	top: 2px;
+	left: 1px;
+}
+#divcreaTxt2peSis {
+	position:absolute;
+	width:69px;
+	height:13px;
+	z-index:1;
+	top: 2px;
+	left: 4px;
+}
+
+#divPepTxt2peSis {
+	position:absolute;
+	width:47px;
+	height:15px;
+	z-index:1;
+	left: 13px;
+	top: 0px;
+}
+#divCreaPSisstema20 {
+	position:absolute;
+	width:65px;
+	height:11px;
+	z-index:1;
+	left: 102px;
+	top: 1px;
+}
+#divBarita1Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:2;
+	left: 176px;
+	top: 2px;
+}
+#divAgreSist {
+	position:absolute;
+	width:79px;
+	height:11px;
+	z-index:3;
+	left: 185px;
+	top: 1px;
+}
+#divZapSistema {
+	position:absolute;
+	width:15px;
+	height:14px;
+	z-index:4;
+	left: 3px;
+	top: 0px;
+}
+#divZap01MSistema {
+	position:absolute;
+	width:38px;
+	height:16px;
+	z-index:5;
+	left: 43px;
+	top: 0px;
+}
+#divBarita2Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:6;
+	left: 274px;
+	top: 2px;
+}
+#divPediSist {
+	position:absolute;
+	width:47px;
+	height:11px;
+	z-index:7;
+	left: 302px;
+	top: 1px;
+}
+
+
+#divTotParSistema {
+	position:absolute;
+	width:153px;
+	height:28px;
+	z-index:1;
+	left: 24px;
+	top: 485px;
+}
+
+.oscuroTipografia{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+
+
+#divBarita3Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:94;
+	left: 594px;
+	top: 5px;
+}
+
+#divEliminar23Sistemas2012B {
+	position:absolute;
+	width:45px;
+	height:11px;
+	z-index:2000;
+	left: 118px;
+	top: 30px;
+}
+
+#divConCAPE {
+	position:absolute;
+	width:599px;
+	height:30px;
+	z-index:2000;
+	left: 4px;
+	top: 6px;
+}
+#divCreaP2SisFondo {
+	position:absolute;
+	width:82px;
+	height:18px;
+	z-index:1;
+	top: 2px;
+	left: 1px;
+}
+#divcreaTxt2peSis {
+	position:absolute;
+	width:69px;
+	height:13px;
+	z-index:1;
+	top: 2px;
+	left: 4px;
+}
+
+#divPepTxt2peSis {
+	position:absolute;
+	width:47px;
+	height:15px;
+	z-index:1;
+	left: 13px;
+	top: 0px;
+}
+#divCreaPSisstema20 {
+	position:absolute;
+	width:65px;
+	height:11px;
+	z-index:1;
+	left: 521px;
+	top: 4px;
+}
+#divBarita1Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:2;
+	left: 657px;
+	top: 5px;
+}
+#divAgreSist {
+	position:absolute;
+	width:79px;
+	height:11px;
+	z-index:3;
+	left: 666px;
+	top: 4px;
+}
+#divZapSistema {
+	position:absolute;
+	width:13px;
+	height:12px;
+	z-index:4;
+	left: 188px;
+	top: 6px;
+}
+#divZap01MSistema {
+	position:absolute;
+	width:27px;
+	height:12px;
+	z-index:5;
+	left: 225px;
+	top: 6px;
+}
+#divBarita2Sistm {
+	position:absolute;
+	width:2px;
+	height:12px;
+	z-index:6;
+	left: 891px;
+	top: 5px;
+}
+#divPediSist {
+	position:absolute;
+	width:47px; 
+	height:11px;
+	z-index:7;
+	left: 603px;
+	top: 4px;
+}

@@ -1,0 +1,386 @@
+* {
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+
+fieldset { padding: 8px; }
+legend { font-weight: bold; }
+
+pre { margin-bottom: 1em; }
+    
+.jscom, .mix htcom   { color: #4040c2; }
+.com      { color: green; }
+.regexp   { color: maroon; }
+.string   { color: teal; }
+.keywords { color: blue; }
+.global   { color: #008; }
+.numbers  { color: #880; }
+.comm     { color: green; }
+.tag      { color: blue; }
+.entity   { color: blue; }
+.string   { color: teal; }
+.aname    { color: maroon; }
+.avalue   { color: maroon; }
+.jquery   { color: #00a; }
+.plugin   { color: red; }
+
+li { list-style-type: none; }
+.basic, #list2, #list3, #navigation { width:20em; }
+
+#log { position:fixed; bottom: 0; right:1em; text-align:right; }
+#switch { position: fixed; bottom: 0; right: 15em; }
+
+.basic  {
+	width: 200px;
+	font-family: verdana;
+	border: 1px solid black;
+}
+.basic div {
+	background-color: #eee;
+}
+
+.basic p {
+	margin-bottom : 10px;
+	border: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9px;
+	margin: 0px;
+	padding: 10px;
+}
+.basic a {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	margin-top: 0;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9px;
+	color: black;
+	background-color: #00a0c6;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #999;
+	
+	background-image: url("AccordionTab0.gif");
+}
+.basic a:hover {
+	background-color: white;
+	background-image: url("AccordionTab2.gif");
+}
+.basic a.selected {
+	color: black;
+	background-color: #80cfe2;
+	background-image: url("AccordionTab2.gif");
+}
+
+
+#navigation {
+	border:1px solid #5263AB;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	background-color:#E2E2E2;
+	width:115px;
+}
+#navigation a.head {
+	cursor:pointer;
+	border:1px solid #CCCCCC;
+	background:#FCC url(collapsed.gif) no-repeat scroll 3px 4px;
+	color:#FFFFFF;
+	display:block;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	text-indent:14px;
+	text-decoration: none;
+}
+#navigation a.head:hover {
+	color:#FFFF99;
+}
+#navigation a.selected {
+	background-image: url(expanded.gif);
+}
+#navigation a.current {
+	background-color:#FFFF99;
+}
+#navigation ul {
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	height: 30px;
+}
+#navigation li {
+	list-style:none outside none; display:inline;
+}
+#navigation li li a {
+	color:#000000;
+	display:block;
+	text-indent:10px;
+	text-decoration: none;
+}
+#navigation li li a:hover {
+	background-color:#FFFF99;
+	color:#FF0000;
+}
+
+#wizard {
+	width: 200px;
+	border: 1px solid black;
+}
+#wizard .title {
+	background-color:#DDDDDD;
+}
+
+
+#divMenuPanelAdmin {
+	position:absolute;
+	width:966px;
+	height:547px;
+	z-index:4;
+	left: -5px;
+	top: 4px;
+}
+#divPanelAdmMenu {
+	position:absolute;
+	width:157px;
+	height:427px;
+	z-index:4;
+	left: 2px;
+	top: 18px;
+
+}
+#divPanelAdmTituloMenu {
+	position:absolute;
+	width:168px;
+	height:23px;
+	z-index:2;
+	left: 7px;
+	top: 18px;
+	text-align: center;
+}
+
+#divNbackPanel {
+	position:absolute;
+	width:54px;
+	height:400px;
+	z-index:4;
+	left: 105px;
+	top: 0px;
+	background-image:url(../../../../carrito/sistema_files/nback.gif);
+	background-repeat:no-repeat;
+}
+
+#divPanelAdmContenido {
+	position:absolute;
+	width:807px;
+	height:519px;
+	z-index:8;
+	left: 168px;
+	top: 18px;
+
+	
+}
+
+#imgFondoPaneldAdministrador {
+	position:relative;
+	width:774px;
+	height:501px;
+	z-index:9;
+	left: 186px;
+	top: 18px;
+
+}
+
+
+#divMenPanel {
+	position:absolute;
+	width:118px;
+	height:335px;
+	z-index:6;
+	left: 12px;
+	top: 32px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divFonBlanPanel {
+	position:relative;
+	width:101px;
+	height:282px;
+	z-index:1;
+	top: 8px;
+	left: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divContePanel {
+	position:relative;
+	width:104px;
+	height:118px;
+	z-index:1;
+}
+#divBarriPanel1 {
+	position:relative;
+	width:104px;
+	height:110px;
+	z-index:1;
+	left: 1px;
+	top: 1px;
+	background-color: #FFFFFF;
+}
+#divBarriPanel2 {
+	position:relative;
+	width:104px;
+	height:100px;
+	z-index:1;
+	left: 1px;
+	top: 1px;
+	background-color: #FFFFFF;
+}
+#divBarriPanel3 {
+	position:relative;
+	width:104px;
+	height:50px;
+	z-index:1;
+	left: 1px;
+	top: 1px;
+	background-color: #FFFFFF;
+}
+#divFlechaPanel {
+	position:absolute;
+	width:12px;
+	height:12px;
+	z-index:1;
+	top: 1px;
+	left: 2px;
+}
+#divTitu1Panel {
+	position:relative;
+	width:99px;
+	height:15px;
+	z-index:2;
+	left: 0px;
+	top: 0px;
+}
+#divMen1Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:2;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen2Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:3;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen3Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:4;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen4Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:5;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen5Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:6;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen6Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:7;
+	left: 0px;
+	top: 0px;
+	padding-left: 17px;
+}
+#divMen7Panel {
+	position:relative;
+	width:99px;
+	height:12px;
+	z-index:8;
+	left: 0px;
+	top: 0px;
+	padding-left: 17px;
+}
+/** CLASES NUEVAS**/
+.h1m { 
+font-family:Arial, Helvetica, sans-serif;
+font-size:9px;
+color:#FFF;
+padding: 10px; 
+margin: 0 
+}
+ .tituloPrincipalAdministracion{
+	font-family:Arial, Helvetica, sans-serif;
+	cursor:pointer;
+	border:1px solid #CCCCCC;
+	background:#5263AB url(collapsed.gif) no-repeat scroll 3px 4px;
+	color:#FFFFFF;
+	display:block;
+	margin:0px;
+	padding:0px;
+	text-indent:14px;
+	text-decoration: none;
+	font-size:12px;
+}
+.subMenuAdministracion{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#333;
+}
+.menuPricipalAcordeon{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+
+.TituloPanel{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+}
+
+.ContenidoPanel{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	padding-left: 10px;
+}
+					   
+
+
+
+
+
+
+
+@media print {
+	.basic div, #navigation ul, #list2 dd, #list3 div{
+		display: block!important;
+		height: auto!important
+	}
+}

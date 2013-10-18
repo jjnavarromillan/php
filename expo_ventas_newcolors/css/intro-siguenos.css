@@ -1,0 +1,72 @@
+#divPrinIntroSiguenos {
+	position:absolute;
+	width:930px;
+	height:501px;
+	z-index:1;
+	top: 13px;
+	left: 15px;
+}
+#divTitulosiguenos {
+	position:absolute;
+	width:215px;
+	height:105px;
+	z-index:1;
+	left: 83px;
+	top: 172px;
+}
+#divCamInSiguenos {
+	position:absolute;
+	width:117px;
+	height:28px;
+	z-index:2;
+	left: 17px;
+	top: 278px;
+}
+#divEdiInSiguenos {
+	position:absolute;
+	width:76px;
+	height:28px;
+	z-index:3;
+	left: 138px;
+	top: 278px;
+}
+#divPasInSiguenos {
+	position:absolute;
+	width:76px;
+	height:28px;
+	z-index:4;
+	left: 209px;
+	top: 278px;
+}
+#divEveInSiguenos {
+	position:absolute;
+	width:79px;
+	height:28px;
+	z-index:5;
+	left: 273px;
+	top: 278px;
+}
+#divSep1InSiguenos {
+	position:absolute;
+	width:10px;
+	height:23px;
+	z-index:6;
+	left: 132px;
+	top: 281px;
+}
+#divSep2InSiguenos {
+	position:absolute;
+	width:10px;
+	height:23px;
+	z-index:7;
+	left: 213px;
+	top: 281px;
+}
+#divSep3InSiguenos {
+	position:absolute;
+	width:10px;
+	height:23px;
+	z-index:8;
+	left: 279px;
+	top: 281px;
+}

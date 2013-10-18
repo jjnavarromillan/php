@@ -1,0 +1,109 @@
+#divPrGaleriaPasaCompleta {
+	position:absolute;
+	width:681px;
+	height:337px;
+	z-index:1;
+}
+#divBotGaleriaAtras {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:1;
+	left: 0px;
+	top: 131px;
+}
+#divBotGaleriaAdelante {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:2;
+	left: 667px;
+	top: 131px;
+}
+#divFotoGaleriaPasarela {
+	position:absolute;
+	width:223px;
+	height:334px;
+	z-index:3;
+	left: 153px;
+	top: 1px;
+}
+#divEdi55PasaGaleria {
+	position:absolute;
+	width:127px;
+	height:68px;
+	z-index:4;
+	left: 414px;
+	top: 130px;
+}
+#divXpasaGaleria {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 674px;
+	top: 7px;
+}
+#divLeTipoPasaGaleria {
+	position:absolute;
+	width:155px;
+	height:13px;
+	z-index:6;
+	left: 416px;
+	top: 111px;
+}
+
+#divAutorPasaGaleria {
+	position:absolute;
+	width:245px;
+	height:15px;
+	z-index:8;
+	left: 397px;
+	top: 319px;
+}
+#divCerrarPasaGaleria {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:9;
+	left: 643px;
+	top: 7px;
+}
+#divIconoTodasPasarela {
+	position:absolute;
+	width:74px;
+	height:19px;
+	z-index:10;
+	left: 416px;
+	top: 1px;
+}
+#divTipo2VistasGaleriaPasarela {
+	position:absolute;
+	width:115px;
+	height:13px;
+	z-index:11;
+	left: 414px;
+	top: 127px;
+}
+
+/** clases tipograficas**/
+
+.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+.leyendaPatrocinio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.todasTipoBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+
+}

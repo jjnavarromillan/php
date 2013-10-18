@@ -1,0 +1,108 @@
+#divPrGaleriaLocationCompleta {
+	position:absolute;
+	width:681px;
+	height:337px;
+	z-index:1;
+}
+#divBotGaleriaAtrasStudio2 {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:1;
+	left: 0px;
+	top: 131px;
+}
+#divBotGaleriaAdelanteStudio2 {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:2;
+	left: 668px;
+	top: 131px;
+}
+#divFotoGaleriaStudio2 {
+	position:absolute;
+	width:370px;
+	height:247px;
+	z-index:3;
+	left: 72px;
+	top: 42px;
+}
+#divSesioLocationGaleria {
+	position:absolute;
+	width:89px;
+	height:38px;
+	z-index:4;
+	left: 460px;
+	top: 129px;
+}
+#divXStudio2Galeria {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 674px;
+	top: 7px;
+}
+#divLeTipoLocationGaleria {
+	position:absolute;
+	width:118px;
+	height:17px;
+	z-index:6;
+	left: 470px;
+	top: 168px;
+}
+
+#divAutorLocationGaleria {
+	position:absolute;
+	width:116px;
+	height:15px;
+	z-index:8;
+	left: 470px;
+	top: 319px;
+}
+#divCerrarStudio2Galeria {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:9;
+	left: 643px;
+	top: 7px;
+}
+#divIconoTodasStudio2 {
+	position:absolute;
+	width:74px;
+	height:19px;
+	z-index:10;
+	left: 416px;
+	top: 1px;
+}
+#divTipo2VistasGaleriaLocation {
+	position:absolute;
+	width:39px;
+	height:16px;
+	z-index:11;
+	left: 468px;
+	top: 186px;
+}
+
+/** clases tipograficas**/
+
+.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+.leyendaPatrocinio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.todasTipoBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+}

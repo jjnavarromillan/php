@@ -1,0 +1,225 @@
+#divPrinCataR {
+	position:absolute;
+	width:651px;
+	height:522px;
+	z-index:1;
+	left: 176px;
+	top: 5px;
+}
+#divUsuarioCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:1;
+	top: 155px;
+	left: 320px;
+}
+#divContraCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:2;
+	top: 216px;
+	left: 320px;
+}
+#divCamTCatg {
+	position:absolute;
+	width:144px;
+	height:14px;
+	z-index:3;
+	left: 320px;
+	top: 174px;
+}
+#divCam2TCatg {
+	position:absolute;
+	width:144px;
+	height:14px;
+	z-index:4;
+	left: 320px;
+	top: 237px;
+}
+#divImgNC {
+	position:absolute;
+	width:254px;
+	height:385px;
+	z-index:5;
+	top: 49px;
+	left: 16px;
+}
+#divInfoRegistro {
+	position:absolute;
+	width:258px;
+	height:49px;
+	z-index:6;
+	left: 323px;
+	top: 333px;
+}
+#divPleasCatalog {
+	position:absolute;
+	width:190px;
+	height:40px;
+	z-index:7;
+	left: 314px;
+	top: 48px;
+}
+#divEntraCatalog {
+	position:absolute;
+	width:143px;
+	height:16px;
+	z-index:8;
+	left: 320px;
+	top: 279px;
+}
+#divDisfruCatalog {
+	position:absolute;
+	width:306px;
+	height:42px;
+	z-index:9;
+	left: 320px;
+	top: 96px;
+}
+#divResBusUsuario {
+	position:absolute;
+	width:248px;
+	height:19px;
+	z-index:10;
+	left: 341px;
+	top: 307px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#divCerrarRojo {
+	position:absolute;
+	width:19px;
+	height:21px;
+	z-index:11;
+	left:-22px;
+	top: -3px;
+}
+
+
+
+.regCatalogo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#333;
+}
+.infCatalog {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-align: justify;
+}
+ 
+ .bienvCatalog{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px;
+	 color:#999;
+ }
+ #divPrinCataR {
+	position:absolute;
+	width:651px;
+	height:522px;
+	z-index:1;
+	left: 176px;
+	top: 3px;
+}
+#divUsuarioCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:1;
+	top: 155px;
+	left: 320px;
+}
+#divContraCatalogo {
+	position:absolute;
+	width:80px;
+	height:14px;
+	z-index:2;
+	top: 216px;
+	left: 320px;
+}
+#divCamTCatg {
+	position:absolute;
+	width:144px;
+	height:22px;
+	z-index:3;
+	left: 320px;
+	top: 174px;
+}
+#divCam2TCatg {
+	position:absolute;
+	width:144px;
+	height:22px;
+	z-index:4;
+	left: 320px;
+	top: 237px;
+}
+#divImgNC {
+	position:absolute;
+	width:254px;
+	height:385px;
+	z-index:5;
+	top: 49px;
+	left: 16px;
+}
+#divInfoRegistro {
+	position:absolute;
+	width:258px;
+	height:49px;
+	z-index:6;
+	left: 323px;
+	top: 333px;
+}
+#divPleasCatalog {
+	position:absolute;
+	width:191px;
+	height:40px;
+	z-index:7;
+	left: 314px;
+	top: 48px;
+}
+#divEntraCatalog {
+	position:absolute;
+	width:143px;
+	height:16px;
+	z-index:8;
+	left: 320px;
+	top: 279px;
+}
+#divDisfruCatalog {
+	position:absolute;
+	width:306px;
+	height:42px;
+	z-index:9;
+	left: 320px;
+	top: 96px;
+}
+
+.reCliTxAutentica{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	width:210px;
+	height:14px;
+}
+.campoTxtTipo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	height:14px;
+	text-align: right;
+}
+
+.noverifecacion{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F00;
+}

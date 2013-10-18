@@ -1,0 +1,1215 @@
+#divTransDistribuidor2 {
+	position:absolute;
+	width:161px;
+	height:14px;
+	z-index:27;
+	left: 342px;
+	top: 312px;
+}
+
+
+#divLineaDivisoraDistribuidores1 {
+	position:absolute;
+	width:550px;
+	height:10px;
+	z-index:95;
+	top: 177px;
+	left: 5px;
+}
+#divLineaDivisoraDistribuidores2 {
+	position:absolute;
+	width:550px;
+	height:10px;
+	z-index:96;
+	top: 438px;
+	left: 5px;
+}
+#divLineaDivisoraDistribuidores3 {
+	position:absolute;
+	width:550px;
+	height:10px;
+	z-index:97;
+	top: 676px;
+	left: 5px;
+}
+#divObsGuiaTieeDistribuidor2 {
+	position:absolute;
+	width:159px;
+	height:14px;
+	z-index:28;
+	left: 342px;
+	top: 337px;
+}
+#divConSeguroTienDistribuidor2 {
+	position:absolute;
+	width:16px;
+	height:17px;
+	z-index:29;
+	left: 2px;
+	top: 380px;
+}
+#divObsTienDistribuidor2 {
+	position:absolute;
+	width:492px;
+	height:15px;
+	z-index:30;
+	left: 2px;
+	top: 403px;
+}
+#divConCrearUsuWebTiend2Distribuidor2 {
+	position:absolute;
+	width:538px;
+	height:29px;
+	z-index:31;
+	left: 8px;
+	top: 635px;
+
+}
+#divEmail2RegistraClie {
+	position:absolute;
+	width:97px;
+	height:17px;
+	z-index:1;
+	top: 6px;
+	left: 343px;
+	text-align: right;
+}
+#divGenerarRegistraCliente {
+	position:absolute;
+	width:82px;
+	height:24px;
+	z-index:2;
+	left: 19px;
+	top: 97px;
+	text-align: center;
+}
+#divContrasenaCliente {
+	position:absolute;
+	width:97px;
+	height:16px;
+	z-index:3;
+	top: 95px;
+	left: 72px;
+	text-align: right;
+	
+}
+#divNomRegistraClie {
+	position:absolute;
+	width:97px;
+	height:16px;
+	z-index:4;
+	left: 118px;
+	top: 5px;
+	text-align: right;
+}
+
+#divGuardarUsuarioTienda {
+	position:absolute;
+	width:120px;
+	height:26px;
+	z-index:32;
+	left: 739px;
+	top: 397px;
+	text-align: center;
+}
+#divCrearURegistraCli {
+	position:absolute;
+	width:123px;
+	height:19px;
+	z-index:5;
+	left: 0px;
+	top: -23px;
+	text-align: center;
+}
+#divUsuarioCombos {
+	position:absolute;
+	width:191px;
+	height:57px;
+	z-index:33;
+	left: 606px;
+	top: 201px;
+	overflow:auto;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+#divTiendasDistribuidor2 {
+	position:absolute;
+	width:52px;
+	height:12px;
+	z-index:34;
+	left: 6px;
+	top: 169px;
+}
+#divBtnCrearUsuario {
+	position:absolute;
+	width:110px;
+	height:29px;
+	z-index:6;
+	left: 11px;
+	top: 148px;
+	text-align: center;
+}
+#divConSecuTIenda {
+	position:absolute;
+	width:560px;
+	height:1130px;
+	z-index:2;
+	left: 139px;
+	top: 127px;
+	border: thin solid #CCC;
+}
+#divClienteResgistraCli {
+	position:absolute;
+	width:200px;
+	height:14px;
+	z-index:1;
+	left: 65px;
+	top: 6px;
+}
+#divBuscar2Tienda {
+	position:absolute;
+	width:81px;
+	height:25px;
+	z-index:2;
+	left: 400px;
+	top: 15px;
+	text-align: center;
+}
+#divPaisRegistraDistribuidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:3;
+	left: 64px;
+	top: 308px;
+}
+#divEstadoRegistraDistribuidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:4;
+	left: 64px;
+	top: 284px;
+}
+#divPoblacionRegistraDistribuidor {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:5;
+	left: 349px;
+	top: 284px;
+}
+#divCalleRegistraDistribuidor2 {
+	position:absolute;
+	width:200px;
+	height:14px;
+	z-index:6;
+	left: 107px;
+	top: 238px;
+}
+#divColoniaRegistraDistribuir {
+	position:absolute;
+	width:152px;
+	height:14px;
+	z-index:7;
+	left: 64px;
+	top: 261px;
+}
+#divCpDistribuidor {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:8;
+	left: 349px;
+	top: 261px;
+}
+#divRfcDistribuidor {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:9;
+	left: 349px;
+	top: 308px;
+}
+#divTelDistribuidor2 {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:10;
+	left: 64px;
+	top: 334px;
+}
+#divEmailDistribuidor2 {
+	position:absolute;
+	width:72px;
+	height:14px;
+	z-index:11;
+	left: 349px;
+	top: 360px;
+}
+#divTipoCliDistribuidor2 {
+	position:absolute;
+	width:173px;
+	height:19px;
+	z-index:12;
+	left: 96px;
+	top: 387px;
+}
+#divObsDistribuidor2 {
+	position:absolute;
+	width:275px;
+	height:15px;
+	z-index:13;
+	left: 151px;
+	top: 413px;
+}
+#divObTxtRegistraDistribuidor2 {
+	position:absolute;
+	width:579px;
+	height:45px;
+	z-index:14;
+	left: 6px;
+	top: 182px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+#divTiendaDistribuidor {
+	position:absolute;
+	width:120px;
+	height:14px;
+	z-index:15;
+	left: 64px;
+	top: 497px;
+}
+
+#divTelTieDistribuidor {
+	position:absolute;
+	width:35px;
+	height:14px;
+	z-index:18;
+	left: 349px;
+	top: 590px;
+}
+#divEncarDistribuidor2 {
+	position:absolute;
+	width:120px;
+	height:14px;
+	z-index:19;
+	left: 349px;
+	top: 499px;
+}
+#divPaisTieDistribuidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:20;
+	left: 64px;
+	top: 590px;
+}
+#divEstadoTiDistribuidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:21;
+	left: 65px;
+	top: 565px;
+}
+#divPoblaTiDistribuidor2 {
+	position:absolute;
+	width:144px;
+	height:19px;
+	z-index:22;
+	left: 349px;
+	top: 565px;
+}
+#divCalletiendaDistri2 {
+	position:absolute;
+	width:200px;
+	height:14px;
+	z-index:23;
+	left: 108px;
+	top: 521px;
+}
+#divColoniaTiendaDistribuidor2 {
+	position:absolute;
+	width:106px;
+	height:14px;
+	z-index:24;
+	left: 64px;
+	top: 543px;
+}
+#divCpTDistribuidor2 {
+	position:absolute;
+	width:35px;
+	height:14px;
+	z-index:25;
+	left: 349px;
+	top: 544px;
+}
+.combos{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+		
+}
+#divContenedorAunDistribuidor2 {
+	position:absolute;
+	left:0px;
+	top:3px;
+	width:826px;
+	height:458px;
+	z-index:1;
+
+	
+}
+#divNuevoCliRegistraClientes {
+	position:absolute;
+	width:187px;
+	height:36px;
+	z-index:4;
+	left: 139px;
+	top: 1px;
+}
+
+#divTelCelWebDistribuidor {
+	position:absolute;
+	width:100px;
+	height:13px;
+	z-index:1;
+	left: 8px;
+	top: 764px;
+}
+#divNomEmpreWebDistribuidor2 {
+	position:absolute;
+	width:121px;
+	height:13px;
+	z-index:1;
+	left: 288px;
+	top: 717px;
+}
+#divContacWebDistribuidor2 {
+	position:absolute;
+	width:60px;
+	height:12px;
+	z-index:85;
+	left: 288px;
+	top: 741px;
+}
+#divTelCelWebDistribuidor2 {
+	position:absolute;
+	width:99px;
+	height:13px;
+	z-index:86;
+	left: 288px;
+	top: 764px;
+}
+#divNomEmpreWebTxTDistribuidor {
+	position:absolute;
+	width:101px;
+	height:17px;
+	z-index:87;
+	left: 129px;
+	top: 716px;
+}
+#divContacWebTxTDistribuidor {
+	position:absolute;
+	width:100px;
+	height:15px;
+	z-index:88;
+	left: 129px;
+	top: 739px;
+}
+#divTelCelWebTxTDistribuidor {
+	position:absolute;
+	width:104px;
+	height:15px;
+	z-index:1;
+	left: 129px;
+	top: 763px;
+}
+#divNomEmpreWebTxTDistribuidor2 {
+	position:absolute;
+	width:101px;
+	height:16px;
+	z-index:89;
+	left: 410px;
+	top: 716px;
+}
+#divContacWebTxTDistribuidor2 {
+	position:absolute;
+	width:101px;
+	height:16px;
+	z-index:90;
+	left: 410px;
+	top: 739px;
+}
+#divTelCelWebTxTDistribuidor2 {
+	position:absolute;
+	width:101px;
+	height:17px;
+	z-index:3;
+	left: 410px;
+	top: 763px;
+}
+#divAdObserWeb1Distribuidor {
+	position:absolute;
+	width:269px;
+	height:13px;
+	z-index:91;
+	left: 159px;
+	top: 211px;
+}
+#divAdObserWeb2Distribuidor {
+	position:absolute;
+	width:327px;
+	height:13px;
+	z-index:92;
+	left: 130px;
+	top: 472px;
+}
+#divObsTipoDistribuidor2 {
+	position:absolute;
+	width:133px;
+	height:13px;
+	z-index:93;
+	left: 8px;
+	top: 414px;
+}
+#divEntregaWebDistribuidorCasilla {
+	position:absolute;
+	width:21px;
+	height:18px;
+	z-index:94;
+	left: 128px;
+	top: 613px;
+}
+#divcliRELeDistribuidor {
+	position:absolute;
+	width:168px;
+	height:13px;
+	z-index:57;
+	left: 8px;
+	top: 30px;
+}
+#divcliRELeTxTDistribuidor {
+	position:absolute;
+	width:251px;
+	height:14px;
+	z-index:58;
+	left: 186px;
+	top: 28px;
+}
+#div1EmailwebDistribuidor {
+	position:absolute;
+	width:35px;
+	height:13px;
+	z-index:59;
+	top: 55px;
+	left: 8px;
+}
+#div1EmailwebTxTDistribuidor {
+	position:absolute;
+	width:154px;
+	height:16px;
+	z-index:60;
+	left: 64px;
+	top: 51px;
+}
+#div1TelWebDistribuidor {
+	position:absolute;
+	width:18px;
+	height:13px;
+	z-index:61;
+	left: 276px;
+	top: 55px;
+}
+#div1TelWebTxTDistribuidor {
+	position:absolute;
+	width:152px;
+	height:14px;
+	z-index:62;
+	left: 349px;
+	top: 51px;
+}
+#divClieAutorizadoWebDistribuidor {
+	position:absolute;
+	width:169px;
+	height:13px;
+	z-index:63;
+	left: 8px;
+	top: 71px;
+}
+#divClieAutorizadoWebTxTDistribuidor {
+	position:absolute;
+	width:250px;
+	height:14px;
+	z-index:64;
+	left: 186px;
+	top: 74px;
+}
+#div2EmailwebDistribuidor {
+	position:absolute;
+	width:35px;
+	height:13px;
+	z-index:65;
+	left: 8px;
+	top: 102px;
+}
+#div2EmailwebTxTDistribuidor {
+	position:absolute;
+	width:151px;
+	height:14px;
+	z-index:66;
+	left: 64px;
+	top: 97px;
+}
+#div2TelWebDistribuidor {
+	position:absolute;
+	width:18px;
+	height:13px;
+	z-index:67;
+	left: 276px;
+	top: 102px;
+}
+#div2TelWebTxTDistribuidor {
+	position:absolute;
+	width:151px;
+	height:17px;
+	z-index:68;
+	left: 349px;
+	top: 97px;
+}
+#divCliAutoPagosWebDistribuidor {
+	position:absolute;
+	width:170px;
+	height:18px;
+	z-index:69;
+	left: 8px;
+	top: 121px;
+}
+#divCliAutoPagosWebTxTDistribuidor {
+	position:absolute;
+	width:250px;
+	height:14px;
+	z-index:70;
+	left: 185px;
+	top: 122px;
+}
+#div3EmailwebDistribuidor {
+	position:absolute;
+	width:35px;
+	height:13px;
+	z-index:71;
+	left: 8px;
+	top: 155px;
+}
+#div3EmailwebTxTDistribuidor {
+	position:absolute;
+	width:151px;
+	height:14px;
+	z-index:72;
+	left: 64px;
+	top: 148px;
+}
+#div3TelWebDistribuidor {
+	position:absolute;
+	width:18px;
+	height:13px;
+	z-index:73;
+	left: 276px;
+	top: 155px;
+}
+#div3TelWebTxTDistribuidor {
+	position:absolute;
+	width:151px;
+	height:14px;
+	z-index:74;
+	left: 349px;
+	top: 148px;
+}
+#divDatosFacWebDistribuidor {
+	position:absolute;
+	width:183px;
+	height:16px;
+	z-index:75;
+	left: 195px;
+	top: 194px;
+}
+#divCelWebDistribuidores {
+	position:absolute;
+	width:25px;
+	height:13px;
+	z-index:76;
+	left: 8px;
+	top: 360px;
+}
+#divCelWebTxTDistribuidores {
+	position:absolute;
+	width:152px;
+	height:14px;
+	z-index:77;
+	left: 64px;
+	top: 360px;
+}
+#divFaxWebDistribuidores {
+	position:absolute;
+	width:26px;
+	height:13px;
+	z-index:78;
+	left: 276px;
+	top: 336px;
+}
+#divFaxWebTxTDistribuidores {
+	position:absolute;
+	width:99px;
+	height:17px;
+	z-index:1;
+	left: 349px;
+	top: 334px;
+}
+#divNextelWebDistribuidores {
+	position:absolute;
+	width:38px;
+	height:13px;
+	z-index:1;
+	top: 386px;
+	left: 277px;
+}
+#divNextelWebTxTDistribuidores {
+	position:absolute;
+	width:150px;
+	height:14px;
+	z-index:79;
+	left: 349px;
+	top: 385px;
+}
+#divDireTienda {
+	position:absolute;
+	width:167px;
+	height:16px;
+	z-index:80;
+	left: 195px;
+	top: 456px;
+}
+#divEntregaWebDistribuidor {
+	position:absolute;
+	width:111px;
+	height:12px;
+	z-index:81;
+	left: 8px;
+	top: 616px;
+}
+#divRefComercialesWebDistribuidor {
+	position:absolute;
+	width:197px;
+	height:16px;
+	z-index:82;
+	left: 195px;
+	top: 690px;
+}
+#divNomEmpreWebDistribuidor {
+	position:absolute;
+	width:120px;
+	height:13px;
+	z-index:83;
+	left: 8px;
+	top: 717px;
+}
+#divContacWebDistribuidor {
+	position:absolute;
+	width:60px;
+	height:13px;
+	z-index:84;
+	left: 8px;
+	top: 741px;
+}
+
+/** CLASES**/
+
+.datosClienteTienda {	
+    color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.campoTxtTipo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	height:20px;
+	text-align:left;
+	background-color:#CCC;
+
+
+}
+
+.bienvCatalog{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px;
+	 color:#999;
+ }
+ 
+ .observacionTipo{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:9px;
+	 color:#666;
+ }
+
+.combitoContactoDis{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	width:201px;
+	height:20px;
+	background-color:#CCC;
+
+	}
+	
+	.combitoContactoObservacionCliente{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	width:171px;
+	height:20px;
+	background-color:#CCC;
+
+	}
+
+    .politicasVenta{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+		color:#666;
+		
+		}
+	
+		
+	.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+
+
+
+#divCalleDistribuidor2 {
+	position:absolute;
+	width:85px;
+	height:13px;
+	z-index:39;
+	left: 8px;
+	top: 240px;
+}
+#divColClieDistribuidor2 {
+	position:absolute;
+	width:43px;
+	height:13px;
+	z-index:40;
+	left: 8px;
+	top: 262px;
+}
+#divCPDistribuidor2 {
+	position:absolute;
+	width:18px;
+	height:13px;
+	z-index:41;
+	left: 276px;
+	top: 262px;
+}
+#divRFDistribuidor2 {
+	position:absolute;
+	width:28px;
+	height:13px;
+	z-index:42;
+	left: 276px;
+	top: 310px;
+}
+#divTelClieDistribuidor2 {
+	position:absolute;
+	width:27px;
+	height:13px;
+	z-index:43;
+	left: 8px;
+	top: 336px;
+}
+#divEmaDistribuidor2 {
+	position:absolute;
+	width:32px;
+	height:13px;
+	z-index:44;
+	left: 276px;
+	top: 360px;
+}
+#divClieClienteDistribuidor2 {
+	position:absolute;
+	width:41px;
+	height:13px;
+	z-index:45;
+	left: 8px;
+	top: 8px;
+}
+#divPaisDistribuidor2 {
+	position:absolute;
+	width:35px;
+	height:13px;
+	z-index:46;
+	left: 8px;
+	top: 310px;
+}
+#divEdoCliDistribuidor2 {
+	position:absolute;
+	width:38px;
+	height:13px;
+	z-index:47;
+	left: 8px;
+	top: 285px;
+}
+#divPobClieDistribuir {
+	position:absolute;
+	width:61px;
+	height:13px;
+	z-index:48;
+	left: 276px;
+	top: 285px;
+}
+#divTipDistribuidor2 {
+	position:absolute;
+	width:86px;
+	height:13px;
+	z-index:1;
+	left: -55px;
+	top: 382px;
+}
+
+#divBusquedaCliente {
+	position:absolute;
+	left:79px;
+	top:113px;
+	width:520px;
+	height:200px;
+	z-index:2;
+	background-color: #FFFFFF;
+	visibility: hidden;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#divBusquedaClienteCerrar {
+	position:absolute;
+	width:67px;
+	height:25px;
+	z-index:1;
+	left: 613px;
+	top: -106px;
+}
+#divEmaClieTienda {
+	position:absolute;
+	width:33px;
+	height:13px;
+	z-index:9;
+	top: 5px;
+	left: 270px;
+}
+#divNameClieTienda {
+	position:absolute;
+	width:111px;
+	height:13px;
+	z-index:10;
+	top: 6px;
+	left: 0px;
+}
+#divContClieTienda {
+	position:absolute;
+	width:68px;
+	height:13px;
+	z-index:11;
+	top: 96px;
+	left: 3px;
+}
+
+#divBtnBuscarDistribuidor2 {
+	position:absolute;
+	width:57px;
+	height:20px;
+	z-index:35;
+	left: 252px;
+	top: 1025px;
+}
+#divConSSeguroTIeNDistribuidor2 {
+	position:absolute;
+	width:72px;
+	height:13px;
+	z-index:36;
+	left: 22px;
+	top: 380px;
+}
+#divIcoCerrarTienda {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:3;
+	left: 778px;
+	top: 7px;
+}
+#divCerrarTienda {
+	position:absolute;
+	width:29px;
+	height:13px;
+	z-index:4;
+	left: 745px;
+	top: 7px;
+}
+#divGenerarTienda {
+	position:absolute;
+	width:57px;
+	height:21px;
+	z-index:7;
+	left: 2px;
+	top: 54px;
+}
+#divCrUsuTienda {
+	position:absolute;
+	width:103px;
+	height:22px;
+	z-index:8;
+	left: 129px;
+	top: 122px;
+}
+#divGuarUsuarioDistribuidor2 {
+	position:absolute;
+	width:104px;
+	height:22px;
+	z-index:37;
+	left: 277px;
+	top: 966px;
+}
+#divCrearUsuario {
+	position:absolute;
+	width:106px;
+	height:23px;
+	z-index:8;
+	left: 2px;
+	top: 119px;
+}
+#divNuevoDistribuidor2 {
+	position:absolute;
+	width:48px;
+	height:14px;
+	z-index:38;
+	left: 318px;
+	top: 1029px;
+	color: #FFF;
+}
+
+.registraClientesBlack{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	
+}
+
+a:link {
+	text-decoration: none;
+	color: #999;
+}
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+a:hover {
+	text-decoration: none;
+	color: #666;
+}
+a:active {
+	text-decoration: none;
+}
+#divTieClieDistribuidor {
+	position:absolute;
+	width:41px;
+	height:13px;
+	z-index:49;
+	left: 8px;
+	top: 498px;
+}
+#divTelClieTieDistribuidor2 {
+	position:absolute;
+	width:61px;
+	height:13px;
+	z-index:50;
+	left: 276px;
+	top: 591px;
+}
+#divPaiDistribuidor2 {
+	position:absolute;
+	width:31px;
+	height:13px;
+	z-index:51;
+	left: 8px;
+	top: 591px;
+}
+#divEdoCliTiDistribuidor2 {
+	position:absolute;
+	width:38px;
+	height:13px;
+	z-index:52;
+	left: 8px;
+	top: 567px;
+}
+#divPobClieTieDistribuidor2 {
+	position:absolute;
+	width:61px;
+	height:13px;
+	z-index:53;
+	left: 276px;
+	top: 567px;
+}
+#divEncarClieEncarDistribuidor2 {
+	position:absolute;
+	width:62px;
+	height:13px;
+	z-index:54;
+	left: 276px;
+	top: 500px;
+}
+#divCalleClieDistribuidor2 {
+	position:absolute;
+	width:85px;
+	height:13px;
+	z-index:55;
+	left: 8px;
+	top: 523px;
+}
+#apDiv8 {
+	position:absolute;
+	width:102px;
+	height:25px;
+	z-index:1;
+	left: 446px;
+	top: 33px;
+}
+#divColTieDistribuidor2 {
+	position:absolute;
+	width:43px;
+	height:13px;
+	z-index:1;
+	left: -56px;
+	top: 282px;
+}
+#divCPClieDistribuidor2 {
+	position:absolute;
+	width:18px;
+	height:13px;
+	z-index:56;
+	left: 276px;
+	top: 544px;
+}
+#divTransClieTiDistribuidor2 {
+	position:absolute;
+	width:69px;
+	height:13px;
+	z-index:1;
+	top: 314px;
+	left: 264px;
+}
+#divObsClieTieDistribuidor2 {
+	position:absolute;
+	width:49px;
+	height:13px;
+	z-index:57;
+	left: 265px;
+	top: 339px;
+}
+#divContenidoPoliticasDistribuidor {
+	position:absolute;
+	width:544px;
+	height:108px;
+	z-index:98;
+	left: 7px;
+	top: 845px;
+	border: thin solid #CCC;
+	overflow:auto;
+}
+#divPol1Distribuidor {
+	position:absolute;
+	width:289px;
+	height:13px;
+	z-index:1;
+	left: 12px;
+	top: 5px;
+}
+#divPol2Distribuidor {
+	position:absolute;
+	width:336px;
+	height:13px;
+	z-index:2;
+	top: 9px;
+	left: 12px;
+}
+#divPol3Distribuidor {
+	position:absolute;
+	width:384px;
+	height:13px;
+	z-index:3;
+	top: 23px;
+	left: 12px;
+}
+#divPol4Distribuidor {
+	position:absolute;
+	width:333px;
+	height:13px;
+	z-index:4;
+	left: 12px;
+	top: 37px;
+}
+#divPol5Distribuidor {
+	position:absolute;
+	width:409px;
+	height:13px;
+	z-index:5;
+	left: 12px;
+	top: 51px;
+}
+#divPol6Distribuidor {
+	position:absolute;
+	width:407px;
+	height:20px;
+	z-index:6;
+	left: 12px;
+	top: 66px;
+}
+#divLineaDivisoraDistribuidores4 {
+	position:absolute;
+	width:516px;
+	height:10px;
+	z-index:99;
+	left: 5px;
+	top: 805px;
+}
+#divPoliticasVentasDistribuidor {
+	position:absolute;
+	width:152px;
+	height:16px;
+	z-index:1;
+	left: 207px;
+	top: 11px;
+}

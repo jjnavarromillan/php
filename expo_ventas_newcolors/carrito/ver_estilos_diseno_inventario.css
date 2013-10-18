@@ -1,0 +1,112 @@
+#divPrinEstDise {
+	position:absolute;
+	width:548px;
+	height:472px;
+	z-index:1;
+	
+    
+}
+#divSecEstilosDise {
+	position:absolute;
+	width:504px;
+	height:244px;
+	z-index:1;
+	top: -1px;
+}
+#divConPrEstDise {
+	position:relative;
+	width:145px;
+	height:235px;
+	z-index:1;
+	left: 3px;
+	top: 2px;
+}
+#divImMedEstiDise {
+	position:absolute;
+	width:126px;
+	height:126px;
+	z-index:1;
+	left: 9px;
+}
+#divConMueEstiDise {
+	position:absolute;
+	width:129px;
+	height:45px;
+	z-index:1;
+	left: 10px;
+	top: 127px;
+}
+#divColor1EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	top: 0px;
+}
+#divColor2EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	left: 41px;
+	top: 0px;
+}
+#divColor3EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	top: 0px;
+	left: 82px;
+}
+#divColor4EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	top: 20px;
+}
+#divColor5EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	top: 20px;
+	left: 42px;
+}
+#divColor6EstDise {
+	position:absolute;
+	width:39px;
+	height:18px;
+	z-index:1;
+	top: 20px;
+}
+#divNomEstiMattDise {
+	position:absolute;
+	width:133px;
+	height:47px;
+	z-index:3;
+	left: -4px;
+	top: auto;
+}
+.NomMatEstiloD{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+
+#divSecundary2EstDisenoooo {
+	position:absolute;
+	width:565px;
+	height:465px;
+	z-index:1;
+	
+}
+#divCotenedorEstilosColor {
+	position:absolute;
+	width:603px;
+	height:471px;
+	z-index:1;
+	overflow:auto;
+	left: 12px;
+}

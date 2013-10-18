@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* SpryTooltip.css - version 0.2 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* HACK FOR IE: to make sure the tooltips show above form controls, we underlay each tooltip with an iframe */
+.iframeTooltip
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+
+.tooltipContent
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333;
+	height: 210px;
+	width: 154px;
+	text-align:center;
+	background-image: url(../../img/siguenos/eventos/eventos-gd/marco.jpg);
+	background-repeat: no-repeat;
+}
+.tooltipContent img {
+	border: 8px solid #FFF;
+}

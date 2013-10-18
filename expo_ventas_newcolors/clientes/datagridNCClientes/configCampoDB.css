@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/****** Campos Datos *****************/
+/** agregar clases CSS de acuerdo al nombre del campo
+	
+	Sintaxis:	. classColumn + nombreCampoDB + { }
+	
+	Ejemplo:
+	
+	.classColumnFoto{
+		width:30px;
+		border-collapse:collapse;
+	}
+	
+	 detallistas_clientes.idCliente,detallistas_clientes.nombre,estados.estado,municipios.municipio
+	
+*/
+
+.classColumnidCliente{
+	width:50px;
+	border-collapse:collapse;
+}
+.classColumnnombre{
+	width:100px;
+	border-collapse:collapse;
+}
+.classColumnestado{
+	width:100px;
+	border-collapse:collapse;
+}
+.classColumnmunicipio{
+	width:100px;
+	border-collapse:collapse;
+}
+
+
+/**** Cebecera *****/
+
+.classColumnHidCliente{
+	width:50px;
+	border-collapse:collapse;
+}
+.classColumnHnombre{
+	width:100px;
+	border-collapse:collapse;
+}
+.classColumnHestado{
+	width:100px;
+	border-collapse:collapse;
+}
+.classColumnHmunicipio{
+	width:100px;
+	border-collapse:collapse;
+}

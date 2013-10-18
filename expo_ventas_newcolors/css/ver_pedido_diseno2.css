@@ -1,0 +1,312 @@
+#contPedido {
+	position:absolute;
+	width:651px;
+	height:522px;
+	z-index:1;
+	left: 9px;
+	top: 9px;
+}
+#divEncaVerPe {
+	position:absolute;
+	width:653px;
+	height:96px;
+	z-index:1;
+}
+#divNomCliVerPe {
+	position:absolute;
+	width:234px;
+	height:18px;
+	z-index:1;
+}
+#divFechaVerPe {
+	position:absolute;
+	width:39px;
+	height:14px;
+	z-index:2;
+	top: 36px;
+	left: 13px;
+}
+#divComFechaVPe {
+	position:absolute;
+	width:101px;
+	height:21px;
+	z-index:3;
+	left: 67px;
+	top: 32px;
+}
+#tablaPedido {
+	position:absolute;
+	width:634px;
+	height:18px;
+	z-index:4;
+	top: 74px;
+	left: 1px;
+}
+.nomClieVerPe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+.combito2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	width:100px;
+		
+}
+.fechaVerPe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+#divPenVerPe {
+	position:absolute;
+	width:101px;
+	height:21px;
+	z-index:5;
+	top: 32px;
+	left: 178px;
+}
+
+#divSinSurVerPe {
+	position:absolute;
+	width:79px;
+	height:17px;
+	z-index:8;
+	left: 478px;
+	top: 34px;
+}
+#divTodosVerPe {
+	position:absolute;
+	width:53px;
+	height:17px;
+	z-index:9;
+	left: 574px;
+	top: 34px;
+}
+
+#divSurTxT {
+	position:absolute;
+	width:56px;
+	height:13px;
+	z-index:1;
+	top: 2px;
+	left: 14px;
+}
+
+#divSinSurTxt {
+	position:absolute;
+	width:62px;
+	height:13px;
+	z-index:1;
+	left: 12px;
+	top: 2px;
+}
+#divTodossPe {
+	position:absolute;
+	width:38px;
+	height:13px;
+	z-index:1;
+	top: 2px;
+	left: 9px;
+}
+#divLineDiVerPe {
+	position:absolute;
+	width:644px;
+	height:6px;
+	z-index:6;
+	top: 63px;
+	left: 2px;
+}
+#divSurVerPe {
+	position:absolute;
+	width:79px;
+	height:17px;
+	z-index:7;
+	left: 389px;
+	top: 34px;
+}
+.textBotoVerPe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+.blancoTodosVerPe{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+}
+#divCoVerPed1 {
+	position:absolute;
+	width:653px;
+	height:400px;
+	z-index:2;
+	top: 98px;
+	overflow:auto;
+	left: -2px;
+}
+#divTabVerPe {
+	position:absolute;
+	width:620px;
+	height:41px;
+	z-index:1;
+}
+#divNupedido {
+	position:absolute;
+	width:30px;
+	height:13px;
+	z-index:2;
+	left: 21px;
+	top: 4px;
+}
+#divFechaPedido {
+	position:absolute;
+	width:73px;
+	height:13px;
+	z-index:3;
+	left: 72px;
+	top: 4px;
+}
+#divParesPedido {
+	position:absolute;
+	width:50px;
+	height:13px;
+	z-index:2;
+	left: 151px;
+	top: 4px;
+}
+#divImportePedido {
+	position:absolute;
+	width:51px;
+	height:13px;
+	z-index:2;
+	left: 220px;
+	top: 4px;
+}
+#divSurtidoVerPe {
+	position:absolute;
+	width:53px;
+	height:13px;
+	z-index:4;
+	left: 285px;
+	top: 4px;
+}
+#divFechaSurVerPe {
+	position:absolute;
+	width:66px;
+	height:13px;
+	z-index:2;
+	left: 358px;
+	top: 4px;
+}
+#divNumGuiaVerPe {
+	position:absolute;
+	width:48px;
+	height:13px;
+	z-index:2;
+	left: 462px;
+	top: 4px;
+}
+#divPaqVerPe {
+	position:absolute;
+	width:58px;
+	height:13px;
+	z-index:5;
+	left: 546px;
+	top: 4px;
+}
+.datosVerPeBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFF;
+}
+
+.datosVerPeGris{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+#divNupedido2 {
+	position:absolute;
+	width:30px;
+	height:13px;
+	z-index:2;
+	left: 21px;
+}
+#divFechaPedido2 {
+	position:absolute;
+	width:73px;
+	height:13px;
+	z-index:2;
+	left: 71px;
+}
+#divParesPedido2 {
+	position:absolute;
+	width:50px;
+	height:13px;
+	z-index:2;
+	left: 150px;
+}
+#divImportePedido2 {
+	position:absolute;
+	width:51px;
+	height:13px;
+	z-index:2;
+	left: 218px;
+	top: 24px;
+}
+#divSurtidoVerPe2 {
+	position:absolute;
+	width:53px;
+	height:13px;
+	z-index:2;
+	left: 284px;
+	top: 24px;
+}
+#divFechaSurVerPe2 {
+	position:absolute;
+	width:66px;
+	height:13px;
+	z-index:2;
+	left: 358px;
+	top: 23px;
+}
+#divNumGuiaVerPe2 {
+	position:absolute;
+	width:48px;
+	height:13px;
+	z-index:2;
+	left: 462px;
+	top: 23px;
+}
+#divPaqVerPe2 {
+	position:absolute;
+	width:58px;
+	height:13px;
+	z-index:2;
+	left: 546px;
+	top: 22px;
+}
+a:link {
+	color: #666;
+}
+a:hover {
+	color: #999;
+}
+#divTria1verPe {
+	position:absolute;
+	width:16px;
+	height:16px;
+	z-index:2;
+	left: 618px;
+	top: 3px;
+}
+#divTria2VerPe {
+	position:absolute;
+	width:16px;
+	height:16px;
+	z-index:2;
+	left: 618px;
+	top: 23px;
+}

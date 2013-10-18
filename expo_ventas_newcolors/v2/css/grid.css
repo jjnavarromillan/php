@@ -1,0 +1,20 @@
+﻿@charset 'utf-8';
+
+.divMainGrid { margin:0px auto 0px auto; }
+.divMainGrid .divGrid { background-color:#A0A0A0; border:0px #505050 solid; border-radius:5px; float:left; margin-right:1px; }
+.divMainGrid .divGrid .divHeader { width:100%; height:0px; overflow:hidden; margin-bottom:0px;  }
+.divMainGrid .divGrid .divHeader .divHContainer div { background-color:#EC732B; padding:5px 10px 5px 10px; color:#FFFFFF; width:auto; float:left; margin:1px 1px 0px 0px; text-align:center; font-weight:600; font-size:11px; }
+.divMainGrid .divGrid .divHeader .divHContainer div .imgFilter { border:0px; margin-left:10px; width:11px; cursor:pointer; }
+.divMainGrid .divGrid .divData { width:100%; overflow:auto; height:0px; }
+.divMainGrid .divGrid .divData .divDContainer .divDRow { display:block; }
+.divMainGrid .divGrid .divData .divDContainer .divDRow div { background-color:#F1F1F1; padding:5px 10px 5px 10px; color:#505050; width:auto; float:left; height:10px; margin:1px 1px 0px 0px; line-height:10px; font-size:11px; }
+.divMainGrid .divGrid .divData .divDContainer .divDRow div div { width:35px; height:35px; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px; border-radius:5px; cursor:pointer; }
+.divMainGrid .divFilter { width:244px; float:left; background-color:#505050; border-radius:5px; display:none; padding:3px 3px 3px 3px; }
+.divMainGrid .divFilter .divFilterButtons { background-color:#EC732B; text-align:center; padding:5px 5px 5px 5px; border-radius:3px; margin-bottom:3px; }
+.divMainGrid .divFilter .divFilterButtons .btnDark { display:inline-block; background-color:#505050; border:1px solid #323232; border-radius:3px; padding:5px 15px 5px 15px; box-shadow:inset 0px 0px 1px 1px rgba(255,255,255,0.5); cursor:pointer; color:#FFFFFF; font-size:10px; }
+.divMainGrid .divFilter .divFilterButtons .btnDark:hover { background-color:#323232; }
+.divMainGrid .divFilter .divFilterDefault { background-color:#FFFFFF; padding:5px 5px 5px 5px; border-radius:3px 3px 0px 0px; color:#505050; font-size:11px; }
+.divMainGrid .divFilter .divFilterDefault .spnFilter { font-size:12px; color:#EC732B; }
+.divMainGrid .divFilter .divFilterDefault .chkAll { border:0px; margin:0px 5px 0px 0px; width:11px; vertical-align:baseline; cursor:pointer; }
+.divMainGrid .divFilter .divFilterData { background-color:#FFFFFF; padding:5px 5px 5px 5px; border-radius:0px 0px 3px 3px; overflow:auto; color:#505050; font-size:11px; }
+.divMainGrid .divFilter .divFilterData .chkOpt { border:0px; margin:0px 5px 0px 0px; width:11px; vertical-align:baseline; cursor:pointer; }

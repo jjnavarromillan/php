@@ -1,0 +1,167 @@
+#divPrinVPedetalles {
+	position:absolute;
+	width:651px;
+	height:154px;
+	z-index:1;
+}
+#divTabVPeDetalles {
+	position:absolute;
+	width:651px;
+	height:20px;
+	z-index:1;
+}
+.descriDetalles{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+#divCounVPeDetalles {
+	position:absolute;
+	width:620px;
+	height:85px;
+	z-index:2;
+	left: 2px;
+	top: 24px;
+	
+}
+#divLinVPeDetalles {
+	position:absolute;
+	width:623px;
+	height:8px;
+	z-index:3;
+	top: 19px;
+}
+#divSecCPeDestalles {
+	position:relative;
+	width:619px;
+	height:65px;
+	z-index:1;
+	border: thin none #000;
+}
+#divImgMimiMDetalles {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:1;
+	left: 24px;
+}
+
+.nomEstDetalles{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+}
+
+.abcd2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+}
+
+
+#divNomEsDetalles {
+	position:absolute;
+	width:193px;
+	height:26px;
+	z-index:2;
+	left: 75px;
+	top: 2px;
+}
+#divTab2VDetalle {
+	position:absolute;
+	width:215px;
+	height:35px;
+	z-index:3;
+	left: 275px;
+	top: 0px;
+}
+#divPre02VPeDetalles {
+	position:absolute;
+	width:57px;
+	height:14px;
+	z-index:4;
+	left: 496px;
+	top: 2px;
+}
+#divToVPeDetalles {
+	position:absolute;
+	width:57px;
+	height:14px;
+	z-index:5;
+	left: 560px;
+	top: 2px;
+}
+#divPaCanVPeDetalles {
+	position:absolute;
+	width:123px;
+	height:34px;
+	z-index:6;
+	top: 24px;
+	left: 94px;
+}
+#divAVPeDetalle {
+	position:absolute;
+	width:60px;
+	height:13px;
+	z-index:1;
+}
+#div10VPeDetalle {
+	position:absolute;
+	width:60px;
+	height:13px;
+	z-index:2;
+	left: 62px;
+}
+
+#divCerrarVPeDetalles {
+	position:absolute;
+	width:15px;
+	height:15px;
+	z-index:1;
+	left: 626px;
+	top: 3px;
+}
+
+.totalBlancoFinal{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+}
+#divTabFinalDetalles {
+	position:absolute;
+	width:49px;
+	height:35px;
+	z-index:2;
+	left: 414px;
+	top: 7px;
+}
+#divConFinalDetalles {
+	position:absolute;
+	width:141px;
+	height:18px;
+	z-index:3;
+	left: 472px;
+	top: 9px;
+}
+#divToFinalDetalles {
+	position:absolute;
+	width:54px;
+	height:16px;
+	z-index:1;
+	left: 7px;
+}
+#divTuteFinal {
+	position:absolute;
+	width:37px;
+	height:11px;
+	z-index:1;
+	left: 10px;
+	top: 2px;
+}
+#divCantDetalles {
+	position:absolute;
+	width:66px;
+	height:12px;
+	z-index:2;
+	left: 73px;
+}

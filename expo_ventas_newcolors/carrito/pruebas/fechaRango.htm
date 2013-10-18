@@ -1,0 +1,41 @@
+<link type="text/css" href="jquery-ui-1.8.14.custom/css/themename/jquery-ui-1.8.14.custom.css" rel="Stylesheet" />	
+<script type="text/javascript" src="jquery-ui-1.8.14.custom/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="jquery-ui-1.8.14.custom/js/jquery-ui-1.8.14.custom.min.js"></script>
+
+	<script>
+	
+	$(function() {
+		var dates = $( "#from, #to" ).datepicker({
+			defaultDate: "+1w",
+			changeMonth: true,
+			numberOfMonths: 3,
+			onSelect: function( selectedDate ) {
+				var option = this.id == "from" ? "minDate" : "maxDate",
+					instance = $( this ).data( "datepicker" ),
+					date = $.datepicker.parseDate(
+						instance.settings.dateFormat ||
+						$.datepicker._defaults.dateFormat,
+						selectedDate, instance.settings );
+				dates.not( this ).datepicker( "option", option, date );
+			}
+		});
+	});
+	
+	</script>
+
+
+
+<div class="demo">
+
+<label for="from">From</label>
+<input type="text" id="from" name="from"/>
+<label for="to">to</label>
+<input type="text" id="to" name="to"/>
+
+</div><!-- End demo -->
+
+
+
+<div class="demo-description">
+<p>Select the date range to search for.</p>
+</div><!-- End demo-description -->

@@ -1,0 +1,135 @@
+.LineZoom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+	font-weight:bold;
+}
+
+.MaterialColorZoom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:left;
+}
+
+.precioZoom{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	text-align:left;
+}
+
+#divPriNZoom {
+	position:absolute;
+	width:450px;
+	height:500px;
+	z-index:4000;
+	left: 0px;
+	top: 1px;
+	text-align:left;
+	background-color: #FFFFFF;
+	border: thin solid #CCC;
+}
+#divImgExZoom {
+	position:absolute;
+	width:313px;
+	height:317px;
+	z-index:1;
+	left: 26px;
+	top: 74px;
+}
+#divLinZoom {
+	position:absolute;
+	width:211px;
+	height:15px;
+	z-index:2051;
+	left: 51px;
+	top: 10px;
+}
+#divMatZoom {
+	position:absolute;
+	width:384px;
+	height:15px;
+	z-index:2051;
+	left: 51px;
+	top: 34px;
+}
+#divPreZoom {
+	position:absolute;
+	width:214px;
+	height:15px;
+	z-index:2051;
+	left: 17px;
+	top: 54px;
+}
+#divMasZoom {
+	position:absolute;
+	width:12px;
+	height:12px;
+	z-index:5;
+	left: 248px;
+	top: 26px;
+}
+#divMenosZoom {
+	position:absolute;
+	width:12px;
+	height:12px;
+	z-index:6;
+	left: 269px;
+	top: 26px;
+}
+#divCerrarZoom {
+	position:absolute;
+	width:13px;
+	height:15px;
+	z-index:2100;
+	left: 419px;
+	top: 8px;
+}
+
+.lineaDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#999;
+}
+
+.tituloPrincialDetalle{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#666;
+}
+
+#divLetCerrar {
+	position:absolute;
+	width:28px;
+	height:12px;
+	z-index:4005;
+	left: 380px;
+	top: 10px;
+}
+#DivEsZoShoFiL20 {
+	position:absolute;
+	width:37px;
+	height:15px;
+	z-index:2051;
+	left: 16px;
+	top: 13px;
+}
+#divLinZooShoes {
+	position:absolute;
+	width:251px;
+	height:5px;
+	z-index:1;
+	left: -11px;
+	top: -45px;
+}
+#divColZoomSh {
+	position:absolute;
+	width:35px;
+	height:15px;
+	z-index:2051;
+	left: -10px;
+	top: -37px;
+}
+	
+	

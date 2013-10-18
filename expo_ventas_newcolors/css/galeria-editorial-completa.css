@@ -1,0 +1,89 @@
+#divPrGaleriaEditorialCompleta {
+	position:absolute;
+	width:697px;
+	height:337px;
+	z-index:1;
+	background-image:url(img/fondo-galeria-siguenos.jpg);
+	background-color: #FFFFFF;
+}
+#divBotGaleriaAtrasEditorial {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:1;
+	left: 0px;
+	top: 131px;
+}
+#divBotGaleriaAdelanteEditorial {
+	position:absolute;
+	width:27px;
+	height:51px;
+	z-index:2;
+	left: 675px;
+	top: 131px;
+}
+#divFotoGaleriaEditorial {
+	position:absolute;
+	width:257px;
+	height:334px;
+	z-index:3;
+	left: 113px;
+	top: 1px;
+}
+
+#divXpasaEditorial {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 674px;
+	top: 7px;
+}
+#divLeTipoStudioEditorial {
+	position:absolute;
+	width:198px;
+	height:117px;
+	z-index:6;
+	left: 413px;
+	top: 93px;
+}
+
+
+#divCerrarPasaEditorial {
+	position:absolute;
+	width:27px;
+	height:14px;
+	z-index:9;
+	left: 643px;
+	top: 7px;
+}
+#divIconoTodasEditorial {
+	position:absolute;
+	width:74px;
+	height:19px;
+	z-index:10;
+	left: 416px;
+	top: 1px;
+}
+
+/** clases tipograficas**/
+
+.InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
+
+.leyendaPatrocinio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+}
+
+.todasTipoBlanco{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFF;
+
+}

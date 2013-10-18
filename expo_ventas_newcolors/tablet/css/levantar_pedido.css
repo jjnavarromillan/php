@@ -1,0 +1,460 @@
+#divContenido {
+	position:relative;
+	width:1024px;
+	height:600px;
+	z-index:1;
+	margin:0 auto 0 auto;
+}
+
+#divCentro {
+	position:relative;
+	width:675px;
+	height:600px;
+	z-index:1;
+	background-color:#FFF;
+	margin:0 auto 0 auto;
+}
+
+#divEncabezado {
+	position:absolute;
+	width:620px;
+	height:69px;
+	z-index:1;
+	
+}
+
+#divLogoNC {
+	position:absolute;
+	width:238px;
+	height:31px;
+	z-index:1;
+	left: 7px;
+}
+#divContenidoDatosCliente {
+	position:absolute;
+	width:617px;
+	height:26px;
+	z-index:2;
+	top: 34px;
+}
+#divNom {
+	position:absolute;
+	width:44px;
+	height:15px;
+	z-index:1;
+	left: 11px;
+	top: 3px;
+}
+
+
+#divNomTxt {
+	position:absolute;
+	width:169px;
+	height:15px;
+	z-index:9;
+	left: 58px;
+	top: 3px;
+}
+
+#divNumPedido {
+	position:absolute;
+	width:100px;
+	height:18px;
+	z-index:3;
+	left: 506px;
+	top: 33px;
+	background-color:#000;
+}
+
+#divPedidoImg {
+	position:absolute;
+	width:51px;
+	height:14px;
+	z-index:1;
+	left: 1px;
+	top: 1px;
+}
+#divNumP {
+	position:absolute;
+	width:42px;
+	height:15px;
+	z-index:2;
+	left: 57px;
+	top: 1px;
+}
+#divFondoBuscar {
+	position:absolute;
+	width:120px;
+	height:16px;
+	z-index:4;
+	left: 234px;
+	top: 0px;
+	
+}
+#divLupaImg {
+	position:absolute;
+	width:18px;
+	height:17px;
+	z-index:1;
+	left: 132px;
+	top: 0px;
+}
+
+#divBusacarCli {
+	position:absolute;
+	width:122px;
+	height:0px;
+	z-index:2;
+	left: 4px;
+	top: 19px;
+}
+
+
+#divPrinAgregarCliente {
+	position:absolute;
+	width:110px;
+	height:18px;
+	z-index:10;
+	left: 389px;
+	top: 0px;
+}
+#divAgregarCliente {
+	position:absolute;
+	width:78px;
+	height:13px;
+	z-index:1;
+	left: 1px;
+	top: 2px;
+}
+#divMas {
+	position:absolute;
+	width:18px;
+	height:18px;
+	z-index:2;
+	left: 81px;
+	top: -1px;
+}
+
+#divScrollContenido {
+	position:absolute;
+	width:622px;
+	height:470px;
+	z-index:3;
+	left: 0px;
+	top: 94px;
+	
+}
+#divBannerContenido {
+	position:absolute;
+	width:601px;
+	height:101px;
+	z-index:1;
+	left: 11px;
+	top: 0px;
+}
+#divMarcoCalzado {
+	position:relative;
+	width:572px;
+	height:166px;
+	z-index:2;
+	left: 25px;
+	top: 125px;
+}
+#divConteFoto {
+	position:absolute;
+	width:188px;
+	height:166px;
+	z-index:1;
+	top: 0px;
+}
+#divImgCalzado {
+	position:absolute;
+	width:126px;
+	height:126px;
+	z-index:1;
+	left: 32px;
+	top: 1px;
+}
+#divEstilo {
+	position:absolute;
+	width:188px;
+	height:16px;
+	z-index:2;
+	left: 0px;
+	top: 129px;
+}
+#divPrecioCalzado {
+	position:absolute;
+	width:34px;
+	height:16px;
+	z-index:3;
+	left: 80px;
+	top: 146px;
+}
+#divCasillaVerificacion {
+	position:absolute;
+	width:19px;
+	height:19px;
+	z-index:4;
+	left: 167px;
+}
+#divConteFoto2 {
+	position:absolute;
+	width:188px;
+	height:166px;
+	z-index:2;
+	left: 189px;
+	top: 0px;
+}
+#divImgCalzado2 {
+	position:absolute;
+	width:126px;
+	height:126px;
+	z-index:1;
+	left: 29px;
+	top: 1px;
+}
+#divEstilo2 {
+	position:absolute;
+	width:188px;
+	height:16px;
+	z-index:1;
+	top: 129px;
+}
+#divPrecioCalzado2 {
+	position:absolute;
+	width:34px;
+	height:16px;
+	z-index:2;
+	left: 74px;
+	top: 146px;
+}
+#divCasillaVerificacion2 {
+	position:absolute;
+	width:19px;
+	height:19px;
+	z-index:3;
+	left: 167px;
+	top: 1px;
+}
+#divConteFoto3 {
+	position:absolute;
+	width:188px;
+	height:166px;
+	z-index:3;
+	left: 377px;
+}
+#divImgCalzado3 {
+	position:absolute;
+	width:126px;
+	height:126px;
+	z-index:1;
+	left: 29px;
+	top: 1px;
+}
+#divEstilo3 {
+	position:absolute;
+	width:188px;
+	height:16px;
+	z-index:2;
+	top: 130px;
+}
+#divPrecioCalzado3 {
+	position:absolute;
+	width:34px;
+	height:16px;
+	z-index:1;
+	top: 148px;
+	left: 75px;
+}
+#divCasillaVerificacion3 {
+	position:absolute;
+	width:19px;
+	height:19px;
+	z-index:3;
+	left: 168px;
+}
+#divImgBanner {
+	position:absolute;
+	width:166px;
+	height:600px;
+	z-index:2;
+	top: 0px;
+	left: 5px;
+}
+#divBtnAgregar {
+	position:absolute;
+	width:122px;
+	height:27px;
+	z-index:4;
+	left: 486px;
+	top: 570px;
+}
+#divPedido {
+	position:absolute;
+	width:167px;
+	height:504px;
+	z-index:3;
+	left: 798px;
+	top: 97px;
+}
+#divImgBanner2do {
+	position:absolute;
+	width:167px;
+	height:97px;
+	z-index:4;
+	left: 1px;
+	top: -1px;
+}
+#divImgBanner3ro {
+	position:absolute;
+	width:167px;
+	height:96px;
+	z-index:5;
+	left: 796px;
+	top: 0px;
+}
+#divBtnArriba {
+	position:absolute;
+	width:34px;
+	height:19px;
+	z-index:1;
+	left: 68px;
+	top: 1px;
+}
+#divMarcoPedido {
+	position:relative;
+	width:167px;
+	height:88px;
+	z-index:2;
+	top: 27px;
+}
+#divImgFotoMini {
+	position:absolute;
+	width:48px;
+	height:48px;
+	z-index:1;
+	left: 10px;
+	top: 3px;
+}
+#divEstiloPedido {
+	position:absolute;
+	width:103px;
+	height:13px;
+	z-index:2;
+	left: 60px;
+	top: 37px;
+}
+#divMatColorPedido {
+	position:absolute;
+	width:168px;
+	height:13px;
+	z-index:3;
+	top: 52px;
+}
+#divPrecioPedido {
+	position:absolute;
+	width:163px;
+	height:13px;
+	z-index:4;
+	top: 66px;
+}
+#divZoom {
+	position:absolute;
+	width:13px;
+	height:13px;
+	z-index:5;
+	left: 45px;
+	top: 5px;
+}
+#divVerificacionPedido {
+	position:absolute;
+	width:19px;
+	height:19px;
+	z-index:6;
+	left: 145px;
+}
+
+#divBtnAbajo {
+	position:absolute;
+	width:34px;
+	height:19px;
+	z-index:3;
+	top: 485px;
+	left: 68px;
+}
+#divLineaDivisora {
+	position:absolute;
+	width:167px;
+	height:10px;
+	z-index:7;
+	top: 80px;
+}
+
+
+/*ccs*/
+
+a:link {
+	color: #333;
+}
+
+a:visited {
+	color: #666;
+}
+a:hover {
+	color: #333;
+}
+
+.tipoDatosClientes{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999;
+	font-weight:600;
+}
+
+.campoTxPedido{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666;
+	width:210px;
+	height:14px;
+	font-weight:600;
+}
+
+.tipoColorNaranja{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFF;
+	font-weight:600;
+}
+
+.campoBusqueda{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333;
+}
+
+.estiloCalzado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#666;
+	font-weight:bold;
+	text-align:left;
+}
+
+.materialColor{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	font-weight:bold;
+	background-position: center;
+	text-align:center;
+}
+
+.precioCalzado{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F60;
+	font-weight:bold;
+	text-align:center;
+}

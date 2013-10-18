@@ -1,0 +1,216 @@
+#divEmailRecuperacionPW {
+	position:absolute;
+	width:672px;
+	height:225px;
+	z-index:1;
+	background-image:url(../img/img-email-fondo-recuperacion-blanco-t.jpg);
+	background-repeat:no-repeat;
+}
+#divCodigoRecuperacionPW {
+	position:absolute;
+	width:248px;
+	height:13px;
+	z-index:17;
+	top: 162px;
+	left: 13px;
+	text-align: center;
+	color: #D6D6D6;
+}
+#divRecuperaEmailIncorrecto {
+	position:absolute;
+	width:286px;
+	height:25px;
+	z-index:2;
+	left: 22px;
+	top: 17px;
+}
+
+#dicRecuperaErrorAccesoASitio {
+	position:absolute;
+	width:291px;
+	height:24px;
+	z-index:3;
+	left: 735px;
+	top: 232px;
+}
+
+#divMsgRecuperacionPWEnvioCorrecto {
+	position:absolute;
+	width:350px;
+	height:130px;
+	z-index:4;
+	left: 286px;
+	top: 308px;
+	background-image:url(../img/fondo-envio-satisfactorio.png);
+	background-repeat:no-repeat;
+}
+
+#divParCorreoEsta {
+	position:absolute;
+	width:143px;
+	height:13px;
+	z-index:2;
+	left: 11px;
+	top: 4px;
+}
+#divAsunCorreoEsta {
+	position:absolute;
+	width:299px;
+	height:13px;
+	z-index:3;
+	left: 11px;
+	top: 17px;
+}
+#divFecCorreoEsta {
+	position:absolute;
+	width:304px;
+	height:13px;
+	z-index:4;
+	left: 11px;
+	top: 31px;
+}
+#divDeCorreoEsta {
+	position:absolute;
+	width:200px;
+	height:13px;
+	z-index:5;
+	left: 11px;
+	top: 44px;
+}
+#divLogoNcCorreoEsta {
+	position:absolute;
+	width:200px;
+	height:27px;
+	z-index:6;
+	left: 12px;
+	top: 69px;
+}
+#divEstiCorreoEsta {
+	position:absolute;
+	width:262px;
+	height:13px;
+	z-index:16;
+	left: 11px;
+	top: 106px;
+}
+#divReciCorreoEsta {
+	position:absolute;
+	width:630px;
+	height:13px;
+	z-index:15;
+	left: 11px;
+	top: 121px;
+}
+#divReeCorreoEsta {
+	position:absolute;
+	width:522px;
+	height:13px;
+	z-index:14;
+	left: 11px;
+	top: 148px;
+}
+a:link {
+	color: #000;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color: #333;
+}
+#divCuanCorreEstab {
+	position:absolute;
+	width:392px;
+	height:13px;
+	z-index:18;
+	left: 11px;
+	top: 177px;
+}
+#divSaludoCorreoEstablecer {
+	position:absolute;
+	width:392px;
+	height:13px;
+	z-index:19;
+	left: 11px;
+	top: 191px;
+}
+#divNCcorreoEstab {
+	position:absolute;
+	width:89px;
+	height:13px;
+	z-index:20;
+	left: 11px;
+	top: 204px;
+}
+#divTranspaCorreoYEsta {
+	position:absolute;
+	width:672px;
+	height:122px;
+	z-index:1;
+	left: 1px;
+	top: -1px;
+}
+#divTransBlaCorreoEst {
+	position:absolute;
+	width:251px;
+	height:28px;
+	z-index:1;
+	left: 0px;
+	top: 69px;
+}
+#divRecuperaEmailIncorrectoDirreccion {
+	position:absolute;
+	width:225px;
+	height:13px;
+	z-index:1;
+	left: 25px;
+	top: 6px;
+}
+#divRecuperaEmailIncorrectoCerrar {
+	position:absolute;
+	width:23px;
+	height:23px;
+	z-index:2;
+	top: 1px;
+	left: 0px;
+}
+#dicRecuperaErrorAccesoASitioError {
+	position:absolute;
+	width:131px;
+	height:13px;
+	z-index:5;
+	left: 25px;
+	top: 6px;
+}
+#dicRecuperaErrorAccesoASitioCerrar {
+	position:absolute;
+	width:23px;
+	height:23px;
+	z-index:6;
+	top: 1px;
+}
+
+/**Clases*/
+
+.AdverRED{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F00;
+}
+
+.tipoWhiteEmail{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+}
+.bienvCatalog{
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-size:13px;
+	 color:#999;
+ }
+ .InfoPasarelaCompleta{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#000;
+	
+}
